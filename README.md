@@ -8,30 +8,30 @@ are provided.
 
 # Features
 
-Navigation Bar
+## Navigation Bar
 
 On all 3 pages there is a link to the Home page, menu and prebooking form. 
 This allows for easier navigation between the pages.
 
-Landing Image
+## Landing Image
 
 Large image of the pizza horse box to give viewers familiarity with the product.
 THis image will catch their attention.
 
-Relevant information section
+## Relevant information section
 
 This will allow viewers to obtain key information such as the location, contact and opening
 times. The company logo will be presented here also. 
 
-Footer
+## Footer
 
 The foot section has links to Nags with Notions social media accounts
 
-Menu
+## Menu
 
 This will allow viewers to see the produce on offer and prices
 
-Prebook
+## Prebook
 
 This will allow viewers to visually see the pizzas on offer and click on the items
 they wish to prebook.
