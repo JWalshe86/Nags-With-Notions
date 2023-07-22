@@ -9,8 +9,22 @@
 body {
     font-family:permanent marker, sans-serif;
     font-weight: 300;
+    color: #3a3a3a;
 }
 body h4 {
     font-family: Open Sans, sans-serif;
     font-weight: 300;
+    
+}
+
+/*headings & logo */
+
+h1, h4 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #252525;
+}
+#logo {
+    float: left;
+    font-size: 280%;
 }
