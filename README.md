@@ -1,4 +1,4 @@
-# Test with Notions
+# Nags with Notions
 
 Nags with Notions is a website that hopes to inform customers about the delicious
 pizzas on offer. The aim is to attract customers to purchase pizzas by having
@@ -36,27 +36,27 @@ This will allow viewers to see the produce on offer and prices
 This will allow viewers to visually see the pizzas on offer and click on the items
 they wish to prebook.
 
-#Testing
+# Testing
 
 --------------
 
-##Validator Testing
+## Validator Testing
 
 -------------------
 
-##Unfixed bugs
+## Unfixed bugs
 
-#Deployment
+# Deployment
 
 ------------------------------------
 
-#Credits
+# Credits
 
-##Content
+## Content
 
 The font styles in the heading were taken from [google fonts](<https://fonts.google.com/specimen/Permanent+Marker?query=perm>)
 
-##Media
+## Media
 
 
 
