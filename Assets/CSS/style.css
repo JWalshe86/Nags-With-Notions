@@ -68,6 +68,7 @@ h1, h2 {
     width: 100%;
     overflow:hidden;
     position: relative;
+    margin-bottom: 50px;
 }
 
 #cover-text, #cover-text h2 {
@@ -123,17 +124,37 @@ h1, h2 {
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
+
+}
+
+.right-side-paragraph {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 20px;
+
+
 }
 
 #right-side {
     padding: top 30px;
     width: 33%;
     float: right;
-    background-color: silver;
+}
+
+#right-side li {
+    list-style-type:none;
 }
 
 #center {
     width: 33%;
     margin: 0 auto;
     background-color: green;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
 }
