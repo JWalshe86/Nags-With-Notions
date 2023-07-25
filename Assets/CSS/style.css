@@ -243,3 +243,14 @@ footer {
     width: 100%; */
 
 }
+
+/*Feedback form */
+#feedback-outer>h1 {
+    height: 300px;
+    width: 100%;
+    position: relative;
+    margin-bottom: 50px;
+    line-height: 1.7em;
+    padding-top: 100px;
+    text-align: center;
+}
