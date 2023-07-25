@@ -200,12 +200,19 @@ footer {
     width: 100%;
 }
 
+#menu-text h1 {
+    padding-bottom: 7px;
+    font-size: xx-large;
+}
+
 #menu-outer {
     height: 600px;
     width: 100%;
     overflow: hidden;
     position: relative;
     margin-bottom: 50px;
+    line-height: 1.7em;
+    padding-top: 65px;
 }
 
 #extras {
