@@ -144,7 +144,7 @@ h2 {
     float: left; */
     line-height: 20px;
     clear: both;
-    margin-bottom: 110px;
+    margin-bottom: 60px;
     margin-right: 50px;
 
 
@@ -175,7 +175,8 @@ hr {
 }
 
 footer {
-    height: 150px;
+    height: 100%;
+    background-color: rgb(253, 221, 230, .7);
 }
 
 .social-networks {
@@ -198,8 +199,10 @@ footer {
 #menu-text {
     text-align: center;
     height: 600px;
-    width: 100%;
+    width: 60%;
     background-color: rgb(253, 221, 230, .7);
+    max-width: auto;
+    margin-left: 200px;
 }
 
 #menu-text h1 {
@@ -214,11 +217,8 @@ footer {
     width: 100%;
     overflow: hidden;
     position: relative;
-    margin-bottom: 50px;
-    line-height: 1.7em;
-    padding-top: 65px;
-    background: url(../Images/25\ percent\ smaller.jpg) center center no-repeat;
-
+    background: url(../Images/pizza\ 1500px.png) center center no-repeat;
+    background-size: 1250px;
 
 }
 
@@ -226,7 +226,8 @@ footer {
 
     text-align: center;
     float: left;
-    margin-left: 35%;
+    margin-left: 150px;
+    background-color: rgba(234, 25, 84, 0.7);
 
 }
 
@@ -238,7 +239,8 @@ footer {
 
     text-align: center;
     float: right;
-    margin-right: 35%;
+    margin-right: 100px;
+    background-color: rgba(235, 222, 226, 0.7);
 }
 
 #crust-dips li {
@@ -259,6 +261,7 @@ footer {
     line-height: 1.7em;
     padding-top: 100px;
     text-align: center;
+
 }
 
 #feedback-outer p {
@@ -274,5 +277,12 @@ footer {
 
 #feedback-form {
     text-align: center;
-    margin-bottom: 500px;
+    /* margin-bottom: 500px; */
+    background: url(../Images/pub2\ 900px.jpg) center center no-repeat;
+    height: 600px;
+    width: 100%;
+}
+
+#feedback {
+    margin-top: 100px;
 }
