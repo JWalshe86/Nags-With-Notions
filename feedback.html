@@ -19,19 +19,32 @@
         <nav id="navigation">
             <ul>
                 <li>
-                    <a href="feedback.html">Feedback</a>
+                    <a href="feedback.html" class="active">Feedback</a>
                 </li>
                 <li>
                     <a href="menu.html">Menu</a>
                 </li>
                 <li>
-                    <a href="index.html" class="active">Homepage</a>
+                    <a href="index.html">Homepage</a>
                 </li>
             </ul>
         </nav>
     </header>
     <section id="feedback-outer">
-        <h1>Feedback</h1>
+        <h1>Your Feedback really matters to us
+            <br>Help us to improve!
+        </h1>
+        <div class="feedback-center">
+            <form id="feedback-form" action="http://www.sendfeedbackhere.com" method="POST">
+                <label for="feedback">Feedback</label>
+                <br>
+                <textarea id="feedback" cols="50" rows="10" name="feedback" placeholder="Your Feedback"></textarea>
+                <br>
+                <input class="submit" type="submit">
+            </form>
+
+        </div>
+
     </section>
     <footer>
         <ul class="social-networks">

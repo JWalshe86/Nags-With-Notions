@@ -94,21 +94,22 @@ h2 {
 }
 
 #cover-text {
-    font-size: 100%;
+    font-size: 130%;
     font-family: permanent marker, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
 
-    width: 300px;
+    width: 500px;
     height: 175px;
 
     padding-top: 30px;
     padding-left: 10px;
 
-    /* background-color: rgb(255, 255, 255); */
+    background-color: rgb(253, 221, 230, .7);
 
     bottom: 400px;
     right: 300px;
+    top: 50px;
 
     position: absolute;
 
@@ -198,12 +199,15 @@ footer {
     text-align: center;
     height: 600px;
     width: 100%;
+    background-color: rgb(253, 221, 230, .7);
 }
 
 #menu-text h1 {
     padding-bottom: 7px;
     font-size: xx-large;
+
 }
+
 
 #menu-outer {
     height: 600px;
@@ -213,6 +217,9 @@ footer {
     margin-bottom: 50px;
     line-height: 1.7em;
     padding-top: 65px;
+    background: url(../Images/25\ percent\ smaller.jpg) center center no-repeat;
+
+
 }
 
 #extras {
@@ -245,7 +252,16 @@ footer {
 }
 
 /*Feedback form */
-#feedback-outer>h1 {
+#feedback-outer h1 {
+    /* height: 300px; */
+    width: 100%;
+    margin-bottom: 50px;
+    line-height: 1.7em;
+    padding-top: 100px;
+    text-align: center;
+}
+
+#feedback-outer p {
     height: 300px;
     width: 100%;
     position: relative;
@@ -253,4 +269,10 @@ footer {
     line-height: 1.7em;
     padding-top: 100px;
     text-align: center;
+}
+
+
+#feedback-form {
+    text-align: center;
+    margin-bottom: 500px;
 }
