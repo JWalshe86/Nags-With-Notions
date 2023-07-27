@@ -3,7 +3,7 @@
 * {
     margin: 0;
     padding: 0;
-    border: remove;
+    border: none;
 }
 
 body {
@@ -161,18 +161,14 @@ hr {
 }
 
 .right-about-heading h2 {
-    text-align: right;
+    text-align: left;
 }
 
 .right-about-heading p {
-    text-align: right;
+    text-align: left;
 }
 
-#welcome {
-    text-align: center;
-    margin: 20px 0;
-    font-size: 280%;
-}
+
 
 #circle-container {
     width: 300px;
@@ -306,26 +302,34 @@ footer {
 /* Media queries */
 
 @media screen and (max-width: 1200px) {
-
     #core-information {
         width: 65%;
         height: 1200px;
         margin: 0 auto;
-        grid-template-columns: none;
     }
 
-    .left-side-paragraph,
-    .right-side-paragraph {
+    #welcome {
+        padding: 30px 0;
+        margin: 0;
+    }
+
+    #left-about,
+    #right-about {
         width: 100%;
         float: left;
         padding: 0;
     }
 
-    #center {
+    
+
+    #center-about {
         clear: both;
         width: 100%;
         float: left;
         padding: 0;
     }
 
+    hr {
+        display: none;
+    }
 }
