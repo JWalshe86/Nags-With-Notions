@@ -58,10 +58,11 @@ h2 {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/*hero image */
+
 #hero-image {
     height: 600px;
     width: 100%;
+
     background: url(../Images/25\ percent\ smaller.jpg) center center no-repeat;
     animation-name: hero-zoom;
     animation-duration: 5s;
@@ -341,20 +342,35 @@ footer {
     #navigation {
         clear: left;
         float: left;
-        margin-left: 30px;
         margin-bottom: 20px;
         line-height: 25px;
+        margin-left: 30px;
+        font-size: small;
     }
 
     #cover-text {
         left: 0;
         right: clear;
+        width: 100%;
+        height: 200px;
+        padding: 25px;
     }
 
     #core-information {
         width: 90%;
         height: 1200px;
         margin: 0 auto;
+    }
+
+    #menu-outer {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #menu-text {
+        margin: 0 auto;
+        height: 1200px;
     }
 
     .left-about-heading,
@@ -375,4 +391,9 @@ footer {
         padding: 0 20px;
 
     }
+
+    #hero-image {
+        height: 200px;
+    }
+
 }
