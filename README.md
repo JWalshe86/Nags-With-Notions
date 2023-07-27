@@ -56,6 +56,8 @@ they wish to prebook.
 
 The font styles in the heading were taken from [google fonts](<https://fonts.google.com/specimen/Permanent+Marker?query=perm>)
 
+Image of pizza in front of open fire on main page was taken from [Pexels] (<https://images.pexels.com/photos/905847/pexels-photo-905847.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1>)
+
 ## Media
 
 
