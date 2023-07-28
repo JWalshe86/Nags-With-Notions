@@ -40,9 +40,9 @@ As the screen decreases in width the navigation buttoms go underneath the main h
 A line appears under the navigation buttons, when hoovered over. The text remains underlined 
 for the current page. 
 
-![Navigation-bar-full](Assets/Images/Screenshot-2023-07-28-120933.png)
+![Navigation-bar-full](assets/images/readme-images/Screenshot-2023-07-28-120933.png)
 
-![Navigation-mobile-screen] ()
+![Navigation-bar-full](assets/images/readme-images/Screenshot-Mobile-navigation.png)
 
 ## Landing Image
 
