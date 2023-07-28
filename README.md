@@ -7,6 +7,7 @@
 ## [Introduction](#nags-with-notions) 
 ## [User Experience (UX)](#user-experience)
 ## [Features](#features)
+## [Menu-Page](#menu)
 
 # Nags-with-Notions
 
@@ -44,28 +45,38 @@ for the current page.
 
 ![Navigation-bar-full](assets/images/readme-images/Screenshot-Mobile-navigation.png)
 
-## Landing Image
+## Hero Image
 
 Large image of the pizza horse box to give viewers familiarity with the product.
 This image will catch their attention.
+
+![Hero-Image](assets/images/hero-image2.jpg)
 
 ## Relevant information section
 
 This will allow viewers to obtain key information such as the location, contact and opening
 times. The company logo will be presented here also. The code behind this section was heavily reliant on the Love Running Club ethos section in the Code Institute tutorial. 
 
+![Info-image](assets/images/readme-images/info-section.png)
+
 ## Footer
 
-The foot section has links to Nags with Notions social media accounts
+The footer section has links to Nags with Notions facebook, instagram and twitter social media accounts.
+
+![Footer-image](assets/images/readme-images/footer-section.png)
 
 ## Menu
 
-This will allow viewers to see the produce on offer and prices
+This page allows viewers to see the produce on offer and prices. 
 
-## Prebook
+![menu-image](assets/images/readme-images/menu.png)
 
-This will allow viewers to visually see the pizzas on offer and click on the items
-they wish to prebook.
+
+## Feedback
+
+This page allows viewers to provide their feedback. 
+
+![feedback-image](assets/images/pub2.jpg)
 
 # Testing
 
@@ -79,7 +90,9 @@ they wish to prebook.
 
 # Solved bugs
 
-When using media query to adapt the screensize to mobiles the logo would not drop down correctly. The formating of the logo and surrounding text had to be changed to address this. 
+When using media query to adapt the screensize to mobiles the logo would not drop down correctly. The formating of the logo and surrounding text had to be changed to address this. Tutor support was required.
+
+Images would not upload on the readme, as their were gaps in the image names. Tutor support was required. 
 
 # Unfixed bugs
 

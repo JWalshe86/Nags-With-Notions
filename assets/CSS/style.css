@@ -64,7 +64,7 @@ h2 {
     height: 600px;
     width: 100%;
 
-    background: url(../Images/25\ percent\ smaller.jpg) center center no-repeat;
+    background: url(../images/hero-image2.jpg) center center no-repeat;
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -184,7 +184,7 @@ hr {
 }
 
 #circle-cover-bg {
-    background: url(../Images/Nags\ with\ notions\ logo\ 220.jpg) no-repeat center center;
+    background: url(../images/Nags\ with\ notions\ logo\ 220.jpg) no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
@@ -298,7 +298,7 @@ footer {
 #feedback-form {
     text-align: center;
     /* margin-bottom: 500px; */
-    background: url(../Images/pub2\ 900px.jpg) center center no-repeat;
+    background: url(../images/pub2.jpg) center center no-repeat;
     height: 600px;
     width: 100%;
 }
