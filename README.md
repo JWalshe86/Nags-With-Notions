@@ -10,8 +10,6 @@
 
 # Nags-with-Notions
 
-![Image](../Nags-With-Notions/Assets/Images/Screenshot%202023-07-28%20120933.png)
-
 Nags with Notions is a website that hopes to inform customers about the delicious
 pizzas on offer. The aim is to attract customers to purchase pizzas by having
 the site look appealing and easy to use. Information such as opening times, menu,location
@@ -42,7 +40,9 @@ As the screen decreases in width the navigation buttoms go underneath the main h
 A line appears under the navigation buttons, when hoovered over. The text remains underlined 
 for the current page. 
 
-![image] ()
+![Navigation-bar-full](Assets/Images/Screenshot-2023-07-28-120933.png)
+
+![Navigation-mobile-screen] ()
 
 ## Landing Image
 
