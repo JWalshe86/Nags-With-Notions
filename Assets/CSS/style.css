@@ -231,8 +231,8 @@ footer {
     width: 100%;
     overflow: hidden;
     position: relative;
-    background: url(../Images/pizza\ 1500px.png) center center no-repeat;
-    background-size: 1250px;
+    /* background: url(../Images/pizza\ 1500px.png) center center no-repeat; */
+    background-size: 750px;
 
 }
 

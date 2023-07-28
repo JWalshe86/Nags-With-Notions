@@ -4,7 +4,7 @@ Nags with Notions is a website that hopes to inform customers about the deliciou
 pizzas on offer. The aim is to attract customers to purchase pizzas by having
 the site look appealing and easy to use. Information such as opening times, menu,location
 and how to pre-book pizzas is included. Links to Nags with Notions social media accounts 
-are provided 
+are provided. The code behind this section was heavily reliant on the Love Running Club navigation section in the Code Institute tutorial.
 
 # Features
 
@@ -21,7 +21,7 @@ This image will catch their attention.
 ## Relevant information section
 
 This will allow viewers to obtain key information such as the location, contact and opening
-times. The company logo will be presented here also
+times. The company logo will be presented here also. The code behind this section was heavily reliant on the Love Running Club ethos section in the Code Institute tutorial. 
 
 ## Footer
 
