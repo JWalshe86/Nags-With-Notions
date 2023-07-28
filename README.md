@@ -1,4 +1,12 @@
-# Nags with Notions
+<!-- Inspiration for readme layout taken from Iceland the land of fire and Ice provided by Institute Mentor Anthony -->
+
+# Contents
+
+## [Introduction](#nags-with-notions) 
+## [User Experience (UX)](#user-experience)
+## [Features](#features)
+
+# Nags-with-Notions
 
 Nags with Notions is a website that hopes to inform customers about the delicious
 pizzas on offer. The aim is to attract customers to purchase pizzas by having
@@ -6,12 +14,31 @@ the site look appealing and easy to use. Information such as opening times, menu
 and how to pre-book pizzas is included. Links to Nags with Notions social media accounts 
 are provided. The code behind this section was heavily reliant on the Love Running Club navigation section in the Code Institute tutorial.
 
+# User-Experience
+
+## As a new visitor
+
+I would like to understand what the product is
+I would like to be able to find information on the website easily
+I would like to know the menu, contact, prices, location and opening times
+I would like social media links to other content by the supplier
+
+## As a returning visitor
+
+I would like to be able to give feedback on the product
+I would like to see any updates on the menu or venue location
+
 # Features
 
 ## Navigation Bar
 
-On all 3 pages there is a link to the Home page, menu and prebooking form. 
+On all 3 pages there is a link to the Home page, menu and feedback form. 
 This allows for easier navigation between the pages.
+As the screen decreases in width the navigation buttoms go underneath the main heading.
+A line appears under the navigation buttons, when hoovered over. The text remains underlined 
+for the current page. 
+
+![Navigation-Image] (/workspaces/Nags-With-Notions/Assets/Images/Screenshot 2023-07-28 120933.png)
 
 ## Landing Image
 
@@ -44,7 +71,13 @@ they wish to prebook.
 
 -------------------
 
-## Unfixed bugs
+## Bugs
+
+# Solved bugs
+
+When using media query to adapt the screensize to mobiles the logo would not drop down correctly. The formating of the logo and surrounding text had to be changed to address this. 
+
+# Unfixed bugs
 
 # Deployment
 
