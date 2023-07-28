@@ -1,5 +1,7 @@
 <!-- Inspiration for readme layout taken from Iceland the land of fire and Ice provided by Institute Mentor Anthony -->
 
+
+
 # Contents
 
 ## [Introduction](#nags-with-notions) 
@@ -7,6 +9,8 @@
 ## [Features](#features)
 
 # Nags-with-Notions
+
+![Image](../Nags-With-Notions/Assets/Images/Screenshot%202023-07-28%20120933.png)
 
 Nags with Notions is a website that hopes to inform customers about the delicious
 pizzas on offer. The aim is to attract customers to purchase pizzas by having
@@ -38,7 +42,7 @@ As the screen decreases in width the navigation buttoms go underneath the main h
 A line appears under the navigation buttons, when hoovered over. The text remains underlined 
 for the current page. 
 
-![Navigation-Image] (/workspaces/Nags-With-Notions/Assets/Images/Screenshot 2023-07-28 120933.png)
+![image] ()
 
 ## Landing Image
 
