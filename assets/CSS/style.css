@@ -271,6 +271,7 @@ footer {
     display: block;
     margin: 0 auto;
     border: none;
+    padding-bottom: 100px;
 }
 
 /*Feedback form */

@@ -6,6 +6,7 @@
 
 ## [Introduction](#nags-with-notions) 
 ## [User Experience (UX)](#user-experience)
+## [Design] (#design)
 ## [Features](#features)
 ## [Menu-Page](#menu)
 
@@ -30,6 +31,22 @@ I would like social media links to other content by the supplier
 
 I would like to be able to give feedback on the product
 I would like to see any updates on the menu or venue location
+
+# Design (UXD)
+
+## Strategy
+
+## Scope
+
+## Structure
+
+## Skeleton
+
+## Surface
+
+### Colour Palette
+
+[Colour-Palette](assets/images/readme-images/Screenshot-2023-07-28-120933.png)
 
 # Features
 
@@ -58,6 +75,12 @@ This will allow viewers to obtain key information such as the location, contact 
 times. The company logo will be presented here also. The code behind this section was heavily reliant on the Love Running Club ethos section in the Code Institute tutorial. 
 
 ![Info-image](assets/images/readme-images/info-section.png)
+
+## Video
+
+Video taken from storyblocks.com. This video was implemented to give viewers a feel for the natural style of making pizzas, which hopefully will remind them why home baked meals are better than something you would buy in a store. 
+
+![Making-pizza-video](https://youtu.be/kPk9r9zg5nE)
 
 ## Footer
 
