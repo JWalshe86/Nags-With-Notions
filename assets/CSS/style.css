@@ -82,7 +82,7 @@ h2 {
     width: 100%;
     overflow: hidden;
     position: relative;
-    margin-bottom: 50px;
+    margin-bottom: 0;
 }
 
 #cover-text,
@@ -114,7 +114,7 @@ h2 {
     padding-top: 30px;
     padding-left: 10px;
 
-    background-color: rgb(253, 221, 230, .7);
+    background-color: rgb(114, 161, 229, .7);
 
     bottom: 400px;
     right: 300px;
@@ -128,6 +128,7 @@ h2 {
 
 #core-information {
     height: 600px;
+    background-color: rgb(152, 131, 229);
 }
 
 #left-about {
@@ -198,6 +199,7 @@ hr {
 
 footer {
     height: 150px;
+    background-color: rgb(46, 56, 46);
 }
 
 .social-networks {
@@ -213,7 +215,7 @@ footer {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
-    color: #3a3a3a;
+    color: white;
 }
 
 /*Gallery CSS*/
@@ -272,6 +274,12 @@ footer {
     /* text-align: center;
     width: 100%; */
 
+}
+
+#video-section {
+    background-color: rgb(252, 211, 222);
+    height: 500px;
+    width: 100%;
 }
 
 #video iframe {
