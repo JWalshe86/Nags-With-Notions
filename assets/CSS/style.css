@@ -267,10 +267,10 @@ footer {
 
 }
 
-#pizza-images img {
-    height: auto;
-    width: 100%;
-    border-radius: 50%;
+#video iframe {
+    display: block;
+    margin: 0 auto;
+    border: none;
 }
 
 /*Feedback form */
