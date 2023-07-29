@@ -46,7 +46,10 @@ I would like to see any updates on the menu or venue location
 
 ### Colour Palette
 
-[Colour-Palette](assets/images/readme-images/Screenshot-2023-07-28-120933.png)
+The colour palette was generated using coolors.com. The colours match those of 
+the Nags with Notions logo.
+
+![Colour-Palette](assets/images/readme-images/pallete.png)
 
 # Features
 
