@@ -9,7 +9,6 @@
 body {
     font-family: permanent marker, sans-serif;
     font-weight: 300;
-    color: #3a3a3a;
 }
 
 /*headings & logo */
@@ -19,7 +18,7 @@ h1,
 h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #252525;
+    color: whitesmoke;
 }
 
 #logo {
@@ -33,6 +32,7 @@ h2 {
 #navigation {
     font-size: 110%;
     letter-spacing: 4px;
+    color: whitesmoke;
 
 }
 
@@ -59,11 +59,11 @@ h2 {
 }
 
 #navigation a:hover {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid whitesmoke;
 }
 
 .active {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid whitesmoke;
 }
 
 
@@ -130,6 +130,7 @@ h2 {
     height: 600px;
     background-color: rgb(152, 131, 229);
     padding-top: 150px;
+    color: whitesmoke;
 }
 
 #left-about {
