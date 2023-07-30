@@ -42,6 +42,13 @@ I would like to see any updates on the menu or venue location
 
 ## Skeleton
 
+# Wireframe
+
+An initial blueprint of the project was created using balsamiq wireframes. This wireframe
+was presented to ones mentor Anthony during the first of three meet ups. 
+
+[wireframe](wireframe/Nags-With-Notions-Wireframe.png)
+
 ## Surface
 
 ### Colour Palette
@@ -81,7 +88,7 @@ times. The company logo will be presented here also. The code behind this sectio
 
 ## Video
 
-Video taken from storyblocks.com. This video was implemented to give viewers a feel for the natural style of making pizzas, which hopefully will remind them why home baked meals are better than something you would buy in a store. 
+Video taken from youtube. This video was implemented to give viewers a feel for the natural style of making pizzas, which hopefully will remind them why home baked meals are better than something you would buy in a store. 
 
 ![Making-pizza-video](https://youtu.be/kPk9r9zg5nE)
 
@@ -132,9 +139,9 @@ Images would not upload on the readme, as their were gaps in the image names. Tu
 
 The font styles in the heading were taken from [google fonts](<https://fonts.google.com/specimen/Permanent+Marker?query=perm>)
 
-Image of pizza in front of open fire on main page was taken from [Pexels] (<https://images.pexels.com/photos/905847/pexels-photo-905847.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1>)
-
 ## Media
+
+Video on homepage was taken from Youtube.
 
 
 

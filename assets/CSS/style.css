@@ -190,12 +190,17 @@ hr {
     border-width: 1px;
     border-radius: 50%;
     margin: 0 auto;
+    background-color: rgb(46, 56, 46);
 }
 
 #circle-cover-bg {
     background: url(../images/Nags\ with\ notions\ logo\ 220.jpg) no-repeat center center;
     height: 100%;
     border-radius: 50%;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+
 }
 
 footer {
