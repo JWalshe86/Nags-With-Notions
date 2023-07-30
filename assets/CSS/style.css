@@ -308,6 +308,7 @@ footer {
     text-align: center;
     background-color: rgb(114, 161, 229);
     padding-bottom: 50px;
+    margin-top: 0;
 
 }
 
@@ -386,7 +387,8 @@ footer {
         right: clear;
         width: 100%;
         height: 200px;
-        padding: 25px;
+        text-align: center;
+        padding-left: 2px;
     }
 
     #core-information {
@@ -432,6 +434,11 @@ footer {
 
     #video iframe {
         width: 100%;
+    }
+
+    #extras,
+    #crust-dips {
+        display: none;
     }
 
 
