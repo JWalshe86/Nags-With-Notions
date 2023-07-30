@@ -231,9 +231,10 @@ footer {
     text-align: center;
     height: 600px;
     width: 60%;
-    background-color: rgb(253, 221, 230, .7);
+    background-color: rgb(114, 161, 229, .7);
     max-width: auto;
     margin-left: 200px;
+    color: whitesmoke;
 }
 
 #menu-text h1 {
@@ -258,7 +259,7 @@ footer {
     text-align: center;
     float: left;
     margin-left: 150px;
-    background-color: rgba(234, 25, 84, 0.7);
+    background-color: rgb(152, 131, 229);
 
 }
 
@@ -271,7 +272,7 @@ footer {
     text-align: center;
     float: right;
     margin-right: 100px;
-    background-color: rgba(235, 222, 226, 0.7);
+    background-color: rgb(252, 211, 222);
 }
 
 #crust-dips li {
