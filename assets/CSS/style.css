@@ -303,10 +303,11 @@ footer {
 #feedback-outer h1 {
     /* height: 300px; */
     width: 100%;
-    margin-bottom: 50px;
     line-height: 1.7em;
-    padding-top: 100px;
+    padding-top: 50px;
     text-align: center;
+    background-color: rgb(114, 161, 229);
+    padding-bottom: 50px;
 
 }
 
@@ -327,10 +328,13 @@ footer {
     background: url(../images/pub2.jpg) center center no-repeat;
     height: 600px;
     width: 100%;
+
 }
 
-#feedback {
+#feedback-text {
     margin-top: 100px;
+    background-color: rgb(152, 131, 229);
+
 }
 
 /* Media queries */
