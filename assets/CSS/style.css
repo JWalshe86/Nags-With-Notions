@@ -103,7 +103,7 @@ h2 {
 }
 
 #cover-text {
-    font-size: 5.5vw;
+    font-size: 130%;
     font-family: permanent marker, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -388,6 +388,11 @@ footer {
         height: 200px;
         text-align: center;
         padding-left: 2px;
+        font-size: 5.5vw;
+    }
+
+    #logo {
+        font-size: 10vw;
     }
 
     #core-information {
