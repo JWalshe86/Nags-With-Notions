@@ -225,7 +225,14 @@ footer {
     color: white;
 }
 
-/*Gallery CSS*/
+/* styling for menu section */
+
+#image-left-side1 img {
+    position: absolute;
+    width: 20%;
+
+}
+
 #menu-text {
     text-align: center;
     height: 600px;
@@ -233,6 +240,7 @@ footer {
     background-color: rgb(114, 161, 229, .7);
     margin: 0 auto;
     color: whitesmoke;
+
 }
 
 #menu-text h1 {
@@ -365,17 +373,20 @@ footer {
         margin: 0 auto;
     }
 
+    /* styling for menu section */
+
     #menu-outer {
         height: 1200px;
         margin: 0 auto;
     }
 
     #menu-text {
+        text-align: center;
+        height: 600px;
+        width: 60%;
+        background-color: rgb(114, 161, 229, .7);
         margin: 0 auto;
-        height: 1200px;
-        font-size: 6vw;
-        width: 100%;
-        padding-top: 100px;
+        color: whitesmoke;
     }
 
     .left-about-heading,
