@@ -20,13 +20,13 @@
             <nav id="navigation">
                 <ul>
                     <li>
-                        <a href="feedback.html">Feedback</a>
+                        <a href="feedback.html" class="active">Feedback</a>
                     </li>
                     <li>
                         <a href="menu.html">Menu</a>
                     </li>
                     <li>
-                        <a href="index.html" class="active">Homepage</a>
+                        <a href="index.html">Homepage</a>
                     </li>
                 </ul>
             </nav>
@@ -49,6 +49,18 @@
                 <br>
                 <input class="submit" type="submit" style="font-size: 130%; font-family: permanent marker, sans-serif; text-transform: uppercase;
     letter-spacing: 4px; background-color: rgb(46, 56, 46); color:whitesmoke;white-space:pre-wrap">
+
+                <!-- how to use @media in html found in stackoverflow 
+        https://stackoverflow.com/questions/41996561/can-i-use-media-in-my-html-page -->
+
+                <style>
+                    @media only screen and (max-width: 1200px) {
+                        #feedback-form {
+                            font-size: 3vw;
+                        }
+                    }
+                </style>
+
             </form>
 
         </div>
@@ -81,6 +93,7 @@
     </footer>
 
     <script src="https://kit.fontawesome.com/ba48ac2667.js" crossorigin="anonymous"></script>
+
 
 </body>
 
