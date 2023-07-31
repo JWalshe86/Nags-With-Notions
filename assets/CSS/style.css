@@ -370,7 +370,6 @@ footer {
     }
 
     #menu-outer {
-        width: 90%;
         height: 1200px;
         margin: 0 auto;
     }
@@ -378,6 +377,9 @@ footer {
     #menu-text {
         margin: 0 auto;
         height: 1200px;
+        font-size: 6vw;
+        width: 100%;
+        padding-top: 100px;
     }
 
     .left-about-heading,
