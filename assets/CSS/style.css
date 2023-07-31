@@ -233,6 +233,12 @@ footer {
 
 }
 
+#image-right-side1 img {
+    width: 20%;
+    float: right;
+
+}
+
 #menu-text {
     text-align: center;
     height: 600px;
@@ -308,6 +314,7 @@ footer {
 
 
 /* Media queries */
+/* For screen sizes from 1200px wide and down */
 
 @media screen and (max-width: 1200px) {
     #core-information {
@@ -376,7 +383,7 @@ footer {
     /* styling for menu section */
 
     #menu-outer {
-        height: 1200px;
+
         margin: 0 auto;
     }
 
@@ -388,6 +395,9 @@ footer {
         margin: 0 auto;
         color: whitesmoke;
     }
+
+
+
 
     .left-about-heading,
     .right-about-heading {
@@ -422,3 +432,5 @@ footer {
         background: url(../images/girl-on-counter.jpg) center center no-repeat;
         background-size: cover;
     }
+
+}
