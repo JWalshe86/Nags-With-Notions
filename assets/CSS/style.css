@@ -191,7 +191,7 @@ hr {
     border-width: 1px;
     border-radius: 50%;
     margin: 0 auto;
-    background-color: #f2c5c8;
+    background-color: rgb(80, 201, 206);
 }
 
 #circle-cover-bg {
@@ -201,8 +201,7 @@ hr {
     border-style: solid;
     border-color: #ccc;
     border-width: 1px;
-
-
+    background-color: #f2c5c8;
 }
 
 footer {
