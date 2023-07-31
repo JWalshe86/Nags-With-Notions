@@ -231,8 +231,7 @@ footer {
     height: 600px;
     width: 60%;
     background-color: rgb(114, 161, 229, .7);
-    max-width: auto;
-    margin-left: 200px;
+    margin: 0 auto;
     color: whitesmoke;
 }
 
@@ -244,11 +243,8 @@ footer {
 
 
 #menu-outer {
-    height: 600px;
-    width: 100%;
     overflow: hidden;
     position: relative;
-    /* background: url(../Images/pizza\ 1500px.png) center center no-repeat; */
     background-size: 750px;
 
 }
@@ -389,6 +385,7 @@ footer {
         text-align: center;
         padding-left: 2px;
         font-size: 5.5vw;
+        margin-top: 270px;
     }
 
     #logo {
@@ -445,5 +442,8 @@ footer {
         display: none;
     }
 
+    #hero-image {
+        background: url(../images/girl-on-counter.jpg) center center no-repeat;
+        background-size: cover;
 
-}
+    }
