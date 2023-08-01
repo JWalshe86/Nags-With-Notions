@@ -37,6 +37,8 @@ h2 {
 
 }
 
+
+
 .top-bar {
     background-color: rgb(80, 201, 206);
     height: 100px;
@@ -45,7 +47,7 @@ h2 {
 
 #navigation,
 #logo {
-    line-height: 75px;
+    line-height: 50px;
 }
 
 #navigation li {
@@ -118,7 +120,7 @@ h2 {
     background-color: rgb(114, 161, 229, .7);
 
     bottom: 400px;
-    right: 300px;
+    right: 400px;
     top: 50px;
 
     position: absolute;
@@ -206,8 +208,11 @@ hr {
 }
 
 footer {
-    height: 150px;
     background-color: rgb(46, 56, 46);
+    position: relative;
+    border-top: solid;
+    border-width: 30px;
+    border-color: rgb(114, 161, 229);
 }
 
 .social-networks {
@@ -231,6 +236,7 @@ footer {
 #image-left-side1 img {
     position: absolute;
     width: 20%;
+    height: 280px;
 
 }
 
@@ -239,6 +245,7 @@ footer {
     float: left;
     position: absolute;
     top: 300px;
+    height: 300px;
 }
 
 #image-right-side {
@@ -252,6 +259,7 @@ footer {
     width: 20%;
     float: right;
     position: absolute;
+    height: 280px;
 }
 
 .retangle-divider {
@@ -266,6 +274,7 @@ footer {
     position: absolute;
     top: 300px;
     width: 20%;
+    height: 300px;
 }
 
 
@@ -342,134 +351,18 @@ footer {
 
 }
 
+.flex-wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.footer {
+    margin-top: auto;
+}
 
 /* Media queries */
 /* For screen sizes from 1200px wide and down */
 
-@media screen and (max-width: 1200px) {
-    #core-information {
-        width: 65%;
-        height: 1200px;
-        margin: 0 auto;
-        padding-top: 40px;
-
-    }
-
-    #left-about,
-    #right-about {
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
-
-
-
-    #center-about {
-        clear: both;
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
-
-    hr {
-        display: none;
-    }
-}
-
-/* For medium screen sizes from 950px wide and down */
-
-@media screen and (max-width: 950px) {
-
-    #navigation {
-        clear: left;
-        margin-bottom: 20px;
-        line-height: 25px;
-        font-size: small;
-        width: 100%;
-        margin-left: 110px;
-    }
-
-    #navigation li {
-        float: left;
-        list-style-type: none;
-        margin: auto;
-
-    }
-
-    #cover-text {
-        left: 0;
-        right: clear;
-        width: 100%;
-        text-align: center;
-        padding-left: 2px;
-        font-size: 5.5vw;
-        margin-top: 270px;
-    }
-
-    #logo {
-        font-size: 10vw;
-    }
-
-    #core-information {
-        width: 100%;
-        height: 1200px;
-        margin: 0 auto;
-    }
-
-    /* styling for menu section */
-
-    #menu-outer {
-        font-size: 2.8vw;
-    }
-
-    #menu-text {
-        text-align: center;
-        height: 600px;
-        width: 100%;
-        background-color: rgb(114, 161, 229, .7);
-        margin: 0 auto;
-        color: whitesmoke;
-    }
-
-
-
-
-    .left-about-heading,
-    .right-about-heading {
-        width: inherit;
-
-    }
-
-    .left-about-heading h2,
-    .right-about-heading h2 {
-        width: 100%;
-        text-align: center;
-
-    }
-
-    .left-about-heading p,
-    .right-about-heading p {
-        text-align: center;
-        padding: 0 20px;
-
-    }
-
-    .top-bar {
-        height: 200px;
-    }
-
-    #video iframe {
-        width: 100%;
-    }
-
-
-    #hero-image {
-        background: url(../images/girl-on-counter.jpg) center center no-repeat;
-        background-size: cover;
-    }
-
-    #images-general {
-        display: none;
-    }
-
-}
+@media screen and (max-width: 1200px) {}
