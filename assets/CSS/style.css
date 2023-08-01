@@ -210,6 +210,10 @@ hr {
 footer {
     background-color: rgb(46, 56, 46);
     position: relative;
+
+}
+
+#menu-footer {
     border-top: solid;
     border-width: 30px;
     border-color: rgb(114, 161, 229);
@@ -351,18 +355,19 @@ footer {
 
 }
 
-.flex-wrapper {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-    justify-content: flex-start;
-}
 
-.footer {
-    margin-top: auto;
-}
 
 /* Media queries */
+
 /* For screen sizes from 1200px wide and down */
 
-@media screen and (max-width: 1200px) {}
+@media screen and (max-width: 1200px) {
+    #cover-text {
+        right: 300px;
+    }
+
+
+
+
+
+}
