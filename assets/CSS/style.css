@@ -51,6 +51,11 @@ h2 {
     line-height: 50px;
 }
 
+#menu,
+#logo {
+    line-height: 100px;
+}
+
 #navigation li {
     float: right;
     list-style-type: none;
@@ -360,6 +365,11 @@ footer {
 @media screen and (max-width: 1200px) {
     /* cover text adjustment */
 
+    #logo {
+        width: 60%;
+        font-size: 200%;
+    }
+
 
     #left-about,
     #right-about {
@@ -368,12 +378,15 @@ footer {
         padding: 0;
     }
 
+    .left-about-heading p {
+        width: 200px;
+    }
+
     #cover-text {
         right: 300px;
     }
 
     #core-information {
-        width: 65%;
         height: 1200px;
         margin: 0 auto;
     }
@@ -396,7 +409,6 @@ footer {
 
 
 
-
 @media screen and (max-width: 950px) {
 
     /* cover text adjustment */
@@ -412,4 +424,79 @@ footer {
 
 }
 
-@media screen and (max-width: 820px) @media screen and (max-width: 700px) @media screen and (max-width: 550px) @media screen and (max-width: 370px)
+
+@media screen and (max-width: 870px) {
+
+    #cover-text {
+        right: 100px;
+    }
+
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 710px) {
+
+    #logo {
+        width: 60%;
+        font-size: 150%;
+    }
+}
+
+
+
+
+@media screen and (max-width: 680px) {
+
+    #logo {
+        width: 60%;
+        font-size: 100%;
+    }
+
+    #cover-text {
+        width: 60%;
+        font-size: 80%;
+        left: 0;
+    }
+
+    #core-information {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    .left-about-heading,
+    .right-about-heading {
+        width: inherit;
+    }
+
+    .left-about-heading h2,
+    .right-about-heading h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-about-heading p,
+    .right-about-heading p {
+        text-align: center;
+        padding: 0 20px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 320px) {
+    #hero-image {
+        width: 100vh;
+    }
+}
