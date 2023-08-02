@@ -48,13 +48,9 @@ h2 {
 
 #navigation,
 #logo {
-    line-height: 50px;
+    line-height: 70px;
 }
 
-#menu,
-#logo {
-    line-height: 100px;
-}
 
 #navigation li {
     float: right;
@@ -439,6 +435,10 @@ footer {
         line-height: 25px;
     }
 
+    #hero-image {
+        background: url(../images/girl-on-counter.jpg) center center no-repeat;
+        background-size: cover;
+    }
 
 }
 
@@ -498,5 +498,48 @@ footer {
 @media screen and (max-width: 320px) {
     #hero-image {
         width: 100vh;
+    }
+
+    .top-bar {
+        width: 100vh;
+    }
+
+    #logo {
+        width: 60%;
+        font-size: 100%;
+    }
+
+    #navigation {
+        clear: left;
+        float: right;
+        margin-bottom: 20px;
+        line-height: 20px;
+        width: 100vh;
+    }
+
+    #core-information,
+    #video-section,
+    footer {
+        width: 85vh;
+    }
+
+
+    .left-about-heading p,
+    .right-about-heading p {
+        text-align: center;
+        width: 80vh;
+    }
+
+    #video iframe {
+        width: 400px;
+    }
+
+    #cover-text {
+        left: 45vh;
+        top: .5vh;
+    }
+
+    .social-networks {
+        padding-top: 6vh;
     }
 }
