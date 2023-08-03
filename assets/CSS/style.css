@@ -80,6 +80,7 @@ h2 {
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
+
 }
 
 #hero-outer {
@@ -457,10 +458,35 @@ footer {
 
 @media screen and (max-width: 680px) {
 
+    /* Responsive Nav from Kevin Powell Youbtube */
+
+    header {
+        text-align: center;
+        width: 100%;
+        z-index: 1;
+        position: relative;
+
+    }
+
+    #navigation {
+        top: 100%;
+        right: 0;
+        width: 30%;
+        text-align: left;
+    }
+
+    #navigation li {
+        margin-bottom: 1rem;
+        margin-right: 1rem;
+    }
+
+
     #logo {
         width: 60%;
         font-size: 100%;
     }
+
+
 
     #cover-text {
         width: 60%;
