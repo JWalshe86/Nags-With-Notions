@@ -461,6 +461,27 @@ footer {
         display: block;
     }
 
+    /* background for dropdown menu */
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 80px;
+        left: 0;
+        text-align: center;
+    }
+
+
+
+
+
+
+
+
+
+
+
 
     #cover-text {
         right: 100px;
