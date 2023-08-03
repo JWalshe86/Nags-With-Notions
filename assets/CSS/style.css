@@ -34,9 +34,32 @@ label.logo {
     font-weight: bold;
 }
 
+/* moves navigation buttons to right */
+nav ul {
+    float: right;
+    margin: right;
+}
+
+/* 
+inline elements only cover the space inside the html elements */
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+/* styling of navigation font */
+
+nav ul li a {
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+}
 
 
 
+/* hero-image styling section */
 
 #hero-image {
     height: 600px;
