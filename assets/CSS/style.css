@@ -61,7 +61,7 @@ nav ul li a {
 
 /* background color of navigation buttons when hovered over */
 a.active,
-a:hover {
+nav a:hover {
     background: #1b9bff;
     transition: .5s;
 }
@@ -247,6 +247,9 @@ footer {
     text-align: center;
     position: inital;
 
+
+
+
 }
 
 .social-networks li {
@@ -258,6 +261,7 @@ footer {
     margin: 1%;
     padding: 5%;
     color: white;
+
 }
 
 /* styling for menu section */
