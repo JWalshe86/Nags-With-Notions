@@ -14,62 +14,6 @@ body {
 /*headings & logo */
 
 
-h1,
-h2 {
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color: whitesmoke;
-}
-
-#logo {
-    float: left;
-    font-size: 280%;
-    margin-left: 30px;
-    width: 50%;
-}
-
-/*navigation links */
-#navigation {
-    font-size: 110%;
-    letter-spacing: 4px;
-    color: whitesmoke;
-    width: 100%;
-    position: absolute;
-
-}
-
-
-
-.top-bar {
-    background-color: rgb(80, 201, 206);
-    height: 100px;
-    width: 100%;
-}
-
-#navigation,
-#logo {
-    line-height: 70px;
-}
-
-
-#navigation li {
-    float: right;
-    list-style-type: none;
-    margin-right: 30px;
-}
-
-#navigation a {
-    text-decoration: none;
-    color: inherit;
-}
-
-#navigation a:hover {
-    border-bottom: 1px solid whitesmoke;
-}
-
-.active {
-    border-bottom: 1px solid whitesmoke;
-}
 
 
 #hero-image {
@@ -80,6 +24,7 @@ h2 {
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
+    display: none;
 
 }
 
@@ -125,6 +70,7 @@ h2 {
     bottom: 400px;
     right: 400px;
     top: 50px;
+    display: none;
 
     position: absolute;
 
@@ -208,6 +154,7 @@ h2 {
 footer {
     background-color: rgb(46, 56, 46);
     height: 200px;
+    display: none;
 
 }
 
@@ -421,8 +368,11 @@ footer {
 
 }
 
+/* Create Responsive Navigation bar template taken from CodingNepal on youtuble */
+/* responsive navigation bar from 871px down */
+@media screen and (max-width: 871px) {
 
-@media screen and (max-width: 870px) {
+
 
     #cover-text {
         right: 100px;
@@ -460,31 +410,6 @@ footer {
 
     /* Responsive Nav from Kevin Powell Youbtube */
 
-    header {
-        text-align: center;
-        width: 100%;
-        z-index: 1;
-        position: relative;
-
-    }
-
-    #navigation {
-        top: 100%;
-        right: 0;
-        width: 30%;
-        text-align: left;
-    }
-
-    #navigation li {
-        margin-bottom: 1rem;
-        margin-right: 1rem;
-    }
-
-
-    #logo {
-        width: 60%;
-        font-size: 100%;
-    }
 
 
 
@@ -526,22 +451,7 @@ footer {
         width: 100vh;
     }
 
-    .top-bar {
-        width: 100vh;
-    }
 
-    #logo {
-        width: 60%;
-        font-size: 100%;
-    }
-
-    #navigation {
-        clear: left;
-        float: right;
-        margin-bottom: 20px;
-        line-height: 20px;
-        width: 100vh;
-    }
 
     #core-information,
     #video-section,
