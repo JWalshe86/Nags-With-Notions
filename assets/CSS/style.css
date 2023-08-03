@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Permanent+Marker&display=swap');
 
+
+/* border box as per Coding Nepal & creating responsive navigation this includes padding & border in width & height */
 * {
     margin: 0;
     padding: 0;
-    border: none;
+    /* border: none; */
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
 }
 
 body {
@@ -11,7 +16,24 @@ body {
     font-weight: 300;
 }
 
-/*headings & logo */
+/*headings & logo & navigation */
+
+/* background color for header - width 100% so can be responsive at other sizes */
+nav {
+    background: rgb(80, 201, 206);
+    height: 80px;
+    width: 100%;
+}
+
+/* styling and coloring of label logo */
+label.logo {
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
 
 
 
