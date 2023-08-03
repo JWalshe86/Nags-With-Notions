@@ -49,14 +49,22 @@ nav ul li {
     margin: 0 5px;
 }
 
-/* styling of navigation font */
+/* styling of navigation font: rounding of elements border edge */
 
 nav ul li a {
     color: white;
     font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
     text-transform: uppercase;
 }
 
+/* background color of navigation buttons when hovered over */
+a.active,
+a:hover {
+    background: #1b9bff;
+    transition: .5s;
+}
 
 
 /* hero-image styling section */
