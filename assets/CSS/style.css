@@ -52,7 +52,7 @@ nav ul li {
 /* styling of navigation font: rounding of elements border edge */
 
 nav ul li a {
-    color: white;
+    color: black;
     font-size: 17px;
     padding: 7px 13px;
     border-radius: 3px;
@@ -154,6 +154,7 @@ a:hover {
     background-color: rgb(152, 131, 229);
     padding-top: 150px;
     color: whitesmoke;
+    display: none;
 }
 
 #left-about {
@@ -319,6 +320,7 @@ footer {
 #menu-outer {
     position: relative;
     background-size: 750px;
+    display: none;
 
 }
 
@@ -328,6 +330,7 @@ footer {
     height: 500px;
     width: 100%;
     padding-top: 150px;
+    display: none;
 }
 
 #video iframe {
@@ -451,9 +454,12 @@ footer {
 }
 
 /* Create Responsive Navigation bar template taken from CodingNepal on youtuble */
-/* responsive navigation bar from 871px down */
-@media screen and (max-width: 871px) {
+/* responsive navigation bar from 768px down */
+@media screen and (max-width: 768px) {
 
+    .checkbtn {
+        display: block;
+    }
 
 
     #cover-text {
