@@ -203,6 +203,7 @@ nav a:hover {
 
 .right-about-heading h2 {
     text-align: right;
+    padding-right: 25px;
 }
 
 .right-about-heading p {
@@ -426,6 +427,10 @@ footer {
 
     .left-about-heading p {
         width: 200px;
+    }
+
+    .left-about-heading h2 {
+        padding-left: 25px;
     }
 
 
