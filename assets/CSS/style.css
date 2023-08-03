@@ -230,9 +230,12 @@ a:hover {
 footer {
     background-color: rgb(46, 56, 46);
     height: 200px;
-    display: none;
+    position: relative;
+    top: 160vh;
 
 }
+
+
 
 #menu-footer {
     border-top: solid;
@@ -242,6 +245,7 @@ footer {
 
 .social-networks {
     text-align: center;
+    position: inital;
 
 }
 
@@ -334,7 +338,8 @@ footer {
     height: 500px;
     width: 100%;
     padding-top: 150px;
-    display: none;
+    position: relative;
+    top: 160vh;
 }
 
 #video iframe {
