@@ -208,8 +208,17 @@ nav a:hover {
 
 .right-about-heading p {
     text-align: right;
+
 }
 
+.right-about-heading .p2 {
+    padding-right: 20px;
+
+}
+
+#snippet {
+    padding-right: 50px;
+}
 
 
 #circle-container {
@@ -427,10 +436,11 @@ footer {
 
     .left-about-heading p {
         width: 200px;
+        text-align: center;
     }
 
     .left-about-heading h2 {
-        padding-left: 25px;
+        padding-left: 50px;
     }
 
 
