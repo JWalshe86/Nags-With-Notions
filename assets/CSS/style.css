@@ -52,7 +52,7 @@ nav ul li {
 /* styling of navigation font: rounding of elements border edge */
 
 nav ul li a {
-    color: black;
+    color: white;
     font-size: 17px;
     padding: 7px 13px;
     border-radius: 3px;
@@ -468,8 +468,27 @@ footer {
         height: 100vh;
         background: #2c3e50;
         top: 80px;
-        left: 0;
+        left: -100%;
         text-align: center;
+        transition: all .5s;
+    }
+
+    nav ul li {
+        display: block;
+    }
+
+    nav ul li a {
+        font-size: 20px;
+    }
+
+    a:hover,
+    a.active {
+        background: none;
+        color: #0082e6;
+    }
+
+    #check:checked~ul {
+        left: 0;
     }
 
 
