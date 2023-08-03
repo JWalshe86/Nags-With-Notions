@@ -88,22 +88,24 @@ a:hover {
 
 #hero-image {
     height: 600px;
-    width: 100%;
-
+    width: inherit;
+    position: relative;
     background: url(../images/hero-image2.jpg) center center no-repeat;
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
-    display: none;
+    top: 5%;
+
 
 }
 
 #hero-outer {
     height: 600px;
     width: 100%;
-    position: relative;
+    position: absolute;
     margin-bottom: 0;
-    display: none;
+
+
 }
 
 #cover-text,
@@ -141,7 +143,7 @@ a:hover {
     bottom: 400px;
     right: 400px;
     top: 50px;
-    display: none;
+
 
     position: absolute;
 
@@ -154,7 +156,9 @@ a:hover {
     background-color: rgb(152, 131, 229);
     padding-top: 150px;
     color: whitesmoke;
-    display: none;
+    position: absolute;
+    top: 96.5%;
+    width: 100%;
 }
 
 #left-about {
