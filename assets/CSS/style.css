@@ -11,6 +11,7 @@
     box-sizing: border-box;
 }
 
+
 body {
     font-family: permanent marker, sans-serif;
     font-weight: 300;
@@ -19,6 +20,11 @@ body {
 /*headings & logo & navigation */
 
 /* background color for header - width 100% so can be responsive at other sizes */
+
+header {
+    width: 100%;
+}
+
 nav {
     background: rgb(80, 201, 206);
     height: 80px;
@@ -152,12 +158,12 @@ nav a:hover {
 /*core information section */
 
 #core-information {
-    height: 600px;
+    height: 120vh;
     background-color: rgb(152, 131, 229);
     padding-top: 150px;
     color: whitesmoke;
     position: absolute;
-    top: 96.5%;
+    top: 80vh;
     width: 100%;
 }
 
@@ -420,7 +426,7 @@ footer {
     #core-information {
         height: 1200px;
         margin: 0 auto;
-    }
+    } */
 
 
     #center-about {
@@ -431,7 +437,7 @@ footer {
     }
 
 
- */
+
 
 }
 
@@ -508,17 +514,6 @@ footer {
     #check:checked~ul {
         left: 0;
     }
-
-
-
-
-
-
-
-
-
-
-
 
     #cover-text {
         right: 100px;
