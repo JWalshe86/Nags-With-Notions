@@ -257,6 +257,9 @@ footer {
     border-top: solid;
     border-width: 30px;
     border-color: rgb(114, 161, 229);
+    top: 600px;
+    height: auto;
+
 }
 
 .social-networks {
@@ -346,9 +349,9 @@ footer {
 
 
 #menu-outer {
-    position: relative;
+    position: absolute;
     background-size: 750px;
-    display: none;
+    width: 100%;
 
 }
 
@@ -403,6 +406,11 @@ footer {
 
 }
 
+#feedback-footer {
+    top: 0;
+    height: auto;
+
+}
 
 
 /* Media queries */
