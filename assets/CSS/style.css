@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
 
 
 /* border box as per Coding Nepal & creating responsive navigation this includes padding & border in width & height */
@@ -13,7 +14,7 @@
 
 
 body {
-    font-family: permanent marker, sans-serif;
+    font-family: Open-Sans, sans-serif;
     font-weight: 300;
 }
 
@@ -95,9 +96,6 @@ nav a:hover {
     height: 600px;
     background: url(../images/pexels-narda-yescas-1566837.jpg) center center no-repeat;
     background-size: cover;
-    /* animation-name: hero-zoom; */
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
 
 
 }
@@ -124,26 +122,19 @@ nav a:hover {
     }
 }
 
+/* Overlay template from Daniel Zuzevich  */
 #cover-text {
-    font-size: 130%;
-    font-family: permanent marker, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-
-    width: 500px;
-    height: 175px;
-
-    padding-top: 30px;
-    padding-left: 10px;
-
-    background-color: rgb(114, 161, 229, .7);
-
-    bottom: 400px;
-    right: 400px;
-    top: 50px;
-
-
     position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.65);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 
 }
 
@@ -417,7 +408,6 @@ footer {
     }
 
 
-
     #left-about,
     #right-about {
         width: 100%;
@@ -567,7 +557,6 @@ footer {
 
 
     #cover-text {
-        width: 60%;
         font-size: 80%;
         left: 0;
     }

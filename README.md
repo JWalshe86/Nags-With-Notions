@@ -143,6 +143,8 @@ The font styles in the heading were taken from [google fonts](<https://fonts.goo
 
 Video on homepage was taken from Youtube.
 
+The hero image was taken from pexels.com
+
 
 
 
