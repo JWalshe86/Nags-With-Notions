@@ -633,6 +633,10 @@ footer {
         width: 80vh;
     }
 
+    .left-about-heading {
+        text-align: center;
+    }
+
     #video iframe {
         width: 400px;
     }
