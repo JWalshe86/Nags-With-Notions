@@ -93,7 +93,8 @@ nav a:hover {
 
 #hero-image {
     height: 600px;
-    background: url(../images/hero-image2.jpg) center center no-repeat;
+    background: url(../images/pexels-narda-yescas-1566837.jpg) center center no-repeat;
+    background-size: cover;
     /* animation-name: hero-zoom; */
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -542,10 +543,6 @@ footer {
         line-height: 25px;
     }
 
-    #hero-image {
-        background: url(../images/girl-on-counter.jpg) center center no-repeat;
-        background-size: cover;
-    }
 
 }
 
@@ -604,6 +601,7 @@ footer {
 
     label.logo {
         font-size: 140%;
+        display: block;
     }
 
     #cover-text {
@@ -615,15 +613,9 @@ footer {
 
 @media screen and (max-width: 375px) {
 
-    #hero-image {
-        min-width: 40rem;
-    }
-
-
-    #core-information,
-    #video-section,
-    footer {
-        width: 40rem;
+    label.logo {
+        font-size: 110%;
+        display: block;
     }
 
 
@@ -656,7 +648,5 @@ footer {
         height: 20vh;
     }
 
-    .nav-container {
-        min-width: 40rem;
-    }
+
 }
