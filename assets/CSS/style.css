@@ -264,7 +264,7 @@ footer {
 
 .social-networks {
     text-align: center;
-    position: inital;
+    position: static;
 
 
 
@@ -373,6 +373,7 @@ footer {
 }
 
 /*Feedback form */
+
 #feedback-outer h1 {
     /* height: 300px; */
     width: 100%;
@@ -397,11 +398,9 @@ footer {
 
 
 #feedback-form {
-    text-align: center;
     background: url(../images/pub2.jpg) center center no-repeat;
     height: 600px;
     width: 100%;
-    background-size: cover;
     padding-bottom: 900px;
 
 }
@@ -507,8 +506,8 @@ footer {
 }
 
 /* Create Responsive Navigation bar template taken from CodingNepal on youtuble */
-/* responsive navigation bar from 768px down */
-@media screen and (max-width: 768px) {
+/* responsive navigation bar from 770px down */
+@media screen and (max-width: 770px) {
 
     header {
         z-index: 1;
@@ -583,7 +582,7 @@ footer {
 
 @media screen and (max-width: 680px) {
 
-    /* Responsive Nav from Kevin Powell Youbtube */
+
 
 
 
@@ -595,7 +594,7 @@ footer {
     }
 
     #core-information {
-        width: 90%;
+        width: 100%;
         height: 1200px;
         margin: 0 auto;
     }
@@ -623,7 +622,7 @@ footer {
 
 @media screen and (max-width: 320px) {
     #hero-image {
-        width: 100vh;
+        width: 100%;
     }
 
 
