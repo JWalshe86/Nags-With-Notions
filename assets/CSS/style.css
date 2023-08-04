@@ -19,9 +19,8 @@ body {
 
 /*headings & logo & navigation */
 
-/* background color for header - width 100% so can be responsive at other sizes */
-
-header {
+.nav-container {
+    display: block;
     width: 100%;
 }
 
@@ -94,24 +93,16 @@ nav a:hover {
 
 #hero-image {
     height: 600px;
-    width: inherit;
-    position: relative;
     background: url(../images/hero-image2.jpg) center center no-repeat;
-    animation-name: hero-zoom;
+    /* animation-name: hero-zoom; */
     animation-duration: 5s;
     animation-fill-mode: forwards;
-    top: 5%;
 
 
 }
 
 #hero-outer {
-    height: 600px;
-    width: 100%;
-    position: absolute;
-    margin-bottom: 0;
-
-
+    position: relative;
 }
 
 #cover-text,
@@ -158,13 +149,12 @@ nav a:hover {
 /*core information section */
 
 #core-information {
-    height: 120vh;
+    height: 800px;
     background-color: rgb(152, 131, 229);
     padding-top: 50px;
     color: whitesmoke;
-    position: absolute;
-    top: 91vh;
-    width: 100%;
+    width: auto;
+    padding-top: 100px;
 }
 
 #left-about {
@@ -247,7 +237,6 @@ footer {
     background-color: rgb(46, 56, 46);
     height: 200px;
     position: relative;
-    top: 200vh;
 
 }
 
@@ -358,11 +347,8 @@ footer {
 
 #video-section {
     background-color: rgb(252, 211, 222);
-    height: 500px;
-    width: 100%;
     padding-top: 150px;
-    position: relative;
-    top: 200vh;
+
 }
 
 #video iframe {
@@ -419,9 +405,6 @@ footer {
 @media screen and (max-width: 1200px) {
     /* cover text adjustment */
 
-    header {
-        width: 100%;
-    }
 
     #logo {
         width: 60%;
@@ -482,7 +465,6 @@ footer {
 @media screen and (max-width: 952px) {
 
     label.logo {
-        font-size: 30px;
         padding-left: 50px;
     }
 
@@ -618,19 +600,30 @@ footer {
 
 }
 
+@media screen and (max-width: 526px) {
 
-
-@media screen and (max-width: 320px) {
-    #hero-image {
-        width: 100%;
+    label.logo {
+        font-size: 140%;
     }
 
+    #cover-text {
+        font-size: 70%;
+    }
+}
+
+
+
+@media screen and (max-width: 375px) {
+
+    #hero-image {
+        min-width: 40rem;
+    }
 
 
     #core-information,
     #video-section,
     footer {
-        width: 85vh;
+        width: 40rem;
     }
 
 
@@ -646,10 +639,20 @@ footer {
 
     #cover-text {
         left: 45vh;
-        top: .5vh;
+        top: 15vh;
+        height: 20vh;
+    }
+
+    #cover-text h2 {
+        font-size: 3.5vw;
     }
 
     .social-networks {
         padding-top: 6vh;
+        height: 20vh;
+    }
+
+    .nav-container {
+        min-width: 40rem;
     }
 }
