@@ -30,43 +30,33 @@
                     <a href="menu.html">Menu</a>
                 </li>
                 <li>
-                    <a href="feedback.html" class="active">Feedback</a>
+                    <a href="feedback.html" class="active">contact us</a>
                 </li>
             </ul>
         </nav>
 
     </header>
-    <!-- Ideas taken from form section in Code Institute HTML Essentials Section -->
 
-    <section id="feedback-outer">
-        <h1 id="feedback-text">Your Feedback really matters to us
-            <br>Help us to improve!
-        </h1>
-        <div class="feedback-center">
-            <form id="feedback-form" action="http://www.sendfeedbackhere.com" method="POST">
-                <label for="feedback"></label>
-                <br>
-                <textarea rows="5" cols="50"
-                    style="font-size: 130%; font-family: permanent marker, sans-serif; text-transform: uppercase;
-    letter-spacing: 4px; text-align: center; background-color: rgb(152, 131, 229); width: 33%; margin-top: 100px; color:whitesmoke;white-space:pre-wrap">Your Feedback</textarea>
-                <br>
-                <input class="submit" type="submit" style="font-size: 130%; font-family: permanent marker, sans-serif; text-transform: uppercase;
-    letter-spacing: 4px; background-color: rgb(46, 56, 46); color:whitesmoke;white-space:pre-wrap">
+    <!-- Template from Rosin O'Connell Code Institute -->
 
-                <!-- how to use @media in html found in stackoverflow 
-        https://stackoverflow.com/questions/41996561/can-i-use-media-in-my-html-page -->
+    <section class="booking-form-section">
+        <form class="booking-form" action="storehere.html" method="post">
+            <h2>Contact Us <i class="fas fa-envelope"></i></h2>
+            <p>
+                To book us for your event fill out the form below.
+            </p>
+            <label for="fname">First Name</label>
 
-                <style>
-                    @media only screen and (max-width: 1200px) {
-                        #feedback-form {
-                            font-size: 3vw;
-                        }
-                    }
-                </style>
+            <input type="text" id="fname" name="first_name" class="text-input" required>
 
-            </form>
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email_address" class="text-input" required>
 
-        </div>
+            <label for="message">Message</label>
+            <textarea name="message" id="message" cols="50" rows="4" class="text-input" required></textarea>
+            <input type="submit" value="submit" class="button">
+
+        </form>
 
     </section>
 
