@@ -94,7 +94,7 @@ nav a:hover {
 
 #hero-image {
     height: 600px;
-    background: url(../images/pexels-narda-yescas-1566837.jpg) center center no-repeat;
+    background: url(/assets/images/hero-image2.jpg) center center no-repeat;
     background-size: cover;
 
 
@@ -138,6 +138,29 @@ nav a:hover {
     font-size: xxx-large;
 
 }
+
+/* About section */
+/* How to use flexbox columns taken from youtubes SyntaxByte: CSS Flexbox Columns */
+
+.about-wrapper {
+    display: flex;
+}
+
+.about-wrapper img {
+    max-width: 100%;
+    height: auto;
+}
+
+.left {
+    padding: 20px 50px 50px 20px;
+}
+
+.right {
+    width: 70%;
+    text-align: center;
+    padding: 70px 20px 20px 70px;
+}
+
 
 /*core information section */
 
