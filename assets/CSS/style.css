@@ -299,18 +299,33 @@ nav a:hover {
 footer {
     background-color: black;
     color: white;
+    /* creates column */
+    display: flex;
+    /* keeps copyright at bottom of column */
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
 }
 
 .times {
     background-color: red;
+    /* divide columns equally */
+    flex-grow: 1;
+    flex-basis: 100%;
 }
 
 .social-media {
     background-color: orange;
+    flex-grow: 1;
+    flex-basis: 100%;
 }
 
 .contact {
     background-color: darkred;
+    flex-grow: 1;
+    flex-basis: 100%;
 }
 
 
