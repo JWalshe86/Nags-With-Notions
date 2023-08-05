@@ -292,33 +292,35 @@ nav a:hover {
     color: #ccc;
 }
 
-
+/* footer section */
+/* Template from Cem Eygi Media YouTube Responsive Footer with CSS Flexbox */
 
 
 footer {
-    background-color: rgb(46, 56, 46);
-    height: 200px;
-    position: relative;
+    background-color: black;
+    color: white;
+}
 
+.times {
+    background-color: red;
+}
+
+.social-media {
+    background-color: orange;
+}
+
+.contact {
+    background-color: darkred;
 }
 
 
 
-#menu-footer {
-    border-top: solid;
-    border-width: 30px;
-    border-color: rgb(114, 161, 229);
-    top: 600px;
-    height: auto;
 
-}
+
 
 .social-networks {
     text-align: center;
     position: static;
-
-
-
 
 }
 
