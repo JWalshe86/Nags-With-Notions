@@ -420,44 +420,74 @@ footer {
     padding-bottom: 100px;
 }
 
-/*Feedback form */
+/* Template from Rosin O'Connell Code Institute & image from Pexels.com */
+/*Booking form */
 
-#feedback-outer h1 {
-    /* height: 300px; */
-    width: 100%;
-    line-height: 1.7em;
-    padding-top: 50px;
+.booking-form-section {
+    /* element is pushed below left floated elements */
+    clear: left;
+    background: url(/assets/images/pexels-andrea-piacquadio-853151-booking.jpg);
+    background-color: rgba(88, 92, 96, 0.6);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    margin-bottom: 1px;
+}
+
+.booking-form {
+    margin: 150px 10% 0 0;
+    color: #f7f9fb;
+    background-color: rgba(60, 60, 60, 0.8);
+    max-width: 500px;
+    position: absolute;
+    padding: 30px;
+    left: 10%;
+}
+
+.booking-form h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.text-input {
+    border-color: #e88700;
+}
+
+#message {
+    height: 75px;
+}
+
+.submit-enquiry-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
     text-align: center;
-    background-color: rgb(114, 161, 229);
-    padding-bottom: 50px;
-    margin-top: 0;
-
+    font-size: 100%;
+    background-color: #e88700;
+    color: #fafafa;
+    display: block;
+    cursor: pointer;
 }
 
-#feedback-outer p {
-    height: 300px;
-    width: 100%;
-    position: relative;
-    margin-bottom: 50px;
-    line-height: 1.7em;
-    padding-top: 100px;
-    text-align: center;
+.submit-enquiry-button:hover {
+    background-color: #fafafa;
+    color: #e88700;
+    cursor: pointer;
+}
+
+.form-section input[type="submit"] {
+    cursor: pointer;
+}
+
+#thank-you {
+    max-width: 800px;
 }
 
 
-#feedback-form {
-    background: url(../images/pub2.jpg) center center no-repeat;
-    height: 600px;
-    width: 100%;
-    padding-bottom: 900px;
 
-}
-
-#feedback-footer {
-    top: 0;
-    height: auto;
-
-}
 
 
 /* Media queries */
