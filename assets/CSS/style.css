@@ -135,6 +135,7 @@ nav a:hover {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    font-size: xxx-large;
 
 }
 
@@ -223,6 +224,20 @@ nav a:hover {
     border-color: #ccc;
     border-width: 1px;
     background-color: #f2c5c8;
+}
+
+
+/* reviews section */
+
+.reviews-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    max-width: 1500px;
 }
 
 footer {
