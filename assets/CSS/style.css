@@ -18,6 +18,7 @@ body {
     font-weight: 300;
 }
 
+
 /*headings & logo & navigation */
 
 .nav-container {
@@ -26,7 +27,8 @@ body {
 }
 
 nav {
-    background: rgb(80, 201, 206);
+    background: rgba(88, 92, 96);
+    ;
     height: 80px;
     width: 100%;
 }
@@ -140,25 +142,26 @@ nav a:hover {
 }
 
 /* About section */
-/* How to use flexbox columns taken from youtubes SyntaxByte: CSS Flexbox Columns */
+/* How to use flexbox columns taken from youtubes SyntaxByte: CSS Flexbox Columns
+& Codehal How to align Image text side by side in html & css */
 
-.about-wrapper {
-    display: flex;
-}
-
-.about-wrapper img {
-    max-width: 100%;
-    height: auto;
-}
-
-.left {
-    padding: 20px 50px 50px 20px;
-}
-
-.right {
+.wrapper {
+    margin: 150px auto;
     width: 70%;
-    text-align: center;
-    padding: 70px 20px 20px 70px;
+}
+
+.wrapper img {
+
+    max-width: 320px;
+}
+
+.outer-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #7d2ae8;
+
 }
 
 
@@ -432,7 +435,7 @@ footer .container {
     margin-bottom: 30px;
 }
 
-img:hover {
+.single-menu img:hover {
     border-radius: 50%;
     cursor: pointer;
 }
@@ -453,7 +456,7 @@ img:hover {
     border-radius: 7px;
 }
 
-img {
+.single-menu img {
     border: 1px solid #ddd;
     max-width: 100px;
     padding: 3px;
