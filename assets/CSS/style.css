@@ -212,10 +212,9 @@ nav a:hover {
     text-align: center;
 }
 
-
-
-
-
+.box img {
+    border-radius: 50%;
+}
 
 /* 
 #core-information {
@@ -437,7 +436,6 @@ footer .container {
     background-size: 100%;
     background-position: center;
     position: relative;
-    z-index: 2;
     padding: 100px 0;
     color: #fff;
 }
@@ -713,9 +711,6 @@ footer .container {
         font-size: 200%;
     }
 
-    #cover-text {
-        right: 300px;
-    }
 
 
     #left-about,
@@ -765,6 +760,14 @@ footer .container {
 
 @media screen and (max-width: 974px) {
 
+    .menus {
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
     .outer-cover .cover {
         display: block;
     }
@@ -781,9 +784,7 @@ footer .container {
 
     /* cover text adjustment */
 
-    #cover-text {
-        right: 200px;
-    }
+
 
     #logo {
         width: 60%;
@@ -795,6 +796,12 @@ footer .container {
 /* Create Responsive Navigation bar template taken from CodingNepal on youtuble */
 /* responsive navigation bar from 770px down */
 @media screen and (max-width: 770px) {
+
+    .menu-items {
+        display: flex;
+        flex-direction: column;
+        width: max-content;
+    }
 
     header {
         z-index: 1;
@@ -858,12 +865,14 @@ footer .container {
 
 
 
-@media screen and (max-width: 710px) {
+@media screen and (max-width: 725px) {
 
     #logo {
         width: 60%;
         font-size: 150%;
     }
+
+
 }
 
 
@@ -877,8 +886,7 @@ footer .container {
 
 
     #cover-text {
-        font-size: 80%;
-        left: 0;
+        width: 50%;
     }
 
     #core-information {
@@ -913,9 +921,8 @@ footer .container {
         display: block;
     }
 
-    #cover-text {
-        font-size: 70%;
-    }
+
+
 }
 
 
