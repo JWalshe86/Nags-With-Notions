@@ -181,16 +181,21 @@ nav a:hover {
 
 /*staff profiles styling section */
 
-
 #profiles {
-    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: blue;
+
 }
 
-#profiles img {
-    margin-top: 20px;
+.tara-profile-wrapper {
+    margin: 150px auto;
+    width: 70%;
 }
 
-#profiles h2 {
+/* #profiles h2 {
     margin-bottom: 20px;
     text-align: center;
     height: 2.8rem;
@@ -205,11 +210,26 @@ nav a:hover {
     margin: 5px 0;
 }
 
+
 .tamara,
 .caroline {
     line-height: 20px;
     margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
+
+.tamara>div,
+.caroline>div {
+    width: 75%;
+}
+
+.caronline>div {
+    text-align: end;
+    align-self: flex-end;
+} */
+
 
 /* 
 #core-information {
