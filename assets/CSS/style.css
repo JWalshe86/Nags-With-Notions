@@ -181,54 +181,40 @@ nav a:hover {
 
 /*staff profiles styling section */
 
-#profiles {
-    display: flex;
-    justify-content: center;
+.outer-cover {
+    background: #3333;
     align-items: center;
-    min-height: 100vh;
-    background: blue;
-
-}
-
-.tara-profile-wrapper {
-    margin: 150px auto;
-    width: 70%;
-}
-
-/* #profiles h2 {
-    margin-bottom: 20px;
-    text-align: center;
-    height: 2.8rem;
-}
-
-.profile-info p {
-    padding: 0 20px;
-}
-
-.profile-info hr {
-    border-top: 1px solid #3a3a3a;
-    margin: 5px 0;
-}
-
-
-.tamara,
-.caroline {
-    line-height: 20px;
-    margin-bottom: 20px;
+    justify-content: center;
     display: flex;
-    flex-direction: column;
-    width: 100%;
 }
 
-.tamara>div,
-.caroline>div {
-    width: 75%;
+.cover {
+    width: min-content;
+    height: min-content;
+    /* background: #000; */
+    margin-top: 50px;
+    display: flex;
 }
 
-.caronline>div {
-    text-align: end;
-    align-self: flex-end;
-} */
+.cover img {
+    width: 300px;
+    height: 300px;
+    display: flex;
+}
+
+.box {
+    width: 300px;
+    height: 500px;
+    margin: 10px;
+    box-shadow: -1px 0 10px #0000;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+
 
 
 /* 
@@ -777,7 +763,11 @@ footer .container {
 
 
 
-@media screen and (max-width: 952px) {
+@media screen and (max-width: 974px) {
+
+    .outer-cover .cover {
+        display: block;
+    }
 
     label.logo {
         padding-left: 50px;
