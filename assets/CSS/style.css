@@ -179,9 +179,39 @@ nav a:hover {
     font-size: 16px;
 }
 
-*/
-/*core information section */
+/*staff profiles styling section */
 
+
+#profiles {
+    margin: 20px;
+}
+
+#profiles img {
+    margin-top: 20px;
+}
+
+#profiles h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    height: 2.8rem;
+}
+
+.profile-info p {
+    padding: 0 20px;
+}
+
+.profile-info hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
+.tamara,
+.caroline {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+/* 
 #core-information {
     height: 800px;
     background-color: rgb(152, 131, 229);
@@ -264,7 +294,7 @@ nav a:hover {
     border-color: #ccc;
     border-width: 1px;
     background-color: #f2c5c8;
-}
+} */
 
 
 /* reviews section */
