@@ -18,6 +18,9 @@ the site look appealing and easy to use. Information such as opening times, menu
 and how to pre-book pizzas is included. Links to Nags with Notions social media accounts 
 are provided. The code behind this section was heavily reliant on the Love Running Club navigation section in the Code Institute tutorial.
 
+![Colour-Palette](assets/images/responsive.jpg)
+
+
 # User-Experience
 
 ## As a new visitor
@@ -48,6 +51,8 @@ An initial blueprint of the project was created using balsamiq wireframes. This 
 was presented to ones mentor Anthony during the first of three meet ups. 
 
 [wireframe](wireframe/Nags-With-Notions-Wireframe.png)
+
+
 
 ## Surface
 

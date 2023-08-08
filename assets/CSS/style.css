@@ -173,7 +173,6 @@ nav a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
     background: rgba(88, 92, 96);
 }
 
@@ -838,6 +837,10 @@ footer .container {
 
     }
 
+    .wrapper {
+        margin: 75px auto;
+    }
+
     header {
         z-index: 1;
         position: relative;
@@ -969,7 +972,7 @@ footer .container {
     }
 
     #cover-text {
-        font-size: 22px;
+        font-size: 19px;
     }
 
 
