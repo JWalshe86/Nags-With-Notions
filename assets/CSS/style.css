@@ -506,7 +506,7 @@ footer .container {
 
 .single-menu img {
     border: 1px solid #ddd;
-    max-width: 100px;
+    max-width: 300px;
     padding: 3px;
     transition: .3s
 }
@@ -666,6 +666,7 @@ footer .container {
 
 #message {
     height: 75px;
+    width: 100%;
 }
 
 .submit-enquiry-button {
@@ -946,7 +947,7 @@ footer .container {
 @media screen and (max-width: 384px) {
 
     label.logo {
-        font-size: 110%;
+        font-size: 150%;
         display: block;
     }
 
