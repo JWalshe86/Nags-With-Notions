@@ -432,7 +432,7 @@ footer .container {
 /* styling for menu section */
 
 .menus-area {
-    background-image: url(/assets/images/background-menu.jpg);
+    background-image: url(../images/background-menu.jpg);
     background-size: 100%;
     background-position: center;
     position: relative;
@@ -634,7 +634,7 @@ footer .container {
 .booking-form-section {
     /* element is pushed below left floated elements */
     clear: left;
-    background: url(/assets/images/pexels-andrea-piacquadio-853151-booking.jpg);
+    background: url(../images/pexels-andrea-piacquadio-853151-booking.jpg);
     background-color: rgba(88, 92, 96, 0.6);
     background-blend-mode: multiply;
     background-size: cover;
