@@ -518,7 +518,7 @@ footer .container {
     position: absolute;
     right: 0;
     bottom: 0;
-    background-color: #ff7720;
+    background-color: #0082e6;
     padding: 8px 20px;
     font-size: 20px;
     font-weight: 700;
@@ -547,7 +547,7 @@ footer .container {
 
 .single-menu a {
     display: inline-block;
-    color: #ff7720;
+    color: #0082e6;
     text-transform: uppercase;
     margin-top: 25px;
 }
@@ -558,7 +558,7 @@ footer .container {
 }
 
 .title {
-    background-color: #ff7720;
+    background-color: #0082e6;
     text-align: center;
     padding: 10px 0;
     font-size: 24px;
