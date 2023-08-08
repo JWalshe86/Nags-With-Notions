@@ -402,6 +402,10 @@ footer {
     flex-direction: column;
 }
 
+.fa-brands {
+    color: white;
+}
+
 footer .container {
     display: flex;
     gap: 20px;
@@ -649,6 +653,8 @@ footer .container {
     border: none;
     padding-bottom: 100px;
 }
+
+
 
 /* Template from Rosin O'Connell Code Institute & image from Pexels.com */
 /*Booking form */
@@ -973,6 +979,9 @@ footer .container {
         display: block;
     }
 
+    #video iframe {
+        width: 75%;
+    }
 
     .left-about-heading p,
     .right-about-heading p {
@@ -982,10 +991,6 @@ footer .container {
 
     .left-about-heading {
         text-align: center;
-    }
-
-    #video iframe {
-        width: 400px;
     }
 
     #cover-text {
