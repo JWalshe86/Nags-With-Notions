@@ -795,6 +795,7 @@ footer .container {
         align-content: center;
         flex-direction: column;
         flex-wrap: wrap;
+        align-items: center;
     }
 
     .outer-cover .cover {
@@ -830,7 +831,7 @@ footer .container {
     .menu-items {
         display: flex;
         flex-direction: column;
-        width: max-content;
+
     }
 
     header {
