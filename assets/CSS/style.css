@@ -689,6 +689,17 @@ footer .container {
         background-size: cover;
     }
 
+    .menus-area {
+        background-image: url(../images/menu-background-768px.jpg);
+    }
+
+    .booking-form-section {
+        /* element is pushed below left floated elements */
+        background: url(../images/booking-img-768px.jpg) center center no-repeat;
+        background-size: cover;
+
+    }
+
     .menu-items {
         display: flex;
         flex-direction: column;
@@ -843,6 +854,7 @@ footer .container {
     #hero-image {
         background: url(../images/hero-image-375px.jpg) center center no-repeat;
     }
+
 
 
     label.logo {
