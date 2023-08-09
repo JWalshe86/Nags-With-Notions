@@ -79,12 +79,12 @@ for the current page.
 
 ## Hero Image
 
-Large image of the pizza horse box to give viewers familiarity with the product.
+Large image of pizzas to give viewers familiarity with the product.
 This image will catch their attention.
 
-![Hero-Image](assets/images/hero-image2.jpg)
+![Hero-Image](assets/images/pexels-narda-yescas-1566837.jpg)
 
-## Relevant information section
+## About section
 
 This will allow viewers to obtain key information such as the location, contact and opening
 times. The company logo will be presented here also. The code behind this section was heavily reliant on the Love Running Club ethos section in the Code Institute tutorial. 
@@ -145,7 +145,17 @@ After addressing all 11 issues a re-run of the site through the WC3 validator fo
 ![css-validation-test](assets/images/readme-images/css-validator-testing.png)
 
 
+#Performance Testing
+
+Google Chromes Lighthouse tool was used to 
+measure the sites performance. 
+![lighthouse-review](assets/images/readme-images/lighthouse-performance.png)
+
+
 -------------------
+
+
+
 
 ## Bugs
 
@@ -192,9 +202,11 @@ The template for the menu items was taken from Abdullah Nahian: Create a Restaur
 
 The template for the footer was taken from Cem Eygi Media YouTube Responsive Footer with CSS Flexbox <https://youtu.be/VUydBuotmR4>
 
+Feedback from my mentor Anthony
 
+Feedback on the Slack peer review page from fellow student Joseph O'Connell
 
-
+Support from Code Institute Tutors
 
 ## Media
 

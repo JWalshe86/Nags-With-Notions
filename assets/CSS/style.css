@@ -684,6 +684,11 @@ footer .container {
 /* responsive navigation bar from 770px down */
 @media screen and (max-width: 770px) {
 
+    #hero-image {
+        background: url(../images/768px-hero-img.jpg) center center no-repeat;
+        background-size: cover;
+    }
+
     .menu-items {
         display: flex;
         flex-direction: column;
@@ -834,6 +839,11 @@ footer .container {
 
 
 @media screen and (max-width: 384px) {
+
+    #hero-image {
+        background: url(../images/hero-image-375px.jpg) center center no-repeat;
+    }
+
 
     label.logo {
         font-size: 100%;
