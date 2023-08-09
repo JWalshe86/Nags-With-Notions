@@ -159,6 +159,10 @@ Images would not upload on the readme, as their were gaps in the image names. Tu
 
 # Deployment
 
+The site was deployed on github pages. 
+
+Live link: [Nags-with-Notions](<https://jwalshe86.github.io/Nags-With-Notions/index.html>)
+
 ------------------------------------
 
 # Credits
