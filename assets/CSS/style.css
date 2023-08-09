@@ -95,7 +95,7 @@ nav a:hover {
 
 #hero-image {
     height: 600px;
-    background: url(../images/pexels-narda-yescas-1566837.jpg) center center no-repeat;
+    background: url(../images/hero-image-2000px.jpg) center center no-repeat;
     background-size: cover;
 
 
@@ -375,7 +375,7 @@ footer .container {
 /* styling for menu section */
 
 .menus-area {
-    background-image: url(../images/background-menu.jpg);
+    background-image: url(../images/menu-background-2000px.jpg);
     background-size: 100%;
     background-position: center;
     position: relative;
@@ -518,7 +518,7 @@ footer .container {
 .booking-form-section {
     /* element is pushed below left floated elements */
     clear: left;
-    background: url(../images/pexels-andrea-piacquadio-853151-booking.jpg);
+    background: url(../images/booking-img-2000px.jpg);
     background-color: rgba(88, 92, 96, 0.6);
     background-blend-mode: multiply;
     background-size: cover;
