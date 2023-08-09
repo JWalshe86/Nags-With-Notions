@@ -872,3 +872,10 @@ footer .container {
 
 
 }
+
+@media screen and (max-width: 310px) {
+
+    label.logo {
+        font-size: 70%;
+        display: block;
+    }
