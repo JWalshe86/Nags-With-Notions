@@ -171,11 +171,38 @@ Live link: [Nags-with-Notions](<https://jwalshe86.github.io/Nags-With-Notions/in
 
 The font styles in the heading were taken from [google fonts](<https://fonts.google.com/specimen/Permanent+Marker?query=perm>)
 
+The layout of the Readme page was taken from davidcalikes <https://github.com/davidcalikes/portfolio-project-one/blob/main/README>
+
+Template for reviews section from fellow student Roisin O'Connell <https://github.com/roc-11/max-rehab>
+
+
+
+The template for the responsive navigation 
+was taken from Coding Nepal Youtube Responsive Navigation Bar. <https://youtu.be/oLgtucwjVII>
+
+The template for the hero image was taken from Code Institutes Love Running module.
+
+The Hero Image Cover text template was taken from Daniel Zuzevich <https://youtu.be/QA8yjuS9CQg>
+
+For the 'About' section: How to use flexbox columns was taken from youtubes SyntaxByte: CSS Flexbox Columns <https://youtu.be/C4XCGwUkOOo> and Codehal How to align Image text side by side in html & css <https://youtu.be/lgX38fNbxmw>
+
+The template for the menu items was taken from Abdullah Nahian: Create a Restaurant Menu using CSS, HTML & Flexbox
+ https://youtu.be/OF9ByGKxGT4
+
+
+The template for the footer was taken from Cem Eygi Media YouTube Responsive Footer with CSS Flexbox <https://youtu.be/VUydBuotmR4>
+
+
+
+
+
 ## Media
 
 Video on homepage was taken from Youtube.
+https://www.youtube.com/embed/kPk9r9zg5nE
 
-The hero image was taken from pexels.com
+
+All images were taken from pexels.com except for the about image which was taken from the Nags With Notions Instagram
 
 
 
