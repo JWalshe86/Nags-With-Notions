@@ -118,17 +118,21 @@ This page allows viewers to provide their feedback.
 
 # Testing
 
+--------------
+
+## Validator Testing
+
+11 errors were found upon running the deployed website through the WC3 validator.
+
 ![validator-testing-1](assets/images/readme-images/validator-testing-1.png)
 
 ![validator-testing-2](assets/images/readme-images/validator-testing-2.png)
 
 ![validator-testing-3](assets/images/readme-images/validator-testing-3.png)
 
---------------
+After addressing all 11 issues a re-run of the site through the WC3 validator found no errors.
 
-## Validator Testing
-
-
+![post-validator-test](assets/images/readme-images/post-validation-test.png)
 
 -------------------
 
