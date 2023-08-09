@@ -510,11 +510,16 @@ footer .container {
     position: relative;
     transition: .3s;
     margin-bottom: 30px;
+    height: 650px;
 }
 
 .single-menu img:hover {
     border-radius: 50%;
     cursor: pointer;
+}
+
+.single-menu img .gormet-chips {
+    height: 430px;
 }
 
 .single-menu span {
