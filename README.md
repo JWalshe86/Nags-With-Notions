@@ -122,7 +122,7 @@ This page allows viewers to provide their feedback.
 
 ## Validator Testing
 
-11 errors were found upon running the deployed website through the WC3 validator.
+11 errors were found upon running the deployed website through the W3C HTML validator.
 
 ![validator-testing-1](assets/images/readme-images/validator-testing-1.png)
 
@@ -133,6 +133,11 @@ This page allows viewers to provide their feedback.
 After addressing all 11 issues a re-run of the site through the WC3 validator found no errors.
 
 ![post-validator-test](assets/images/readme-images/post-validation-test.png)
+
+1 error found when the site was deployed through the css W3C validator
+
+![css-validation-test](assets/images/readme-images/css-validator-testing.png)
+
 
 -------------------
 
