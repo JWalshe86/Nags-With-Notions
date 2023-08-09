@@ -692,7 +692,7 @@ footer .container {
 }
 
 .text-input {
-    border-color: #e88700;
+    border-color: #0082e6;
 }
 
 #message {
@@ -983,7 +983,7 @@ footer .container {
 @media screen and (max-width: 384px) {
 
     label.logo {
-        font-size: 150%;
+        font-size: 100%;
         display: block;
     }
 
