@@ -127,9 +127,11 @@ This page allows viewers to see the produce on offer and prices.
 ![menu-image](assets/images/readme-images/menu.png)
 
 
-## Feedback
+## Contact Us
 
-This page allows viewers to provide their feedback. 
+This page allows viewers to contact the owners for information or to avail of their services.
+
+
 
 ![feedback-image](assets/images/pub2.jpg)
 
