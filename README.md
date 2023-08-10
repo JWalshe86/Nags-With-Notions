@@ -204,6 +204,9 @@ The template for the menu items was taken from Abdullah Nahian: Create a Restaur
 
 The template for the footer was taken from Cem Eygi Media YouTube Responsive Footer with CSS Flexbox <https://youtu.be/VUydBuotmR4>
 
+text input styling template for contact form taken from W3Schools  
+https: //www.w3schools.com/howto/howto_css_contact_form.asp
+
 Feedback from my mentor Anthony
 
 Feedback on the Slack peer review page from fellow student Joseph O'Connell
