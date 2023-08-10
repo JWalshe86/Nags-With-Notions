@@ -852,11 +852,11 @@ footer .container {
 @media screen and (max-width: 384px) {
 
     .menus-area {
-        background-image: url(../images/menu-375px.jpg);
+        background-image: url(../images/compressed/menu-375px-compressed.jpg);
     }
 
     #hero-image {
-        background: url(../images/hero-image-375px.jpg) center center no-repeat;
+        background: url(../images/compressed/hero-image-375px-compressed.jpg) center center no-repeat;
     }
 
 

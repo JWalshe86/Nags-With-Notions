@@ -181,6 +181,8 @@ Live link: [Nags-with-Notions](<https://jwalshe86.github.io/Nags-With-Notions/in
 
 The font styles in the heading were taken from [google fonts](<https://fonts.google.com/specimen/Permanent+Marker?query=perm>)
 
+Images were compressed on TinyPNG <https://tinypng.com/>
+
 The layout of the Readme page was taken from davidcalikes <https://github.com/davidcalikes/portfolio-project-one/blob/main/README>
 
 Template for reviews section from fellow student Roisin O'Connell <https://github.com/roc-11/max-rehab>
