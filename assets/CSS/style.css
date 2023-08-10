@@ -897,6 +897,7 @@ footer .container {
     a.logo {
         font-size: 140%;
         display: block;
+        padding-left: 3%;
     }
 
     #video iframe {
