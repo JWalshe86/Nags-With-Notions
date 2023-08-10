@@ -339,7 +339,8 @@ footer .container {
 }
 
 .social-media ul a {
-    color: black;
+    color: white;
+    margin-left: 5px;
 }
 
 .contact {
