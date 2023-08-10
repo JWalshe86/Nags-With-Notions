@@ -850,9 +850,6 @@ footer .container {
 
 /* Styling for feedback page */
 
-/* text input styling template taken from W3Schools  */
-/* https: //www.w3schools.com/howto/howto_css_contact_form.asp */
-
 .text-input {
     width: 100%;
     padding: 12px;
@@ -901,7 +898,6 @@ footer .container {
         font-size: 20px;
         width: 65%;
         left: 18%;
-
     }
 
     .wrapper img {
@@ -911,10 +907,6 @@ footer .container {
 
     .box {
         margin: 30px;
-    }
-
-    .box picture img {
-        width: 100%;
     }
 
 
