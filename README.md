@@ -90,22 +90,29 @@ for the current page.
 ## Hero Image
 
 Large image of pizzas to give viewers familiarity with the product.
-This image will catch their attention.
+This image will catch their attention. he book now button is conviently placed here to increase the purchase times. 
 
-![Hero-Image](assets/images/pexels-narda-yescas-1566837.jpg)
+![Hero-Image](assets/images/readme-images/hero-image-for-readme.png)
 
 ## About section
 
-This will allow viewers to obtain key information such as the location, contact and opening
-times. The company logo will be presented here also. The code behind this section was heavily reliant on the Love Running Club ethos section in the Code Institute tutorial. 
+The about section gives the site a homily feel. By showing the converted horsebox and images of the two girls viewers get a feel for the pizzeria and the owners personalities. 
 
-![Info-image](assets/images/readme-images/info-section.png)
+![About-image](assets/images/readme-images/about-readme.png)
+
+![profiles-image](assets/images/readme-images/profiles-readme.png)
+
+## Reviews
+
+The reviews section provides validation for users that the product on offer is of high quality and has received great feedback from the public. This assures viewers about their purchase. 
+
+![Reviews-image](assets/images/readme-images/reviews-readme.png)
 
 ## Video
 
 Video taken from youtube. This video was implemented to give viewers a feel for the natural style of making pizzas, which hopefully will remind them why home baked meals are better than something you would buy in a store. 
 
-![Making-pizza-video](https://youtu.be/kPk9r9zg5nE)
+![Making-pizza-video](assets/images/readme-images/video-readme.png)
 
 ## Footer
 
@@ -162,8 +169,12 @@ Google Chromes Lighthouse tool was used to measure the sites performance.
 
 Lighthouse highlighted how the sites responsiveness was being compromised by not having images compressed or at the correct sizes for certain devices. 
 
-For the menu page Lighthouse highlighted how some of the images were distorted and that the social media icons had poor accessability. 
 ![lighthouse-menu-post-edits](assets/images/readme-images/menu-lighthouse-post-edits.png)
+
+For the menu page Lighthouse highlighted how some of the images were distorted and that the social media icons had poor accessability. 
+![lighthouse-home-post-edits](assets/images/home-post-edit-lighthouse.png)
+
+![lighthouse-contact-post-edits](assets/images/readme-images/contact-post-lighthouse-edits.png)
 
 
 

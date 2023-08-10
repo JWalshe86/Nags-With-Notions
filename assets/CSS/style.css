@@ -346,6 +346,7 @@ footer .container {
 .contact {
     flex-grow: 1;
     flex-basis: 100%;
+    font-size: x-large;
 }
 
 .container h3 {
@@ -359,10 +360,12 @@ footer .container {
 
 .contact ul {
     line-height: 1.6;
+
 }
 
 .times {
     line-height: 1.6;
+    font-size: x-large;
 }
 
 .copyright {
@@ -864,6 +867,17 @@ footer .container {
 
 
 @media screen and (max-width: 384px) {
+
+    .contact ul {
+        line-height: 1.6;
+        border-bottom: groove;
+    }
+
+    .times {
+        line-height: 1.6;
+        font-size: x-large;
+        border-bottom: groove;
+    }
 
     .menus-area {
         background-image: url(../images/compressed/menu-375px-compressed.jpg);
