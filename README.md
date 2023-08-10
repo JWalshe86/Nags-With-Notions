@@ -157,9 +157,14 @@ After addressing all 11 issues a re-run of the site through the WC3 validator fo
 
 #Performance Testing
 
-Google Chromes Lighthouse tool was used to 
-measure the sites performance. 
+Google Chromes Lighthouse tool was used to measure the sites performance. 
 ![lighthouse-review](assets/images/readme-images/lighthouse-performance.png)
+
+Lighthouse highlighted how the sites responsiveness was being compromised by not having images compressed or at the correct sizes for certain devices. 
+
+For the menu page Lighthouse highlighted how some of the images were distorted and that the social media icons had poor accessability. 
+![lighthouse-menu-post-edits](assets/images/readme-images/menu-lighthouse-post-edits.png)
+
 
 
 -------------------
