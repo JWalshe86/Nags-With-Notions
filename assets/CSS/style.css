@@ -216,9 +216,13 @@ nav a:hover {
     display: flex;
 }
 
+img {
+    object-fit: cover;
+}
+
 .cover img {
     width: 300px;
-    height: 300px;
+    height: 60%;
     display: flex;
     margin-bottom: 14px;
 }
