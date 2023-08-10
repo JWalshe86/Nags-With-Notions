@@ -909,6 +909,10 @@ footer .container {
         margin: 30px;
     }
 
+    .outer-cover .cover {
+        line-height: 25px;
+    }
+
 
 
 }
