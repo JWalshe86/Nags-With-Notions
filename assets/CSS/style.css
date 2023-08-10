@@ -134,16 +134,7 @@ nav a:hover {
 
 }
 
-/* creates the level of zoom for the hero-image */
-@keyframes hero-zoom {
-    from {
-        transform: scale(1);
-    }
 
-    to {
-        transform: scale(1.1);
-    }
-}
 
 /* Overlay template from Daniel Zuzevich  */
 #cover-text {
@@ -344,6 +335,11 @@ footer .container {
 .social-media {
     flex-grow: 1;
     flex-basis: 100%;
+    font-size: xx-large;
+}
+
+.social-media ul a {
+    color: black;
 }
 
 .contact {
