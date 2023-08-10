@@ -95,7 +95,7 @@ nav a:hover {
 
 #hero-image {
     height: 600px;
-    background: url(../images/hero-image-2000px.jpg) center center no-repeat;
+    background: url(../images/hero-image-2000px-compressed.jpg) center center no-repeat;
     background-size: cover;
 
 
@@ -518,7 +518,7 @@ footer .container {
 .booking-form-section {
     /* element is pushed below left floated elements */
     clear: left;
-    background: url(../images/booking-img-2000px.jpg);
+    background: url(../images/compressed/booking-img-2000px-compressed.jpg);
     background-color: rgba(88, 92, 96, 0.6);
     background-blend-mode: multiply;
     background-size: cover;
@@ -685,17 +685,17 @@ footer .container {
 @media screen and (max-width: 770px) {
 
     #hero-image {
-        background: url(../images/768px-hero-img.jpg) center center no-repeat;
+        background: url(../images/compressed/768px-hero-img-compressed.jpg) center center no-repeat;
         background-size: cover;
     }
 
     .menus-area {
-        background-image: url(../images/menu-background-768px.jpg);
+        background-image: url(../images/compressed/menu-background-768px-compressed.jpg);
     }
 
     .booking-form-section {
         /* element is pushed below left floated elements */
-        background: url(../images/booking-img-768px.jpg) center center no-repeat;
+        background: url(../images/compressed/booking-img-768px-compressed.jpg) center center no-repeat;
         background-size: cover;
 
     }
