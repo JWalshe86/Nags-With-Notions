@@ -868,6 +868,11 @@ footer .container {
 
 @media screen and (max-width: 384px) {
 
+    .section-title {
+        position: relative;
+        right: 15%;
+    }
+
     .contact ul {
         line-height: 1.6;
         border-bottom: groove;
