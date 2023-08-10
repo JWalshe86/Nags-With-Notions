@@ -39,6 +39,16 @@ I would like to see any updates on the menu or venue location
 
 ## Strategy
 
+Recently, the pizzeria went from staying in the one location (behind a pub) to going whereever
+there's a demand. 
+
+The mobile pizzeria has since received many requests from different venues: festivals, weddings, concerts etc. 
+
+Due to the mobile nature of the business the pizzeria needs a strong online presence so people
+can be informed about their services. 
+
+By having a responsive, easy to use website Nags with Notions hopes users can see exactly what's on offer and are enticed to acquire Nags with Notions services. 
+
 ## Scope
 
 ## Structure
