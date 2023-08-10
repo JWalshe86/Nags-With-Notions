@@ -149,7 +149,6 @@ nav a:hover {
 #cover-text {
     position: absolute;
     top: 50px;
-    left: 50px;
     background: rgba(0, 0, 0, 0.65);
     color: white;
     display: flex;
@@ -884,7 +883,8 @@ footer .container {
     #cover-text {
 
         font-size: 20px;
-        width: 80%;
+        width: 65%;
+        left: 18%;
     }
 
     .wrapper img {
