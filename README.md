@@ -18,7 +18,7 @@ the site look appealing and easy to use. Information such as opening times, menu
 and how to pre-book pizzas is included. Links to Nags with Notions social media accounts 
 are provided. The code behind this section was heavily reliant on the Love Running Club navigation section in the Code Institute tutorial.
 
-![Colour-Palette](assets/images/responsive.jpg)
+![multiple-devices](assets/images/readme-images/multiple-device-image.jpg)
 
 
 # User-Experience
@@ -200,7 +200,6 @@ For the 'About' section: How to use flexbox columns was taken from youtubes Synt
 
 The template for the menu items was taken from Abdullah Nahian: Create a Restaurant Menu using CSS, HTML & Flexbox
  https://youtu.be/OF9ByGKxGT4
-
 
 The template for the footer was taken from Cem Eygi Media YouTube Responsive Footer with CSS Flexbox <https://youtu.be/VUydBuotmR4>
 
