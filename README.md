@@ -120,11 +120,11 @@ Video taken from youtube. This video was implemented to give viewers a feel for 
 
 The footer section has links to Nags with Notions facebook, instagram and twitter social media accounts. It also has opening times and contact information. 
 
-![Footer-fullscreen](assets/images/readme-images/footer-fullscreen.png)
+![Footer-fullscreen](assets/images/readme-images/footer-desktop2.png)
 
 The footer is responsive in that the information is displayed vertically on smaller devices. 
 
-![Footer-fullscreen](assets/images/readme-images/footer-mobile.png)
+![Footer-fullscreen](assets/images/readme-images/footer-mobile2.png)
 
 ## Menu
 
