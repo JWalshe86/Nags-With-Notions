@@ -80,13 +80,14 @@ just like Nags with Notions.
 On all 3 pages there is a link to the Home page, menu and feedback form. 
 This allows for easier navigation between the pages. Clicking on the Nags with Notions title also brings one to the home page. 
 
-![Navigation-bar-full](assets/images/readme-images/Screenshot-2023-07-28-120933.png)
+![Navigation-bar-full](assets/images/readme-images/nav-bar-fullscreen.png)
 
-As the screen decreases in width the navigation buttoms go underneath the main heading.
-A line appears under the navigation buttons, when hoovered over. The text remains underlined 
-for the current page. 
+As the screen decreases in width a clickable dropdown menu is presented. 
 
-![Navigation-bar-full](assets/images/readme-images/Screenshot-Mobile-navigation.png)
+![Navigation-bar-small](assets/images/readme-images/nav-bar-smallscreen.png)
+
+![Dropdown-menu](assets/images/readme-images/dropdown2.png)
+
 
 ## Hero Image
 
@@ -117,9 +118,13 @@ Video taken from youtube. This video was implemented to give viewers a feel for 
 
 ## Footer
 
-The footer section has links to Nags with Notions facebook, instagram and twitter social media accounts.
+The footer section has links to Nags with Notions facebook, instagram and twitter social media accounts. It also has opening times and contact information. 
 
-![Footer-image](assets/images/readme-images/footer-section.png)
+![Footer-fullscreen](assets/images/readme-images/footer-fullscreen.png)
+
+The footer is responsive in that the information is displayed vertically on smaller devices. 
+
+![Footer-fullscreen](assets/images/readme-images/footer-mobile.png)
 
 ## Menu
 
