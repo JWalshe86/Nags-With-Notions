@@ -130,9 +130,8 @@ The footer is responsive in that the information is displayed vertically on smal
 
 This page allows viewers to see the produce on offer and prices. 
 
-![menu-image](assets/images/readme-images/pizza-menu1.png)
+![menu-image](assets/images/readme-images/pizza-menu3.png)
 
-![menu-image](assets/images/readme-images/pizza-menu2.png)
 
 The pizza menu is responsive to mobile devices. Using flex the menu items are presented in a single column. 
 
