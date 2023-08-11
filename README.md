@@ -97,7 +97,7 @@ This image will catch their attention. he book now button is conviently placed h
 
 The about section gives the site a homily feel. By showing the converted horsebox and images of the two girls viewers get a feel for the pizzeria and the owners personalities. 
 
-![About-image](assets/images/readme-images/about-2.png)
+![About-image](assets/images/compressed/about4.png)
 
 ![profiles-image](assets/images/readme-images/profiles-readme.png)
 
