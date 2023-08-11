@@ -51,7 +51,36 @@ By having a responsive, easy to use website Nags with Notions hopes users can se
 
 ## Scope
 
+The scope covered the needs of the customers and ensuring these needs were met. 
+
+The site provides customers with an explanation of the service and what's on offer. The customer can easily nagivatie through the website to find information. The main constraints are only css and html could be used, the authors inexperience and the time-limit. Another constraint was the lack of high quality images of the Nags with Notions pizzeria. 
+
 ## Structure
+
+### Landing Page
+
+- Nav bar with links to home, menu and contact page.
+- Hero Image with title and subtitle overlay & booking button.
+- About section covering the venue and two owners. 
+- Some customer reviews
+- A video of pizza being cooked in a horsebox.
+- Footer with social media links, contact and opening times info. 
+
+### Menu
+
+- Nav bar with links to other pages.
+- Background image of pizzas.
+- Menu with image of each item.
+- Footer with social media links, contact and opening times info.
+
+### Contact page
+
+- Nav bar with links to other pages.
+- Background image of couple ordering something.
+- Form where customers can enter a message with their details. 
+- Footer with social media links, contact and opening times info.
+
+
 
 ## Skeleton
 
@@ -65,8 +94,7 @@ An initial blueprint of the project was created using balsamiq wireframes. This 
 
 ### Colour Palette
 
-The colour palette was generated using coolors.com. The colours used were warm and relaxing, 
-just like Nags with Notions. 
+The colour palette was generated using coolors.com. The colours used were warm and relaxing just like Nags with Notions. 
 
 ![Colour-Palette](assets/images/readme-images/color-palette.png)
 
@@ -97,7 +125,7 @@ This image will catch their attention. he book now button is conviently placed h
 
 The about section gives the site a homily feel. By showing the converted horsebox and images of the two girls viewers get a feel for the pizzeria and the owners personalities. 
 
-![About-image](assets/images/compressed/about4.png)
+![About-image](assets/images/readme-images/about5.png)
 
 ![profiles-image](assets/images/readme-images/profiles-readme.png)
 
