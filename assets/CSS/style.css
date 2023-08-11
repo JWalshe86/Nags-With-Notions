@@ -27,7 +27,7 @@ body {
 }
 
 nav {
-    background: rgba(88, 92, 96);
+    background: #284b63;
     height: 80px;
     width: 100%;
 }
@@ -483,7 +483,7 @@ footer .container {
 }
 
 .title {
-    background-color: #0082e6;
+    background-color: #284b63;
     text-align: center;
     padding: 10px 0;
     font-size: 24px;
@@ -533,7 +533,7 @@ footer .container {
 .booking-form {
     margin: 150px 10% 0 0;
     color: #f7f9fb;
-    background-color: rgba(60, 60, 60, 0.8);
+    background-color: rgba(40, 75, 99, 0.7);
     max-width: 500px;
     position: absolute;
     padding: 30px;

@@ -68,22 +68,23 @@ was presented to ones mentor Anthony during the first of three meet ups.
 
 ### Colour Palette
 
-The colour palette was generated using coolors.com. The colours match those of 
-the Nags with Notions logo.
+The colour palette was generated using coolors.com. The colours used were warm and relaxing, 
+just like Nags with Notions. 
 
-![Colour-Palette](assets/images/readme-images/pallete.png)
+![Colour-Palette](assets/images/readme-images/color-palette.png)
 
 # Features
 
 ## Navigation Bar
 
 On all 3 pages there is a link to the Home page, menu and feedback form. 
-This allows for easier navigation between the pages.
+This allows for easier navigation between the pages. Clicking on the Nags with Notions title also brings one to the home page. 
+
+![Navigation-bar-full](assets/images/readme-images/Screenshot-2023-07-28-120933.png)
+
 As the screen decreases in width the navigation buttoms go underneath the main heading.
 A line appears under the navigation buttons, when hoovered over. The text remains underlined 
 for the current page. 
-
-![Navigation-bar-full](assets/images/readme-images/Screenshot-2023-07-28-120933.png)
 
 ![Navigation-bar-full](assets/images/readme-images/Screenshot-Mobile-navigation.png)
 
