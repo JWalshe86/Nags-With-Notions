@@ -99,11 +99,13 @@ The colour palette was generated using coolors.com. The colours used were warm a
 
 ### Imagery 
 
-All the images came from Pexels.com. The 3 pizza hero image was taken by ![Narda-Yescas](<https://www.pexels.com/@narda-yescas-724842/>). ![Vincent-Rivaud](https://www.pexels.com/@vince/) the blue cheese and gormet fries images. ![CoolShooters](https://www.pexels.com/@koolshooters/) took the images of both 'Tamara' and 'Caroline' eating pizza in the about section. ![Geraud-Pfeiffer](https://www.pexels.com/@geraud-pfeiffer/) the nachos. ![Ahmed-Rabea] (<https://www.pexels.com/@ahmed-rabea-2883687/>) the toasted sandwich.![Andrea-Picquadio] (<https://www.pexels.com/@olly/>) the couple booking something image. 
+All the images came from Pexels.com. The 3 pizza hero image was taken by 
+![Narda-Yescas](<https://www.pexels.com/@narda-yescas-724842/>). 
+![Vincent-Rivaud](https://www.pexels.com/@vince/) the blue cheese and gormet fries images. ![CoolShooters](https://www.pexels.com/@koolshooters/) took the images of both 'Tamara' and 'Caroline' eating pizza in the about section. ![Geraud-Pfeiffer](https://www.pexels.com/@geraud-pfeiffer/) the nachos. ![Ahmed-Rabea] (<https://www.pexels.com/@ahmed-rabea-2883687/>) the toasted sandwich. ![Andrea-Picquadio] (<https://www.pexels.com/@olly/>) the couple booking something image. 
 
 ### Iconography
 
-The company logo ![tiny-logo](assets/images/readme-images/)
+The company logo ![tiny-logo](assets/images/test2.jpg) was taken from the Nags with Notions FB page. The hamburger menu for smaller screens ![Navigation-bar-small](assets/images/readme-images/nav-bar-smallscreen.png) and social media icons ![social-media-icons](assets/images/readme-images/social-media-icons.png) came from fontawesome.com. 
 
 
 # Features
