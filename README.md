@@ -1,5 +1,16 @@
 <!-- Inspiration for readme layout taken from Iceland the land of fire and Ice provided by Institute Mentor Anthony & davidcalikes which was presented on the Slack class page as best practice-->
 
+# Nags-with-Notions
+
+Nags with Notions is a website that hopes to inform customers about the delicious
+pizzas on offer. The aim is to attract customers to purchase pizzas by having
+the site look appealing and easy to use. Information such as opening times, menu,location
+and how to pre-book pizzas is included. Links to Nags with Notions social media accounts
+are provided. The code behind this section was heavily reliant on the Love Running Club navigation section in the Code Institute tutorial.
+
+![multiple-devices](assets/images/readme-images/mobile-devices2.png)
+
+[View the live site here.](https://jwalshe86.github.io/Nags-With-Notions/)
 
 
 # Contents
@@ -10,15 +21,6 @@
 ## [Features](#features)
 ## [Menu-Page](#menu)
 
-# Nags-with-Notions
-
-Nags with Notions is a website that hopes to inform customers about the delicious
-pizzas on offer. The aim is to attract customers to purchase pizzas by having
-the site look appealing and easy to use. Information such as opening times, menu,location
-and how to pre-book pizzas is included. Links to Nags with Notions social media accounts 
-are provided. The code behind this section was heavily reliant on the Love Running Club navigation section in the Code Institute tutorial.
-
-![multiple-devices](assets/images/readme-images/multiple-device-image.jpg)
 
 
 # User-Experience
@@ -32,8 +34,7 @@ I would like social media links to other content by the supplier
 
 ## As a returning visitor
 
-I would like to be able to give feedback on the product
-I would like to see any updates on the menu or venue location
+I would like to see updates in the menu and pricing. 
 
 # Design (UXD)
 
@@ -94,9 +95,16 @@ An initial blueprint of the project was created using balsamiq wireframes. This 
 
 ### Colour Palette
 
-The colour palette was generated using coolors.com. The colours used were warm and relaxing just like Nags with Notions. 
+The colour palette was generated using coolors.com. The colours used were warm and relaxing just like Nags with Notions. The font used was Open Sans, which is specifically used for its legibility. 
 
-![Colour-Palette](assets/images/readme-images/color-palette.png)
+### Imagery 
+
+All the images came from Pexels.com. The 3 pizza hero image was taken by ![Narda-Yescas](<https://www.pexels.com/@narda-yescas-724842/>). ![Vincent-Rivaud](https://www.pexels.com/@vince/) the blue cheese and gormet fries images. ![CoolShooters](https://www.pexels.com/@koolshooters/) took the images of both 'Tamara' and 'Caroline' eating pizza in the about section. ![Geraud-Pfeiffer](https://www.pexels.com/@geraud-pfeiffer/) the nachos. ![Ahmed-Rabea] (<https://www.pexels.com/@ahmed-rabea-2883687/>) the toasted sandwich.![Andrea-Picquadio] (<https://www.pexels.com/@olly/>) the couple booking something image. 
+
+### Iconography
+
+The company logo ![tiny-logo](assets/images/readme-images/)
+
 
 # Features
 
@@ -276,7 +284,7 @@ Video on homepage was taken from Youtube.
 https://www.youtube.com/embed/kPk9r9zg5nE
 
 
-All images were taken from pexels.com except for the about image which was taken from the Nags With Notions Instagram
+All images were taken from pexels.com
 
 
 
