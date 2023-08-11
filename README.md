@@ -1,4 +1,4 @@
-<!-- Inspiration for readme layout taken from Iceland the land of fire and Ice provided by Institute Mentor Anthony -->
+<!-- Inspiration for readme layout taken from Iceland the land of fire and Ice provided by Institute Mentor Anthony & davidcalikes which was presented on the Slack class page as best practice-->
 
 
 
@@ -57,12 +57,9 @@ By having a responsive, easy to use website Nags with Notions hopes users can se
 
 # Wireframe
 
-An initial blueprint of the project was created using balsamiq wireframes. This wireframe
-was presented to ones mentor Anthony during the first of three meet ups. 
+An initial blueprint of the project was created using balsamiq wireframes. This wireframe was presented to ones mentor Anthony during the first of three meet ups. The styling and layout significantly changed as the project progressed but the core structure remained. 
 
-[wireframe](wireframe/Nags-With-Notions-Wireframe.png)
-
-
+![Wireframe](assets/images/readme-images/wireframe4.png)
 
 ## Surface
 
@@ -100,7 +97,7 @@ This image will catch their attention. he book now button is conviently placed h
 
 The about section gives the site a homily feel. By showing the converted horsebox and images of the two girls viewers get a feel for the pizzeria and the owners personalities. 
 
-![About-image](assets/images/readme-images/about-readme.png)
+![About-image](assets/images/readme-images/about-2.png)
 
 ![profiles-image](assets/images/readme-images/profiles-readme.png)
 
@@ -178,22 +175,18 @@ After addressing all 11 issues a re-run of the site through the WC3 validator fo
 Google Chromes Lighthouse tool was used to measure the sites performance. 
 ![lighthouse-review](assets/images/readme-images/lighthouse-performance.png)
 
-Lighthouse highlighted how the sites responsiveness was being compromised by not having images compressed or at the correct sizes for certain devices. 
+Lighthouse highlighted how the sites responsiveness was being compromised by not having images compressed or at the correct sizes for certain devices. For the menu page Lighthouse highlighted how some of the images were distorted and that the social media icons had poor accessability. 
 
 ![lighthouse-menu-post-edits](assets/images/readme-images/menu-lighthouse-post-edits.png)
 
-For the menu page Lighthouse highlighted how some of the images were distorted and that the social media icons had poor accessability. 
+
 ![lighthouse-home-post-edits](assets/images/home-post-edit-lighthouse.png)
 
 ![lighthouse-contact-post-edits](assets/images/readme-images/contact-post-lighthouse-edits.png)
 
-
+The deployed website was also posted on Slacks peer-review-channel. Colleagues helped highlight performance issues and the correction of a blurry image. 
 
 -------------------
-
-
-
-
 ## Bugs
 
 # Solved bugs
