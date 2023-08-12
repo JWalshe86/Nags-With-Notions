@@ -283,30 +283,27 @@ Live link: [Nags-with-Notions](<https://jwalshe86.github.io/Nags-With-Notions/in
 
 The font styles in the heading were taken from [google fonts](<https://fonts.google.com/specimen/Permanent+Marker?query=perm>)
 
-Images were compressed on TinyPNG <https://tinypng.com/>
+Images were compressed on [TinyPNG](<https://tinypng.com/>)
 
-The layout of the Readme page was taken from davidcalikes <https://github.com/davidcalikes/portfolio-project-one/blob/main/README> and Kera Cudmore "Creating your first readme" https://youtu.be/XbYJ4VlhSnY
+The layout of the Readme page was taken from [davidcalikes](<https://github.com/davidcalikes/portfolio-project-one/blob/main/README>)  and [Kera Cudmore]( <https://youtu.be/XbYJ4VlhSnY>) "Creating your first readme".
 
-Template for reviews section from fellow student Roisin O'Connell <https://github.com/roc-11/max-rehab>
-
-
+Template for reviews section from fellow student [Roisin O'Connell](<https://github.com/roc-11/max-rehab>) 
 
 The template for the responsive navigation 
-was taken from Coding Nepal Youtube Responsive Navigation Bar. <https://youtu.be/oLgtucwjVII>
+was taken from [Coding Nepal](<https://youtu.be/oLgtucwjVII>) Youtube Responsive Navigation Bar.
 
 The template for the hero image was taken from Code Institutes Love Running module.
 
-The Hero Image Cover text template was taken from Daniel Zuzevich <https://youtu.be/QA8yjuS9CQg>
+The Hero Image Cover text template was taken from [Daniel Zuzevich](<https://youtu.be/QA8yjuS9CQg>) 
 
-For the 'About' section: How to use flexbox columns was taken from youtubes SyntaxByte: CSS Flexbox Columns <https://youtu.be/C4XCGwUkOOo> and Codehal How to align Image text side by side in html & css <https://youtu.be/lgX38fNbxmw>
+For the 'About' section: How to use flexbox columns was taken from youtubes [SyntaxByte: CSS Flexbox Columns](<https://youtu.be/C4XCGwUkOOo>)  and [Codehal](<https://youtu.be/lgX38fNbxmw>) How to align Image text side by side in html & css
 
-The template for the menu items was taken from Abdullah Nahian: Create a Restaurant Menu using CSS, HTML & Flexbox
- https://youtu.be/OF9ByGKxGT4
+The template for the menu items was taken from [Abdullah Nahian: Create a Restaurant Menu using CSS, HTML & Flexbox](https://youtu.be/OF9ByGKxGT4)
+ 
 
-The template for the footer was taken from Cem Eygi Media YouTube Responsive Footer with CSS Flexbox <https://youtu.be/VUydBuotmR4>
+The template for the footer was taken from [Cem Eygi Media YouTube Responsive Footer with CSS Flexbox](<https://youtu.be/VUydBuotmR4>)
 
-text input styling template for contact form taken from W3Schools  
-https: //www.w3schools.com/howto/howto_css_contact_form.asp
+The text input styling template for contact form taken from [W3Schools](https://www.w3schools.com/howto/howto_css_contact_form.asp)  
 
 Feedback from my mentor Anthony
 
@@ -316,9 +313,7 @@ Support from Code Institute Tutors
 
 ## Media
 
-Video on homepage was taken from Youtube.
-https://www.youtube.com/embed/kPk9r9zg5nE
-
+Video on homepage was taken from Youtube: [The Curly Stu](https://www.youtube.com/embed/kPk9r9zg5nE)
 
 All images were taken from pexels.com
 
