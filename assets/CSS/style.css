@@ -93,7 +93,7 @@ nav a:hover {
 /* hero-image styling section */
 
 #hero-image {
-    height: 100vh;
+    height: 120vh;
     background: url(../images/compressed/hero-image-1500px-compressed.jpg) center center no-repeat;
     background-size: cover;
 

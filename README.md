@@ -8,7 +8,9 @@ the site look appealing and easy to use. Information such as opening times, menu
 and how to pre-book pizzas is included. Links to Nags with Notions social media accounts
 are provided. The code behind this section was heavily reliant on the Love Running Club navigation section in the Code Institute tutorial.
 
-![multiple-devices](assets/images/readme-images/mobile-devices2.png)
+The responsiveness of the website was checked on [Am I Responsive](https://ui.dev/amiresponsive) and is displayed below. 
+
+![multiple-devices](assets/images/readme-images/Am-I-Responsive.png)
 
 [View the live site here.](https://jwalshe86.github.io/Nags-With-Notions/)
 
@@ -99,9 +101,9 @@ The colour palette was generated using coolors.com. The colours used were warm a
 
 ### Imagery 
 
-All the images came from Pexels.com. The 3 pizza hero image was taken by 
-![Narda-Yescas](<https://www.pexels.com/@narda-yescas-724842/>). 
-![Vincent-Rivaud](https://www.pexels.com/@vince/) the blue cheese and gormet fries images. ![CoolShooters](https://www.pexels.com/@koolshooters/) took the images of both 'Tamara' and 'Caroline' eating pizza in the about section. ![Geraud-Pfeiffer](https://www.pexels.com/@geraud-pfeiffer/) the nachos. ![Ahmed-Rabea] (<https://www.pexels.com/@ahmed-rabea-2883687/>) the toasted sandwich. ![Andrea-Picquadio] (<https://www.pexels.com/@olly/>) the couple booking something image. 
+All the images came from Pexels.com except one. The 3 pizza hero image was taken by 
+[Narda-Yescas](<https://www.pexels.com/@narda-yescas-724842/>). 
+[Vincent-Rivaud](https://www.pexels.com/@vince/) the blue cheese and gormet fries images. [CoolShooters](https://www.pexels.com/@koolshooters/) took the images of both 'Tamara' and 'Caroline' eating pizza in the about section. [Geraud-Pfeiffer](https://www.pexels.com/@geraud-pfeiffer/) the nachos. [Ahmed-Rabea](<https://www.pexels.com/@ahmed-rabea-2883687/>) the toasted sandwich. [Andrea-Picquadio](<https://www.pexels.com/@olly/>) the couple booking something image. The image of the pizza truck came from istockphotos.com and is credited to [Maica](https://www.istockphoto.com/portfolio/Maica?mediatype=photography). 
 
 ### Iconography
 
