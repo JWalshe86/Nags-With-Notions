@@ -93,7 +93,7 @@ nav a:hover {
 /* hero-image styling section */
 
 #hero-image {
-    height: 600px;
+    height: 700px;
     background: url(../images/compressed/hero-image-1500px-compressed.jpg) center center no-repeat;
     background-size: cover;
 
@@ -147,6 +147,7 @@ nav a:hover {
     flex-direction: column;
     font-size: xxx-large;
     flex-flow: wrap;
+    width: 100%;
 
 }
 
@@ -682,6 +683,7 @@ footer .container {
     #hero-image {
         background: url(../images/compressed/768px-hero-img-compressed.jpg) center center no-repeat;
         background-size: cover;
+        height: 105vh;
     }
 
     .menus-area {
@@ -745,7 +747,6 @@ footer .container {
     }
 
     #cover-text {
-        right: 100px;
         font-size: xx-large;
     }
 

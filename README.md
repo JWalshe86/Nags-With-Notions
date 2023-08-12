@@ -1,4 +1,4 @@
-<!-- Inspiration for readme layout taken from Iceland the land of fire and Ice provided by Institute Mentor Anthony & davidcalikes which was presented on the Slack class page as best practice-->
+<!-- Inspiration for readme layout taken from Iceland the land of fire and Ice provided by Institute Mentor Anthony & davidcalikes which was presented on the Slack class page as best practice and Kera Cudmore "Creating your first readme" https://youtu.be/XbYJ4VlhSnY-->
 
 # Nags-with-Notions
 
