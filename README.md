@@ -15,14 +15,40 @@ The responsiveness of the website was checked on [Am I Responsive](https://ui.de
 [View the live site here.](https://jwalshe86.github.io/Nags-With-Notions/)
 
 
-# Contents
+## Contents
 
-## [Introduction](#nags-with-notions) 
-## [User Experience (UX)](#user-experience)
-## [Design](#design)
-## [Features](#features)
-## [Menu-Page](#menu)
-
+* [Introduction](#nags-with-notions) 
+* [User Experience (UX)](#user-experience)
+    * [User Stories](#user-stories)
+* [Design](#design)
+    * [Strategy](#strategy)
+    * [Scope](#scope)
+    * [Structure](#structure)
+    * [Skeleton](#skeleton)
+    * [Surface](#surface)
+        * [Colour Palette](#colour-palette)
+        * [Typography](#typography)
+        * [Imagery](#imagery)
+        * [Iconography](#iconography)
+* [Features](#features)
+    * [Navigation Bar](#navigation-bar)
+    * [Landing Page](#landing-page)
+    * [Hero Image and Headings](#hero-image-and-heddings)
+    * [About Section](#about-section)
+    * [Reviews section](#reviews-section)
+    * [Video Section](#video-section)
+    * [Footer](#footer)
+    * [Menu Page](#menu-page)
+    * [Contact Page](#contact-page) 
+         * [Testing](#testing)
+             * [Functionality and usability testing](#functionality-and-usability-testing)
+             * [Validator Testing](#validator-testing)
+             * [Bugs](#bugs)
+    * [Deployment](#deployment)
+    * [Credits](#credits)
+        * [content](#content)
+        * [media](#media)
+        * [code](#code)
 
 
 # User-Experience
@@ -97,7 +123,13 @@ An initial blueprint of the project was created using balsamiq wireframes. This 
 
 ### Colour Palette
 
-The colour palette was generated using coolors.com. The colours used were warm and relaxing just like Nags with Notions. The font used was Open Sans, which is specifically used for its legibility. 
+The colour palette was generated using coolors.com. The colours used were warm and relaxing just like Nags with Notions. 
+
+![color-palette](assets/images/readme-images/color-palette.png)
+
+## Typography
+
+The font used was Open Sans, which is specifically used for its legibility. 
 
 ### Imagery 
 
@@ -253,7 +285,7 @@ The font styles in the heading were taken from [google fonts](<https://fonts.goo
 
 Images were compressed on TinyPNG <https://tinypng.com/>
 
-The layout of the Readme page was taken from davidcalikes <https://github.com/davidcalikes/portfolio-project-one/blob/main/README>
+The layout of the Readme page was taken from davidcalikes <https://github.com/davidcalikes/portfolio-project-one/blob/main/README> and Kera Cudmore "Creating your first readme" https://youtu.be/XbYJ4VlhSnY
 
 Template for reviews section from fellow student Roisin O'Connell <https://github.com/roc-11/max-rehab>
 
