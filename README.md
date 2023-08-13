@@ -4,15 +4,26 @@
 
 Nags with Notions is a website that hopes to inform customers about the delicious
 pizzas on offer. The aim is to attract customers to purchase pizzas by having
-the site look appealing and easy to use. Information such as opening times, menu,location
-and how to pre-book pizzas is included. Links to Nags with Notions social media accounts
-are provided. The code behind this section was heavily reliant on the Love Running Club navigation section in the Code Institute tutorial.
+the site look appealing and easy to use. Information such as opening times, menu, 
+ location
+and how to pre-book pizzas is included. Links to Nags with Notions social media accounts are provided.
+<!--The code behind this section was heavily reliant on the Love Running Club navigation section in the Code Institute tutorial. -->
  
 
 ![multiple-devices](assets/images/readme-images/Am-I-Responsive.png)
 
 [View the live site here.](https://jwalshe86.github.io/Nags-With-Notions/)
 
+![GitHub last commit](https://img.shields.io/badge/Last_commit-Aug_2023-blue
+)
+![Github contributors](https://img.shields.io/badge/contributors-1-blue
+)
+![Languages used](https://img.shields.io/badge/languages-5-blue
+)
+![HTML](https://img.shields.io/badge/html-51.2%25-blue
+)
+![Validation](https://img.shields.io/badge/w3c-validated-blue
+)
 
 ## Contents
 
@@ -125,6 +136,8 @@ Git - For version control.
 
 Github - To save and store info for the website. 
 
+Shields from shields.io
+
 The font styles in the heading were taken from [google fonts](<https://fonts.google.com/specimen/Permanent+Marker?query=perm>)
 
 Images were compressed on [TinyPNG](<https://tinypng.com/>).
@@ -187,7 +200,7 @@ As the screen decreases in width a clickable dropdown menu is presented.
 ## Hero Image
 
 Large image of pizzas to give viewers familiarity with the product.
-This image will catch their attention. he book now button is conviently placed here to increase the purchase times. 
+This image will catch their attention. The book now button is conviently placed here to increase the purchase times. 
 
 ![Hero-Image](assets/images/readme-images/hero-image-for-readme.png)
 
@@ -282,7 +295,7 @@ Lighthouse highlighted how the sites responsiveness was being compromised by not
 
 [lighthouse-contact-post-edits](assets/images/readme-images/contact-post-lighthouse-edits.png)
 
-The deployed website was also posted on Slacks peer-review-channel. Colleagues helped highlight performance issues and the correction of a blurry image. 
+The deployed website was also posted on Slacks peer-review-channel. Colleagues helped highlight performance issues and the correction of a blurry image. Thanks Derek King for showing I should add object-fit: cover and change the height to % instead of px, to fix an issue with a blurry image. Thanks Julia Wagner and Joseph O'Connell for your feedback too. 
 
 -------------------
 ## Bugs
@@ -327,9 +340,7 @@ The code for the footer was taken from [Cem Eygi Media YouTube Responsive Footer
 
 The text input styling code for contact form taken from [W3Schools](https://www.w3schools.com/howto/howto_css_contact_form.asp)  
 
-Feedback from my mentor Anthony
-
-Feedback on the Slack peer review page from fellow student Joseph O'Connell
+Feedback from my mentor Anthony Yugwu
 
 Support from Code Institute Tutors
 
