@@ -7,8 +7,7 @@ pizzas on offer. The aim is to attract customers to purchase pizzas by having
 the site look appealing and easy to use. Information such as opening times, menu,location
 and how to pre-book pizzas is included. Links to Nags with Notions social media accounts
 are provided. The code behind this section was heavily reliant on the Love Running Club navigation section in the Code Institute tutorial.
-
-The responsiveness of the website was checked on [Am I Responsive](https://ui.dev/amiresponsive) and is displayed below. 
+ 
 
 ![multiple-devices](assets/images/readme-images/Am-I-Responsive.png)
 
@@ -40,10 +39,13 @@ The responsiveness of the website was checked on [Am I Responsive](https://ui.de
     * [Footer](#footer)
     * [Menu Page](#menu-page)
     * [Contact Page](#contact-page) 
-         * [Testing](#testing)
-             * [Functionality and usability testing](#functionality-and-usability-testing)
-             * [Validator Testing](#validator-testing)
-             * [Bugs](#bugs)
+    * [Technologies Used](#technologies-used)
+    * [Languages Used](#languages-used) 
+    * [Frameworks, Libraries & Programs Used](#frameworks-libraries-programs-used)
+ * [Testing](#testing)
+     *  [Functionality and usability testing](#functionality-and-usability-testing)
+     *  [Validator Testing](#validator-testing)
+  * [Bugs](#bugs)
     * [Deployment](#deployment)
     * [Credits](#credits)
         * [content](#content)
@@ -109,15 +111,37 @@ The site provides customers with an explanation of the service and what's on off
 - Form where customers can enter a message with their details. 
 - Footer with social media links, contact and opening times info.
 
+# Technologies Used
+
+## Languages Used
+
+HTML and CSS were used to create the website.
+
+## Frameworks, Libraries & Programs Used
+
+Balsamiq - used for wireframes.
+
+Git - For version control.
+
+Github - To save and store info for the website. 
+
+The font styles in the heading were taken from [google fonts](<https://fonts.google.com/specimen/Permanent+Marker?query=perm>)
+
+Images were compressed on [TinyPNG](<https://tinypng.com/>).
+
+Google Dev Tools was routinely used to test code.
+
+The responsiveness of the website was checked on [Am I Responsive](https://ui.dev/amiresponsive).
+
+
+
 
 
 ## Skeleton
 
 # Wireframe
 
-An initial blueprint of the project was created using balsamiq wireframes. This wireframe was presented to ones mentor Anthony during the first of three meet ups. The styling and layout significantly changed as the project progressed but the core structure remained. 
-
-![Wireframe](assets/images/readme-images/wireframe4.png)
+An [initial-blueprint](assets/images/readme-images/wireframe4.png) of the project was created using balsamiq wireframes. This wireframe was presented to ones mentor Anthony during the first of three meet ups. The styling and layout significantly changed as the project progressed but the core structure remained.
 
 ## Surface
 
@@ -132,6 +156,8 @@ The colour palette was generated using coolors.com. The colours used were warm a
 The font used was Open Sans, which is specifically used for its legibility. 
 
 ### Imagery 
+
+The hero image is a picture of 3 delicious pizzas. This is to entice the customer and immediately show what's on offer. The image of the food truck and two owners below this gives a homely feel to the Landing Page. The background of the menu is a delicious pizza, again to entice customers. The background of the contact page is a couple applying happily online for the pizzas.
 
 All the images came from Pexels.com except one. The 3 pizza hero image was taken by 
 [Narda-Yescas](<https://www.pexels.com/@narda-yescas-724842/>). 
@@ -221,40 +247,40 @@ This page allows viewers to contact the owners for information or to avail of th
 
 11 errors were found on the main page upon running the deployed website through the W3C HTML validator.
 
-![validator-testing-1](assets/images/readme-images/validator-testing-1.png)
+[validator-testing-1](assets/images/readme-images/validator-testing-1.png)
 
-![validator-testing-2](assets/images/readme-images/validator-testing-2.png)
+[validator-testing-2](assets/images/readme-images/validator-testing-2.png)
 
-![validator-testing-3](assets/images/readme-images/validator-testing-3.png)
+[validator-testing-3](assets/images/readme-images/validator-testing-3.png)
 
 After addressing all 11 issues a re-run of the site through the WC3 validator found no errors.
 
-![post-validator-test](assets/images/readme-images/post-validation-test.png)
+[post-validator-test](assets/images/readme-images/post-validation-test.png)
 
-![validator-test-menu-1](assets/images/readme-images/html-menu-validator-test1.png)
+[validator-test-menu-1](assets/images/readme-images/html-menu-validator-test1.png)
 
-![validator-test-menu-2](assets/images/readme-images/html-menu-validator-test-2.png)
+[validator-test-menu-2](assets/images/readme-images/html-menu-validator-test-2.png)
 
 
 
 1 error found for all pages when the site was deployed through the css W3C validator
 
-![css-validation-test](assets/images/readme-images/css-validator-testing.png)
+[css-validation-test](assets/images/readme-images/css-validator-testing.png)
 
 
 #Performance Testing
 
 Google Chromes Lighthouse tool was used to measure the sites performance. 
-![lighthouse-review](assets/images/readme-images/lighthouse-performance.png)
+[Lighthouse-review](assets/images/readme-images/lighthouse-performance.png)
 
 Lighthouse highlighted how the sites responsiveness was being compromised by not having images compressed or at the correct sizes for certain devices. For the menu page Lighthouse highlighted how some of the images were distorted and that the social media icons had poor accessability. 
 
 ![lighthouse-menu-post-edits](assets/images/readme-images/menu-lighthouse-post-edits.png)
 
 
-![lighthouse-home-post-edits](assets/images/home-post-edit-lighthouse.png)
+[lighthouse-home-post-edits](assets/images/home-post-edit-lighthouse.png)
 
-![lighthouse-contact-post-edits](assets/images/readme-images/contact-post-lighthouse-edits.png)
+[lighthouse-contact-post-edits](assets/images/readme-images/contact-post-lighthouse-edits.png)
 
 The deployed website was also posted on Slacks peer-review-channel. Colleagues helped highlight performance issues and the correction of a blurry image. 
 
@@ -281,29 +307,25 @@ Live link: [Nags-with-Notions](<https://jwalshe86.github.io/Nags-With-Notions/in
 
 ## Content
 
-The font styles in the heading were taken from [google fonts](<https://fonts.google.com/specimen/Permanent+Marker?query=perm>)
-
-Images were compressed on [TinyPNG](<https://tinypng.com/>)
-
 The layout of the Readme page was taken from [davidcalikes](<https://github.com/davidcalikes/portfolio-project-one/blob/main/README>)  and [Kera Cudmore]( <https://youtu.be/XbYJ4VlhSnY>) "Creating your first readme".
 
-Template for reviews section from fellow student [Roisin O'Connell](<https://github.com/roc-11/max-rehab>) 
+Code for reviews section from fellow student [Roisin O'Connell](<https://github.com/roc-11/max-rehab>) 
 
-The template for the responsive navigation 
+The code for the responsive navigation 
 was taken from [Coding Nepal](<https://youtu.be/oLgtucwjVII>) Youtube Responsive Navigation Bar.
 
-The template for the hero image was taken from Code Institutes Love Running module.
+The code for the hero image was taken from Code Institutes Love Running module.
 
-The Hero Image Cover text template was taken from [Daniel Zuzevich](<https://youtu.be/QA8yjuS9CQg>) 
+The Hero Image Cover text code was taken from [Daniel Zuzevich](<https://youtu.be/QA8yjuS9CQg>) 
 
-For the 'About' section: How to use flexbox columns was taken from youtubes [SyntaxByte: CSS Flexbox Columns](<https://youtu.be/C4XCGwUkOOo>)  and [Codehal](<https://youtu.be/lgX38fNbxmw>) How to align Image text side by side in html & css
+For the 'About' section: How to use flexbox columns code was taken from youtubes [SyntaxByte: CSS Flexbox Columns](<https://youtu.be/C4XCGwUkOOo>)  and [Codehal](<https://youtu.be/lgX38fNbxmw>) How to align Image text side by side in html & css
 
-The template for the menu items was taken from [Abdullah Nahian: Create a Restaurant Menu using CSS, HTML & Flexbox](https://youtu.be/OF9ByGKxGT4)
+The code for the menu items was taken from [Abdullah Nahian: Create a Restaurant Menu using CSS, HTML & Flexbox](https://youtu.be/OF9ByGKxGT4)
  
 
-The template for the footer was taken from [Cem Eygi Media YouTube Responsive Footer with CSS Flexbox](<https://youtu.be/VUydBuotmR4>)
+The code for the footer was taken from [Cem Eygi Media YouTube Responsive Footer with CSS Flexbox](<https://youtu.be/VUydBuotmR4>)
 
-The text input styling template for contact form taken from [W3Schools](https://www.w3schools.com/howto/howto_css_contact_form.asp)  
+The text input styling code for contact form taken from [W3Schools](https://www.w3schools.com/howto/howto_css_contact_form.asp)  
 
 Feedback from my mentor Anthony
 
@@ -315,7 +337,7 @@ Support from Code Institute Tutors
 
 Video on homepage was taken from Youtube: [The Curly Stu](https://www.youtube.com/embed/kPk9r9zg5nE)
 
-All images were taken from pexels.com
+All images were taken from pexels.com, except for one from istockphotos.com
 
 
 
