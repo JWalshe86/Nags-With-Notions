@@ -30,7 +30,7 @@ and how to pre-book pizzas is included. Links to Nags with Notions social media 
 * [Introduction](#nags-with-notions) 
 * [User Experience (UX)](#user-experience)
     * [User Stories](#user-stories)
-* [Design](#design)
+* [Design](#design-uxd)
     * [Strategy](#strategy)
     * [Scope](#scope)
     * [Structure](#structure)
@@ -77,7 +77,7 @@ I would like social media links to other content by the supplier
 
 I would like to see updates in the menu and pricing. 
 
-# Design (UXD)
+# Design UXD
 
 ## Strategy
 
@@ -301,7 +301,7 @@ Lighthouse highlighted how the sites responsiveness was being compromised by not
 
 [lighthouse-contact-post-edits](assets/images/readme-images/contact-post-lighthouse-edits.png)
 
-The deployed website was also posted on Slacks peer-review-channel. Colleagues helped highlight performance issues and the correction of a blurry image. Thanks Derek King for showing I should add object-fit: cover and change the height to % instead of px, to fix an issue with a blurry image. Thanks Julia Wagner and Joseph O'Connell for your feedback too. 
+The deployed website was also posted on Slacks peer-review-channel. Colleagues helped highlight performance issues and the correction of a blurry image. Thanks [Derek King](https://github.com/dkingDev) for showing I should add object-fit: cover and change the height to % instead of px, to fix an issue with a blurry image. Thanks [Julia Wagner](https://github.com/Julia-Wagner) and [Joseph O'Connell](https://github.com/JosephOConnell) for your feedback too.
 
 -------------------
 ## Bugs
