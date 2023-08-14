@@ -579,8 +579,12 @@ footer .container {
     cursor: pointer;
 }
 
-#thank-you {
-    max-width: 800px;
+.thank-you {
+    text-align: center;
+}
+
+.thank-you img {
+    width: 50%;
 }
 
 

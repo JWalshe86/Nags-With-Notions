@@ -258,6 +258,10 @@ This page allows viewers to contact the owners for information or to avail of th
 
 ![contact-image](assets/images/readme-images/contact-us-page.png)
 
+Upon submission viewers are brought to a thank you page 
+
+![thank-you](assets/images/compressed/thankyou-screenshot.png)
+
 # Testing
 
 --------------
