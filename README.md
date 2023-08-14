@@ -178,8 +178,9 @@ All the images came from Pexels.com except one. The 3 pizza hero image was taken
 
 ### Iconography
 
-The company logo ![tiny-logo](assets/images/test2.jpg) was taken from the Nags with Notions FB page. The hamburger menu for smaller screens ![Navigation-bar-small](assets/images/readme-images/nav-bar-smallscreen.png) and social media icons ![social-media-icons](assets/images/readme-images/social-media-icons.png) came from fontawesome.com. 
-
+The company logo ![tiny-logo](assets/images/test2.jpg) was taken from the Nags with Notions FB page. 
+The hamburger menu for smaller screens ![Navigation-bar-small](assets/images/readme-images/nav-bar-smallscreen.png) and social media icons  came from fontawesome.com.
+ ![social-media-icons](assets/images/readme-images/social-media-icons.png)
 
 # Features
 
@@ -240,6 +241,11 @@ This page allows viewers to see the produce on offer and prices.
 
 ![menu-image](assets/images/readme-images/pizza-menu3.png)
 
+When one hovers over the food images they change from square to oval. This is just a nice feature to further attain viewers attention towards what's on offer.
+
+![square-look](assets/images/readme-images/hover-square.png)
+
+![hover-oval](assets/images/readme-images/hover-oval.png)
 
 The pizza menu is responsive to mobile devices. Using flex the menu items are presented in a single column. 
 
@@ -343,6 +349,10 @@ The text input styling code for contact form taken from [W3Schools](https://www.
 Feedback from my mentor Anthony Yugwu
 
 Support from Code Institute Tutors
+
+My wife and family as I embark on this new career 
+
+Caroline and Tamara for allowing me create a website for them, which they've just asked if it can be put online. I just need to figure out some javascript first but getting there!
 
 ## Media
 
