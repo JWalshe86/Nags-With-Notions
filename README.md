@@ -350,6 +350,8 @@ The code for the footer was taken from [Cem Eygi Media YouTube Responsive Footer
 
 The text input styling code for contact form taken from [W3Schools](https://www.w3schools.com/howto/howto_css_contact_form.asp)  
 
+Idea for [thank-you-submission-page](https://stackoverflow.com/questions/1438722/thank-you-alert-upon-form-submission) came from StackoverFlow. 
+
 Feedback from my mentor Anthony Yugwu
 
 Support from Code Institute Tutors
