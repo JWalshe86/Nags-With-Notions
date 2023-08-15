@@ -27,41 +27,47 @@ and how to pre-book pizzas is included. Links to Nags with Notions social media 
 
 ## Contents
 
-* [Introduction](#nags-with-notions) 
-* [User Experience (UX)](#user-experience)
-    * [User Stories](#user-stories)
-* [Design](#design-uxd)
-    * [Strategy](#strategy)
-    * [Scope](#scope)
-    * [Structure](#structure)
-    * [Skeleton](#skeleton)
-    * [Surface](#surface)
-        * [Colour Palette](#colour-palette)
-        * [Typography](#typography)
-        * [Imagery](#imagery)
-        * [Iconography](#iconography)
-* [Features](#features)
-    * [Navigation Bar](#navigation-bar)
-    * [Landing Page](#landing-page)
-    * [Hero Image and Headings](#hero-image-and-heddings)
-    * [About Section](#about-section)
-    * [Reviews section](#reviews-section)
-    * [Video Section](#video-section)
-    * [Footer](#footer)
-    * [Menu Page](#menu-page)
-    * [Contact Page](#contact-page) 
-    * [Technologies Used](#technologies-used)
-    * [Languages Used](#languages-used) 
-    * [Frameworks, Libraries & Programs Used](#frameworks-libraries-programs-used)
- * [Testing](#testing)
-     *  [Functionality and usability testing](#functionality-and-usability-testing)
-     *  [Validator Testing](#validator-testing)
-  * [Bugs](#bugs)
-    * [Deployment](#deployment)
-    * [Credits](#credits)
-        * [content](#content)
-        * [media](#media)
-        * [code](#code)
+- [Nags-with-Notions](#nags-with-notions)
+  - [Contents](#contents)
+- [User-Experience](#user-experience)
+  - [As a new visitor](#as-a-new-visitor)
+  - [As a returning visitor](#as-a-returning-visitor)
+- [Design UXD](#design-uxd)
+  - [Strategy](#strategy)
+  - [Scope](#scope)
+  - [Structure](#structure)
+    - [Landing Page](#landing-page)
+    - [Menu](#menu)
+    - [Contact page](#contact-page)
+- [Technologies Used](#technologies-used)
+  - [Languages Used](#languages-used)
+  - [Frameworks, Libraries \& Programs Used](#frameworks-libraries--programs-used)
+  - [Skeleton](#skeleton)
+- [Wireframe](#wireframe)
+  - [Surface](#surface)
+    - [Colour Palette](#colour-palette)
+  - [Typography](#typography)
+    - [Imagery](#imagery)
+    - [Iconography](#iconography)
+    - [Accessability](#accessability)
+- [Features](#features)
+  - [Navigation Bar](#navigation-bar)
+  - [Hero Image](#hero-image)
+  - [About section](#about-section)
+  - [Reviews](#reviews)
+  - [Video](#video)
+  - [Footer](#footer)
+  - [Menu](#menu-1)
+  - [Contact Us](#contact-us)
+- [Testing](#testing)
+  - [Validator Testing](#validator-testing)
+  - [Bugs](#bugs)
+- [Solved bugs](#solved-bugs)
+- [Unfixed bugs](#unfixed-bugs)
+- [Deployment](#deployment)
+- [Credits](#credits)
+  - [Content](#content)
+  - [Media](#media)
 
 
 # User-Experience
@@ -181,6 +187,18 @@ All the images came from Pexels.com except one. The 3 pizza hero image was taken
 The company logo ![tiny-logo](assets/images/test2.jpg) was taken from the Nags with Notions FB page. 
 The hamburger menu for smaller screens ![Navigation-bar-small](assets/images/readme-images/nav-bar-smallscreen.png) and social media icons  came from fontawesome.com.
  ![social-media-icons](assets/images/readme-images/social-media-icons.png)
+
+ ### Accessability
+
+The [Web Access Evaluation Tool](https://wave.webaim.org/) was used to assess the websites accessability. 
+
+The report found that the logo label was missing content for the screenreader. This was then corrected. 
+
+ ![Wave-Homepage-report](assets/images/readme-images/wave-index.png)
+
+ The report also found that the main title and the booking buttons in the menu page didn't have enough contrast. This was then corrected. 
+
+  ![Wave-Menu-report](assets/images/readme-images/wave-menu.png)
 
 # Features
 
