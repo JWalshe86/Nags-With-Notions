@@ -869,6 +869,10 @@ footer .container {
         right: 15%;
     }
 
+    .section-title h4 {
+        width: fit-content;
+    }
+
     .contact ul {
         line-height: 1.6;
         border-bottom: groove;
