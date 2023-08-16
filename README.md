@@ -291,6 +291,14 @@ Upon submission viewers are brought to a thank you page
 
 # Testing
 
+The website was tested on three browsers: 
+
+- [microsoft edge test](assets/images/readme-images/microsoft-edge-test.png)
+- [chrome test](assets/images/readme-images/chrome-test.png)
+- [firefox test](assets/images/readme-images/firefox-test.png)
+
+The site was fully function on all browsers. 
+
 --------------
 
 ## Validator Testing
@@ -350,6 +358,8 @@ Images would not upload on the readme, as their were gaps in the image names. Tu
 The site was deployed on github pages. 
 
 Live link: [Nags-with-Notions](<https://jwalshe86.github.io/Nags-With-Notions/index.html>)
+
+One clicked on settings within the Nags-with-Notions github repository. One pressed settings and went into the pages section. Under 'Build & Deployment' the source was branch. The branch was main and folder root. Initially the website wouldn't deploy and it was felt something was wrong. However after 10 minutes a link to the deployed website appeared on the top of the Pages page. When the site was first opened none of the images were present. After contacting a tutor it was found that the relative path ie ./ was required instead of the local. Once all the images were changed to relative they then showed on the deployed website. 
 
 ------------------------------------
 
