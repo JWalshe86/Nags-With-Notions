@@ -789,6 +789,11 @@ footer .container {
 }
 
 @media screen and (max-width: 495px) {
+
+    #video iframe {
+        width: 100%;
+    }
+
     a.logo {
         font-size: 20px;
         display: block;
@@ -884,8 +889,42 @@ footer .container {
 }
 
 @media screen and (max-width: 310px) {
+
+    .single-menu img {
+
+        max-width: 240px;
+
+    }
+
     a.logo {
         font-size: 70%;
         display: block;
     }
+
+    .cover img {
+        width: 270px;
+    }
+
+    .box p {
+        width: 80%;
+    }
+
+    .box {
+        width: 100%;
+        text-align: center;
+    }
+
+    .box h2 {
+        margin-right: 20%;
+    }
+
+    .contact {
+        font-size: medium;
+    }
+
+    .section-title {
+        right: 45%;
+    }
+
+
 }

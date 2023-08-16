@@ -299,6 +299,16 @@ The website was tested on three browsers:
 
 The site was fully function on all browsers. 
 
+Chrome Developer Tools are used to test the responsiveness on: Laptop, Galaxy A51/71, iPhone 5/SE, iPad mini, iPad Air, Galaxy Fold.
+- [Laptop Test](assets/images/readme-images/responsive-tests/laptop-test.png)
+- [Galaxy A51/71 Test](assets/images/readme-images/responsive-tests/Samson-Galaxy-A5171-test.png)
+- [Iphone 5/SE Test](assets/images/readme-images/responsive-tests/iphone-SE-test.png)
+- [ipad mini Test](assets/images/readme-images/responsive-tests/ipad-mini-test.png)
+- [ipad Air Test](assets/images/readme-images/responsive-tests/ipad-air-test.png)
+- [Galaxy Fold Test](assets/images/readme-images/responsive-tests/Galaxy-fold-test.png)
+
+Upon the Galaxy Fold test which is only 280 px wide teh images were set to max-width 300px and not fitting into the viewport. 
+
 --------------
 
 ## Validator Testing
