@@ -170,7 +170,8 @@ nav a:hover {
     float: left;
     border: 3px solid #284b63;
     border-radius: 10px;
-    margin-right: 15px;
+    width: 100%;
+    margin-bottom: 5%;
 
 }
 
@@ -183,10 +184,11 @@ nav a:hover {
 
 .wrapper h2 {
     font-size: 42px;
+    margin-bottom: 2%;
 }
 
 .wrapper p {
-    font-size: 16px;
+    font-size: 20px;
 }
 
 /*staff profiles styling section */
@@ -612,6 +614,9 @@ footer .container {
 @media screen and (max-width: 1200px) {
     /* cover text adjustment */
 
+    .cover {
+        gap: 5%;
+    }
 
     #logo {
         width: 60%;
@@ -697,6 +702,10 @@ footer .container {
 /* Create Responsive Navigation bar template taken from CodingNepal on youtuble */
 /* responsive navigation bar from 770px down */
 @media screen and (max-width: 770px) {
+
+    .cover {
+        gap: none;
+    }
 
     #hero-image {
         background: url(../images/compressed/768px-hero-img-compressed.jpg) center center no-repeat;
@@ -905,6 +914,7 @@ footer .container {
 
     #hero-image {
         background: url(../images/compressed/hero-image-375px-compressed.jpg) center center no-repeat;
+        height: 90vh;
     }
 
 
