@@ -189,7 +189,7 @@ The hero image is a picture of 3 delicious pizzas. This is to entice the custome
 
 All the images came from Pexels.com except one. The 3 pizza hero image was taken by 
 [Narda-Yescas](<https://www.pexels.com/@narda-yescas-724842/>). 
-[Vincent-Rivaud](https://www.pexels.com/@vince/) the blue cheese and gormet fries images. [CoolShooters](https://www.pexels.com/@koolshooters/) took the images of both 'Tamara' and 'Caroline' eating pizza in the about section. [Geraud-Pfeiffer](https://www.pexels.com/@geraud-pfeiffer/) the nachos. [Ahmed-Rabea](<https://www.pexels.com/@ahmed-rabea-2883687/>) the toasted sandwich. [Andrea-Picquadio](<https://www.pexels.com/@olly/>) the couple booking something image. The image of the pizza truck came from istockphotos.com and is credited to [Maica](https://www.istockphoto.com/portfolio/Maica?mediatype=photography). 
+[Vincent-Rivaud](https://www.pexels.com/@vince/) the blue cheese and gormet fries images. [CoolShooters](https://www.pexels.com/@koolshooters/) took the images of both 'Tamara' and 'Caroline' eating pizza in the about section. [Geraud-Pfeiffer](https://www.pexels.com/@geraud-pfeiffer/) the nachos. [Ahmed-Rabea](<https://www.pexels.com/@ahmed-rabea-2883687/>) the toasted sandwich. [Andrea-Picquadio](<https://www.pexels.com/@olly/>) the couple booking something image. The image of the food truck is credited to [Tima Miroshnichenko](https://www.pexels.com/@tima-miroshnichenko/)
 
 ### Iconography
 
@@ -236,7 +236,7 @@ This image will catch their attention. The book now button is conviently placed 
 
 The about section gives the site a homily feel. By showing the converted horsebox and images of the two girls viewers get a feel for the pizzeria and the owners personalities. 
 
-![About-image](assets/images/readme-images/about5.png)
+![About-image](assets/images/readme-images/food-truck2%20compressed.jpg)
 
 ![profiles-image](assets/images/readme-images/profiles-readme.png)
 
@@ -307,7 +307,7 @@ Chrome Developer Tools are used to test the responsiveness on: Laptop, Galaxy A5
 - [ipad Air Test](assets/images/readme-images/responsive-tests/ipad-air-test.png)
 - [Galaxy Fold Test](assets/images/readme-images/responsive-tests/Galaxy-fold-test.png)
 
-Upon the Galaxy Fold test which is only 280 px wide teh images were set to max-width 300px and not fitting into the viewport. 
+Upon the Galaxy Fold test which is only 280 px wide teh images were set to max-width 300px and not fitting into the viewport. One then edited the images at @media query size 280 px address this. 
 
 --------------
 
@@ -411,7 +411,7 @@ Caroline and Tamara for allowing me create a website for them, which they've jus
 
 Video on homepage was taken from Youtube: [The Curly Stu](https://www.youtube.com/embed/kPk9r9zg5nE)
 
-All images were taken from pexels.com, except for one from istockphotos.com
+All images were taken from pexels.com
 
 
 
