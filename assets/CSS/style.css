@@ -204,6 +204,8 @@ nav a:hover {
     /* background: #000; */
     margin-top: 50px;
     display: flex;
+    gap: 30%;
+    justify-content: center;
 }
 
 img {
@@ -226,6 +228,7 @@ img {
     justify-content: center;
     text-align: center;
 }
+
 
 .box img {
     border-radius: 50%;
@@ -594,7 +597,11 @@ footer .container {
     width: 50%;
 }
 
-
+@media screen and (max-width: 1700px) {
+    .cover {
+        gap: 10%;
+    }
+}
 
 
 
@@ -695,6 +702,10 @@ footer .container {
         background: url(../images/compressed/768px-hero-img-compressed.jpg) center center no-repeat;
         background-size: cover;
         height: 105vh;
+    }
+
+    .box {
+        margin: 0;
     }
 
     .menus-area {
@@ -821,11 +832,15 @@ footer .container {
 
 }
 
-@media screen and (max-width: 526px) {
+@media screen and (max-width: 529px) {
 
     label.logo {
         font-size: 20px;
         display: block;
+    }
+
+    .section-title h4 {
+        width: fit-content;
     }
 
 

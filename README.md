@@ -152,9 +152,7 @@ Google Dev Tools was routinely used to test code.
 
 The responsiveness of the website was checked on [Am I Responsive](https://ui.dev/amiresponsive).
 
-
-
-
+The [Web Access Evaluation Tool](https://wave.webaim.org/) was used to assess the websites accessability. 
 
 ## Skeleton
 
