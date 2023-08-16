@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
 
 /* border box as per Coding Nepal & creating responsive navigation this includes padding & border in width & height */
 * {
@@ -12,12 +10,10 @@
     box-sizing: border-box;
 }
 
-
 body {
     font-family: Open-Sans, sans-serif;
     font-weight: 300;
 }
-
 
 /*headings & logo & navigation */
 
@@ -69,7 +65,7 @@ nav ul li a {
 a.active,
 nav a:hover {
     background: #3c6e71;
-    transition: .5s;
+    transition: 0.5s;
 }
 
 /* styling check button & move to right of header */
@@ -88,16 +84,12 @@ nav a:hover {
     display: none;
 }
 
-
-
 /* hero-image styling section */
 
 #hero-image {
     height: 120vh;
     background: url(../images/compressed/hero-image-1500px-compressed.jpg) center center no-repeat;
     background-size: cover;
-
-
 }
 
 #hero-outer {
@@ -124,16 +116,11 @@ nav a:hover {
     text-align: center;
 }
 
-
-
 #cover-text,
 #cover-text h2 {
     color: white;
     text-align: center;
-
 }
-
-
 
 /* Overlay template from Daniel Zuzevich  */
 #cover-text {
@@ -148,16 +135,11 @@ nav a:hover {
     font-size: xxx-large;
     flex-flow: wrap;
     width: 100%;
-
 }
 
 /* About section */
 /* How to use flexbox columns taken from youtubes SyntaxByte: CSS Flexbox Columns
 & Codehal How to align Image text side by side in html & css */
-
-
-
-
 
 .pseudo-body {
     display: flex;
@@ -172,7 +154,6 @@ nav a:hover {
     border-radius: 10px;
     width: 100%;
     margin-bottom: 5%;
-
 }
 
 .wrapper {
@@ -180,7 +161,6 @@ nav a:hover {
     width: 70%;
     color: black;
 }
-
 
 .wrapper h2 {
     font-size: 42px;
@@ -231,14 +211,11 @@ img {
     text-align: center;
 }
 
-
 .box img {
     border-radius: 50%;
     border: solid;
     border-color: rgba(88, 92, 96);
-    ;
 }
-
 
 /* reviews section */
 /* template from fellow student Roisin O'Connell on slack  */
@@ -308,7 +285,6 @@ img {
 /* footer section */
 /* Template from Cem Eygi Media YouTube Responsive Footer with CSS Flexbox */
 
-
 footer {
     background-color: #284b63;
     color: white;
@@ -365,7 +341,6 @@ footer .container {
 
 .contact ul {
     line-height: 1.6;
-
 }
 
 .times {
@@ -378,8 +353,6 @@ footer .container {
     text-align: center;
     border-top: 1px solid gray;
 }
-
-
 
 /* styling for menu section */
 
@@ -399,10 +372,9 @@ footer .container {
     height: 100%;
     background-color: #333;
     z-index: -1;
-    opacity: .55;
+    opacity: 0.55;
     left: 0;
     top: 0;
-
 }
 
 .section-title {
@@ -422,7 +394,7 @@ footer .container {
 .menus {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap
+    flex-wrap: wrap;
 }
 
 .menu-items {
@@ -435,7 +407,7 @@ footer .container {
     padding: 20px;
     text-align: center;
     position: relative;
-    transition: .3s;
+    transition: 0.3s;
     margin-bottom: 30px;
     height: 650px;
 }
@@ -469,7 +441,7 @@ footer .container {
     border: 1px solid #ddd;
     max-width: 300px;
     padding: 3px;
-    transition: .3s
+    transition: 0.3s;
 }
 
 .single-menu h4 {
@@ -504,14 +476,10 @@ footer .container {
     margin-bottom: 21px;
 }
 
-
-
 /* video section  */
 
 #video-section {
-
     padding-top: 150px;
-
 }
 
 #video-section h2 {
@@ -525,8 +493,6 @@ footer .container {
     border: none;
     padding-bottom: 100px;
 }
-
-
 
 /* Template from Rosin O'Connell Code Institute & image from Pexels.com */
 /*Booking form */
@@ -605,8 +571,6 @@ footer .container {
     }
 }
 
-
-
 /* Media queries */
 
 /* For screen sizes from 1200px wide and down */
@@ -622,8 +586,6 @@ footer .container {
         width: 60%;
         font-size: 200%;
     }
-
-
 
     #left-about,
     #right-about {
@@ -641,8 +603,6 @@ footer .container {
         padding-left: 50px;
     }
 
-
-
     #core-information {
         height: 1200px;
         margin: 0 auto;
@@ -652,7 +612,6 @@ footer .container {
         display: none;
     }
 
-
     #center-about {
         clear: both;
         width: 100%;
@@ -661,9 +620,7 @@ footer .container {
     }
 }
 
-
 @media screen and (max-width: 974px) {
-
     .menus {
         display: flex;
         justify-content: space-between;
@@ -686,23 +643,17 @@ footer .container {
         font-size: 16px;
     }
 
-
-
     /* cover text adjustment */
-
-
 
     #logo {
         width: 60%;
         font-size: 200%;
     }
-
 }
 
 /* Create Responsive Navigation bar template taken from CodingNepal on youtuble */
 /* responsive navigation bar from 770px down */
 @media screen and (max-width: 770px) {
-
     .cover {
         gap: none;
     }
@@ -725,13 +676,11 @@ footer .container {
         /* element is pushed below left floated elements */
         background: url(../images/compressed/booking-img-768px-compressed.jpg) center center no-repeat;
         background-size: cover;
-
     }
 
     .menu-items {
         display: flex;
         flex-direction: column;
-
     }
 
     .wrapper {
@@ -756,7 +705,7 @@ footer .container {
         top: 80px;
         left: -100%;
         text-align: center;
-        transition: all .5s;
+        transition: all 0.5s;
     }
 
     nav ul li {
@@ -794,28 +743,16 @@ footer .container {
         min-width: auto;
         max-width: 40%;
     }
-
-
 }
 
-
-
 @media screen and (max-width: 725px) {
-
     #logo {
         width: 60%;
         font-size: 150%;
     }
-
-
 }
 
-
-
-
 @media screen and (max-width: 680px) {
-
-
     #core-information {
         width: 100%;
         height: 1200px;
@@ -838,11 +775,9 @@ footer .container {
         text-align: center;
         padding: 0 20px;
     }
-
 }
 
 @media screen and (max-width: 529px) {
-
     label.logo {
         font-size: 20px;
         display: block;
@@ -851,13 +786,9 @@ footer .container {
     .section-title h4 {
         width: fit-content;
     }
-
-
-
 }
 
 @media screen and (max-width: 495px) {
-
     a.logo {
         font-size: 20px;
         display: block;
@@ -867,9 +798,6 @@ footer .container {
         font-size: 19px;
         padding: 5%;
     }
-
-
-
 }
 
 /* Styling for feedback page */
@@ -885,9 +813,7 @@ footer .container {
     resize: vertical;
 }
 
-
 @media screen and (max-width: 384px) {
-
     .section-title {
         position: relative;
         right: 15%;
@@ -917,8 +843,6 @@ footer .container {
         height: 90vh;
     }
 
-
-
     a.logo {
         font-size: 140%;
         display: block;
@@ -940,7 +864,6 @@ footer .container {
     }
 
     #cover-text {
-
         font-size: 20px;
         width: 65%;
         left: 18%;
@@ -958,13 +881,9 @@ footer .container {
     .outer-cover .cover {
         line-height: 25px;
     }
-
-
-
 }
 
 @media screen and (max-width: 310px) {
-
     a.logo {
         font-size: 70%;
         display: block;

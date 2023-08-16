@@ -154,6 +154,8 @@ The responsiveness of the website was checked on [Am I Responsive](https://ui.de
 
 The [Web Access Evaluation Tool](https://wave.webaim.org/) was used to assess the websites accessability. 
 
+[Code Beautify](https://codebeautify.org/) was used to clean up the code alignment . 
+
 ## Skeleton
 
 # Wireframe
@@ -167,6 +169,15 @@ An [initial-blueprint](assets/images/readme-images/wireframe4.png) of the projec
 The colour palette was generated using coolors.com. The colours used were warm and relaxing just like Nags with Notions. 
 
 ![color-palette](assets/images/readme-images/color-palette.png)
+
+The main color used was #284b63 or dark blue. It was felt that this color was elegant and made the page look classy. 
+
+#d9d9d9 or grey was used in the about section. This color complemented the dark blue, as per color palette above. 
+
+The reviews and video section were left as white, as this complemented both the grey and dark blue and gave a light feel to this area of the page. 
+
+The black background cover on botht the main title and pizza menu titles are 20% transparant. This is so the images of pizza behind the text can be viewed. The black and white is to aid accessability. 
+
 
 ## Typography
 
