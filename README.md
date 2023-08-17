@@ -61,6 +61,7 @@ and how to pre-book pizzas is included. Links to Nags with Notions social media 
   - [Contact Us](#contact-us)
 - [Testing](#testing)
   - [Validator Testing](#validator-testing)
+  - [User Experience Testing](#user-experience-testing)
   - [Bugs](#bugs)
 - [Solved bugs](#solved-bugs)
 - [Unfixed bugs](#unfixed-bugs)
@@ -78,6 +79,7 @@ I would like to understand what the product is
 I would like to be able to find information on the website easily
 I would like to know the menu, contact, prices, location and opening times
 I would like social media links to other content by the supplier
+I would like to be able to easily message the owners
 
 ## As a returning visitor
 
@@ -353,6 +355,39 @@ Lighthouse highlighted how the sites responsiveness was being compromised by not
 The deployed website was also posted on Slacks peer-review-channel. Colleagues helped highlight performance issues and the correction of a blurry image. Thanks [Derek King](https://github.com/dkingDev) for showing I should add object-fit: cover and change the height to % instead of px, to fix an issue with a blurry image. Thanks [Julia Wagner](https://github.com/Julia-Wagner) and [Joseph O'Connell](https://github.com/JosephOConnell) for your feedback too.
 
 -------------------
+
+# User-Experience-Testing
+
+## As a new visitor
+
+I would like to understand what the product is. Achieved.
+
+![About Section ](assets/images/readme-images/screenshot-about.png)
+
+I would like to be able to find information on the website easily. Achieved.
+
+![Navigation Options](assets/images/readme-images/screenshot-navigation.png)
+
+I would like to know the menu and prices. Achieved.
+
+![Menu Page](assets/images/readme-images/screenshot-menu%20(2).png)
+
+I would like social media links ,location and opening times. Achieved.
+
+![Contact, times & media links](assets/images/readme-images/screenshot-footer.png)
+
+I would like to be able to easily message the owners. Achieved. 
+
+![Contact form](assets/images/readme-images/screenshot-contact.png)
+
+## As a returning visitor
+
+I would like to see updates in the menu and pricing.
+
+Achieved. As per menu page above.
+
+
+
 ## Bugs
 
 # Solved bugs
