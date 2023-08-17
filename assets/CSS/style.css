@@ -489,8 +489,12 @@ footer .container {
 #video iframe {
     display: block;
     margin: 0 auto;
-    border: none;
-    padding-bottom: 100px;
+    border: solid;
+    margin-bottom: 10%;
+    border-color: #284b63;
+    border-width: 20px;
+    border-radius: 4%;
+}
 }
 
 /* Code from Rosin O'Connell Code Institute & image from Pexels.com */
