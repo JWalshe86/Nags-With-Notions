@@ -486,6 +486,11 @@ footer .container {
     padding-bottom: 10%;
 }
 
+.fa-horse-head:before,
+.fa-horse-head:after {
+    font-size: 100px;
+}
+
 #video-section h2 {
     text-align: center;
     margin-bottom: 50px;
@@ -496,7 +501,8 @@ footer .container {
     display: block;
     margin: 0 auto;
     border: solid;
-    border-color: #284b63;
+    border-color: white;
+    border-radius: 2%;
     border-width: 20px;
 }
 
