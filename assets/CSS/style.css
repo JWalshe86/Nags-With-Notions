@@ -629,8 +629,20 @@ footer .container {
         width: 100%;
         float: left;
         padding: 0;
+
+
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .menu-items {
+        flex-basis: 100%;
     }
 }
+
+
 
 @media screen and (max-width: 974px) {
     .menus {
@@ -639,7 +651,6 @@ footer .container {
         align-content: center;
         flex-direction: column;
         flex-wrap: wrap;
-        align-items: center;
     }
 
     .outer-cover .cover {
