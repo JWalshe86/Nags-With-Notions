@@ -427,33 +427,34 @@ One clicked on settings within the Nags-with-Notions github repository. One pres
 
 ![Ipad Hero Img](assets/images/readme-images/final-product/ipad-hero.png)
 ![Ipad About1](assets/images/readme-images/final-product/ipad-about.png)
-[Ipad About 2](assets/images/readme-images/final-product/ipad-about2.png)
-[Ipad reviews & video](assets/images/readme-images/final-product/ipad-review-video.pngg)
 ![Ipad footer](assets/images/readme-images/final-product/ipad-footer.png)
 ![Ipad Menu](assets/images/readme-images/final-product/ipad-menu.png)
+![Ipad Contact](assets/images/readme-images/final-product/ipad-contact.png)
+
+
+[Ipad About 2](assets/images/readme-images/final-product/ipad-about2.png)
+[Ipad reviews & video](assets/images/readme-images/final-product/ipad-review-video.pngg)
 [Ipad Menu2](assets/images/readme-images/final-product/ipad-menu2.png)
 [Ipad Menu3](assets/images/readme-images/final-product/ipad-menu3.png)
 [Ipad Menu4](assets/images/readme-images/final-product/ipad-menu4.png)
-![Ipad Contact](assets/images/readme-images/final-product/ipad-contact.png)
 
 ## Mobile View
 
 ![Mobile Hero Img](assets/images/readme-images/final-product/mobile-hero.png)
+![Mobile footer](assets/images/readme-images/final-product/mob-footer.png)
+![Mobile Menu](assets/images/readme-images/final-product/mob-menu.png)
+![Mobile Contact](assets/images/readme-images/final-product/mob-contact.png)
 [Mobile About1](assets/images/readme-images/final-product/mobile-about.png)
 [Mobile About 2](assets/images/readme-images/final-product/mob-about2.png)
 [Mobile About 3](assets/images/readme-images/final-product/mob-about2.png)
 [Mobile reviews](assets/images/readme-images/final-product/mob-reviews.png)
 [Mobile video](assets/images/readme-images/final-product/mob-video.png)
-![Mobile footer](assets/images/readme-images/final-product/mob-footer.png)
-![Mobile Menu](assets/images/readme-images/final-product/mob-menu.png)
 [Mobile Menu2](assets/images/readme-images/final-product/mob-menu2.png)
 [Mobile Menu3](assets/images/readme-images/final-product/mob-menu3.png)
 [Mobile Menu4](assets/images/readme-images/final-product/mob-menu4.png)
 [Mobile Menu5](assets/images/readme-images/final-product/mob-menu5.png)
 [Mobile Menu6](assets/images/readme-images/final-product/mob-menu6.png)
 [Mobile Menu7](assets/images/readme-images/final-product/mob-menu7.png)
-![Mobile Contact](assets/images/readme-images/final-product/mob-contact.png)
-
 
 
 
