@@ -680,8 +680,22 @@ footer .container {
         margin: 0;
     }
 
+    .fa-horse-head:before,
+    .fa-horse-head:after {
+        font-size: xxx-large;
+    }
+
+    .horse-head2 {
+        position: absolute;
+    }
+
+    #video-section h2 {
+        width: 90%;
+    }
+
     .menus-area {
         background-image: url(../images/compressed/menu-background-768px-compressed.jpg);
+        background-position-y: center;
     }
 
     .booking-form-section {
@@ -789,6 +803,13 @@ footer .container {
     }
 }
 
+@media screen and (max-width: 680px) {
+    #video-section h2 {
+        font-size: medium;
+        width: 90%;
+    }
+}
+
 @media screen and (max-width: 529px) {
     label.logo {
         font-size: 20px;
@@ -804,6 +825,10 @@ footer .container {
 
     #video iframe {
         width: 100%;
+    }
+
+    #video-section h2 {
+        font-size: smaller;
     }
 
     a.logo {
@@ -830,113 +855,124 @@ footer .container {
     resize: vertical;
 }
 
-@media screen and (max-width: 384px) {
-    .section-title {
-        position: relative;
-        right: 15%;
+@media screen and (max-width: 420px) {
+
+    #video-section h2 i {
+        display: none;
     }
 
-    .section-title h4 {
-        width: fit-content;
-    }
-
-    .contact ul {
-        line-height: 1.6;
-        border-bottom: groove;
-    }
-
-    .times {
-        line-height: 1.6;
-        font-size: x-large;
-        border-bottom: groove;
-    }
-
-    .menus-area {
-        background-image: url(../images/compressed/menu-375px-compressed.jpg);
-    }
-
-    #hero-image {
-        background: url(../images/compressed/hero-image-375px-compressed.jpg) center center no-repeat;
-        height: 90vh;
-    }
-
-    a.logo {
-        font-size: 140%;
-        display: block;
-        padding-left: 3%;
-    }
-
-    #video iframe {
-        width: 75%;
-    }
-
-    .left-about-heading p,
-    .right-about-heading p {
-        text-align: center;
-        width: 80vh;
-    }
-
-    .left-about-heading {
-        text-align: center;
-    }
-
-    #cover-text {
-        font-size: 20px;
-        width: 65%;
-        left: 18%;
-    }
-
-    .wrapper img {
-        width: 100%;
-        margin-bottom: 20px;
-    }
-
-    .box {
-        margin: 30px;
-    }
-
-    .outer-cover .cover {
-        line-height: 25px;
-    }
-}
-
-@media screen and (max-width: 310px) {
-
-    .single-menu img {
-
-        max-width: 240px;
-
-    }
-
-    a.logo {
-        font-size: 70%;
-        display: block;
-    }
-
-    .cover img {
-        width: 270px;
-    }
-
-    .box p {
-        width: 80%;
-    }
-
-    .box {
-        width: 100%;
-        text-align: center;
-    }
-
-    .box h2 {
-        margin-right: 20%;
-    }
-
-    .contact {
+    #video-section h2 {
         font-size: medium;
+        margin: 10% auto;
     }
 
-    .section-title {
-        right: 45%;
+    @media screen and (max-width: 384px) {
+        .section-title {
+            position: relative;
+            right: 15%;
+        }
+
+        .section-title h4 {
+            width: fit-content;
+        }
+
+        .contact ul {
+            line-height: 1.6;
+            border-bottom: groove;
+        }
+
+        .times {
+            line-height: 1.6;
+            font-size: x-large;
+            border-bottom: groove;
+        }
+
+        .menus-area {
+            background-image: url(../images/compressed/menu-375px-compressed.jpg);
+        }
+
+        #hero-image {
+            background: url(../images/compressed/hero-image-375px-compressed.jpg) center center no-repeat;
+            height: 90vh;
+        }
+
+        a.logo {
+            font-size: 140%;
+            display: block;
+            padding-left: 3%;
+        }
+
+        #video iframe {
+            width: 75%;
+        }
+
+        .left-about-heading p,
+        .right-about-heading p {
+            text-align: center;
+            width: 80vh;
+        }
+
+        .left-about-heading {
+            text-align: center;
+        }
+
+        #cover-text {
+            font-size: 20px;
+            width: 65%;
+            left: 18%;
+        }
+
+        .wrapper img {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        .box {
+            margin: 30px;
+        }
+
+        .outer-cover .cover {
+            line-height: 25px;
+        }
     }
 
+    @media screen and (max-width: 310px) {
 
-}
+        .single-menu img {
+
+            max-width: 240px;
+
+        }
+
+        a.logo {
+            font-size: 70%;
+            display: block;
+        }
+
+        .cover img {
+            width: 270px;
+        }
+
+        .box p {
+            width: 80%;
+        }
+
+        .box {
+            width: 100%;
+            text-align: center;
+        }
+
+        .box h2 {
+            margin-right: 20%;
+        }
+
+        .contact {
+            font-size: medium;
+        }
+
+        .section-title {
+            right: 45%;
+        }
+
+
+    }
