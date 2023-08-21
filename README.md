@@ -65,6 +65,7 @@ and how to pre-book pizzas is included. Links to Nags with Notions social media 
   - [Bugs](#bugs)
 - [Solved bugs](#solved-bugs)
 - [Unfixed bugs](#unfixed-bugs)
+- [Final Product](#final-product)
 - [Deployment](#deployment)
 - [Credits](#credits)
   - [Content](#content)

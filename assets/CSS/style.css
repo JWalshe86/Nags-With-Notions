@@ -829,6 +829,7 @@ footer .container {
 
     .section-title h4 {
         width: fit-content;
+        border-radius: 4%;
     }
 }
 
