@@ -76,15 +76,16 @@ and how to pre-book pizzas is included. Links to Nags with Notions social media 
 
 ## As a new visitor
 
-I would like to understand what the product is
-I would like to be able to find information on the website easily
-I would like to know the menu, contact, prices, location and opening times
-I would like social media links to other content by the supplier
-I would like to be able to easily message the owners
+- I would like to understand what the product is.
+- I would like to be able to find information on the website easily.
+- I would like to know the menu, contact, prices, location and opening times.
+- I would like social media links to other content by the supplier.
+- I would like to be able to easily message the owners.
 
 ## As a returning visitor
 
-I would like to see updates in the menu and pricing. 
+- I would like to see updates in the menu and pricing. 
+- I would like to be able to give feedback on the product.
 
 # Design UXD
 
