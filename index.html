@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Nags with Notion Pizzeria, Eat-in or Takeaway, local Meath produce">
     <meta name="keywords" content="Pizzeria, Eat-in, Takeaway, Ryans Pub, local Meath produce">
-    <link rel="stylesheet" href="assets/CSS/style.css">
+    <link rel="stylesheet" href="./style.css">
     <script src="https://kit.fontawesome.com/ba48ac2667.js" crossorigin="anonymous"></script>
     <title>NAGS WITH NOTIONS</title>
 </head>
@@ -22,7 +22,7 @@
             </label>
             <input type="checkbox" id="check" name="check" value="check">
             <a class="logo" href="./index.html" aria-label="Opens homepage when clicked" title="opens-homepage">Nags
-                With Notions <i class="fa-solid fa-horse"></i></a>
+                With Notions <img src="./assets/images/nags-with-notions-logo2.png" alt="" class="header-logo"></a>
             <ul>
                 <li>
                     <a href="index.html" class="active">Home</a>
@@ -48,13 +48,21 @@
                     Now</a>
             </div>
         </div>
+
+    <section>
+        <!-- section containing info about upcoming events -->
+        <h1 class="eventsTitle">Upcoming Events!</h1>
+        <div class="eventsWrapper">
+            <img class="eventsImage1" src="./assets/images/events-images/samhain-event.png">
+        </div>
+    </section>
     </section>
     <!-- Section containing info about the owners -->
     <!-- How to use flexbox columns taken from youtubes SyntaxByte: CSS Flexbox Columns
     & Codehal How to align Image text side by side in html & css -->
     <div class="pseudo-body">
         <div class="wrapper">
-            <img src="./assets/images/readme-images/food-truck2 compressed.jpg"
+            <img src="./assets/images/compressed/Available-to-book.jpg"
                 alt="image of horse box used for cooking pizza">
             <div class="text-box"></div>
             <h2><i class="fa-solid fa-circle-info"></i> About</h2>
@@ -69,36 +77,13 @@
     <!-- staff profiles section -->
     <div class="outer-cover">
         <div class="cover">
-            <div class="box">
-                <picture>
-                    <source srcset="./assets/images/compressed/tamara-768px-compressed.jpg" media="(max-width: 670px)"
-                        alt="girl eating pizza in grass" />
-                    <source srcset="./assets/images/compressed/tamara-375px.jpg" media="(max-width: 400px)"
-                        alt="girl eating pizza in grass" />
-                    <img src="./assets/images/compressed/tamara-2000px-compressed.jpg"
-                        alt="girl eating pizza in grass" />
-                </picture>
-                <h2>Tamara</h2>
-                <p>Tamara had always been passionate about food and when an opportunity arose to work in Canada making
-                    pizza, she took it. She quickly became adept at crafting delicious pizzas. </p>
-            </div>
+            
             <div class="box">
                 <img src="./assets/images/nags-with-notions-logo2.png" alt="nags with notions logo">
                 <p class="te">Two girls with notions came together and created an amazing mobile pizzeria in a horsebox!
                 </p>
             </div>
-            <div class="box">
-                <picture>
-                    <source srcset="./assets/images/compressed/caroline-670px-compressed.jpg" media="(max-width: 670px)"
-                        alt="girl holding pizza" />
-                    <source srcset="./assets/images/compressed/caroline-375px.jpg" media="(max-width: 400px)"
-                        alt="girl holding pizza" />
-                    <img src="./assets/images/compressed/caroline-2000px-compressed.jpg" alt="girl holding pizza" />
-                </picture>
-                <h2>Caroline</h2>
-                <p>Caroline has a passion for marketing and a love for the hospitality industry. For 10 years, she
-                    dedicated herself to honing her skills, working at various hotels and restaurants. </p>
-            </div>
+
         </div>
     </div>
     <!-- template from fellow student Roisin O'Connell on slack -->
@@ -176,14 +161,10 @@
                     </li>
                     <li>
                         <a href="https://www.instagram.com/nagswithnotions/?igshid=NTc4MTIwNjQ2YQ%3D%3D" target="_blank"
-                            aria-label="Visit our instagram page (opens in a new tab)">
+                        rel="noopener" aria-label="Visit our instagram page (opens in a new tab)">
                             <i class="fa-brands fa-instagram"></i> Instagram </a>
                     </li>
-                    <li>
-                        <a href="https://twitter.com" target="_blank" rel="noopener"
-                            aria-label="Visit our twitter page (opens in a new tab)">
-                            <i class="fa-brands fa-twitter"></i> Twitter </a>
-                    </li>
+
                 </ul>
             </div>
         </section>
