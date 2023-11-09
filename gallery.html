@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/CSS/gallery.css">
+    <link rel="stylesheet" href="./assets/CSS/lightbox.css">
+    <title>Image Gallery</title>
+</head>
+<header>
+    <!-- Code template taken from Coding Nepal Youtube Responsive Navigation Bar -->
+    <nav class="nav-container">
+        <!-- checkbox and link to styling design -->
+        <label for="check" class="checkbtn" aria-label="Opens checkbox">
+            <i class="fas fa-bars"></i>
+        </label>
+        <input type="checkbox" id="check" name="check" value="check">
+        <a class="logo" href="./index.html" aria-label="Opens homepage when clicked" title="opens-homepage">Nags
+            With Notions <img src="./assets/images/nags-with-notions-logo2.png" alt="" class="header-logo"></a>
+        <ul>
+            <li>
+                <a href="index.html" class="active">Home</a>
+            </li>
+            <li>
+                <a href="menu.html">Menu</a>
+            </li>
+            <li>
+                <a href="gallery.html">Gallery</a>
+            </li>
+            <li>
+                <a href="feedback.html">contact us</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<body>
+    <div class="container">
+        <div class="gallery">
+            <a href="./assets/images/imgs-change-800px/no-animals-here.png" data-lightbox="models" data-title="No Animals Here">
+                <img src="./assets/images/imgs-change-800px/no-animals-here.png" alt="image of vegan pizza">
+            </a>
+            <a href="./assets/images/imgs-change-800px/blue-cheese.jpg" data-lightbox="models" data-title="Feeling Blue?">
+                <img src="./assets/images/imgs-change-800px/blue-cheese.jpg" alt="image of blue cheese pizza">
+            </a>
+            <a href="./assets/images/imgs-change-800px/girl-holding-pizza.jpg" data-lightbox="models" data-title="Caroline">
+                <img src="./assets/images/imgs-change-800px/girl-holding-pizza.jpg" alt="image of girl holding pizza">
+            </a>
+            <a href="./assets/images/imgs-change-800px/girl-on-counter.jpg" data-lightbox="models" data-title="Tamara">
+                <img src="./assets/images/imgs-change-800px/girl-on-counter.jpg" alt="image of girl on counter">
+            </a>
+            <a href="./assets/images/imgs-change-800px/pizza-edited.png" data-lightbox="models" data-title="Delicious Pizza">
+                <img src="./assets/images/imgs-change-800px/pizza-edited.png" alt="img of pizza">
+            </a>
+            <a href="./assets/images/imgs-change-800px/outdoor-eating.jpg" data-lightbox="models" data-title="Eat Outside!">
+                <img src="./assets/images/imgs-change-800px/outdoor-eating.jpg" alt="outdoor eating">
+            </a>
+        </div>
+    </div>
+    <script src="./lightbox-plus-jquery.js"></script>
+</body>
+</html>

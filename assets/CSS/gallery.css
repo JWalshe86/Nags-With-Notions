@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' sans-serif;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 8%;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(188px, 1fr));
+    /* 30px gap between all images */
+    grid-gap: 30px;
+}
+
+.gallery img{
+    width: 100%;
+}
+
+/*headings & logo & navigation */
+
+.nav-container {
+    display: block;
+    width: 100%;
+}
+
+nav {
+    background: #f5c3c6;
+    height: 80px;
+    width: 100%;
+}
+
+body{
+    background-color: #3c6e71;
+}
+
+/* styling and coloring of label logo */
+a.logo {
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 20px;
+    font-weight: bold;
+}
+
+img.header-logo{
+    position: absolute;
+    height: auto;
+    width: 5vw;
+}
+
+/* moves navigation buttons to right */
+nav ul {
+    float: right;
+}
+
+/* 
+inline elements only cover the space inside the html elements */
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+/* styling of navigation font: rounding of elements border edge */
+
+nav ul li a {
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+/* background color of navigation buttons when hovered over */
+a.active,
+nav a:hover {
+    background: #3c6e71;
+    transition: 0.5s;
+}
+
+/* styling check button & move to right of header */
+
+.checkbtn {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
