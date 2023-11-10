@@ -451,6 +451,16 @@ footer .container {
     transition: 0.3s;
 }
 
+@media screen and (max-width: 800px){
+    .single-menu img {
+        border: 1px solid #ddd;
+        max-width: 47vw;
+        padding: 3px;
+        transition: 0.3s;
+        min-height: unset;
+    }
+}
+
 .single-menu h4 {
     border-bottom: 1px dashed #ddd;
     margin: 10px 0;
