@@ -3,42 +3,38 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'poppins' sans-serif;
-    text-decoration: none;
 }
 .container{
-    width: 90%;
-    max-width: 1224px;
-    /* with a width of 90% this keeps image in center */
-    margin: auto;
-    min-height: 100vh;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 50px 8%;
 }
-.photo-gallery{
-    display: flex;
-    gap: 20px;
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(188px, 1fr));
+    /* 30px gap between all images */
+    grid-gap: 30px;
 }
 
-.photo-gallery img{
+/* for screens 800px and down */
+@media screen and (max-width: 1100px) {
+    .gallery{
+        grid-template-columns: repeat(auto-fit, minmax(315px, 1fr)); 
+    }
+   
+}
+
+.gallery img{
     width: 100%;
-    height: 100%;
-    border-radius: 5%;
-    object-fit: cover;
 }
 
-.title{
-    color: black;
-    margin-bottom: 2rem;
+.gallery-section h3{
+    text-align: center;
+    font-size: 2rem;
+    margin: 2vh;
 }
-
-.column{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
 /*headings & logo & navigation */
 
 .nav-container {
@@ -53,7 +49,7 @@ nav {
 }
 
 body{
-    background-color: #3c6e71;
+    background-color: #649294;
     font-family: Open-Sans, sans-serif;
     font-weight: 300;
 }
@@ -137,37 +133,67 @@ nav a:hover {
     display: none;
 }
 
-/* footer section */
-/* Code from Cem Eygi Media YouTube Responsive Footer with CSS Flexbox */
+@media screen and (max-width: 770px){
+    .checkbtn {
+        display: block;
+    }
+
+    /* background for dropdown menu */
+    nav ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #ffb6c1;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all 0.5s;
+    }
+
+    nav ul li {
+        display: block;
+    }
+
+    nav ul li a {
+        font-size: 20px;
+    }
+
+    a:hover,
+    a.active {
+        background: none;
+        color: #008080;
+    }
+
+    #check:checked~ul {
+        left: 0;
+    }
+}
 
 footer {
-    background-color: #f5c3c6;
-    color: grey;
+    background-color: #3c6e71;
+    color: white;
     /* creates column */
     display: flex;
     /* keeps copyright at bottom of column */
     flex-direction: column;
-    
 }
 
 .fa-brands {
-    color: grey;
+    color: white;
 }
 
-footer .footer-container {
+footer .container {
     display: flex;
     gap: 20px;
     padding: 50px 20px;
     min-width: -webkit-fill-available;
     margin: 0 auto;
-    
 }
 
 .times {
     /* divide columns equally */
     flex-grow: 1;
     flex-basis: 100%;
-    
 }
 
 .social-media {
@@ -177,10 +203,10 @@ footer .footer-container {
 }
 
 .social-media ul a {
-    color: grey;
+    color: white;
     margin-left: 5px;
     font-size: x-large;
-    
+    text-decoration: none;
 }
 
 .contact {
@@ -192,7 +218,6 @@ footer .footer-container {
 .container h3 {
     margin-bottom: 20px;
     font-size: 20px;
-    
 }
 
 .social-media ul {
@@ -207,90 +232,7 @@ footer .footer-container {
 
 .times {
     line-height: 1.6;
-    font-size: x-large;  
-}
-
-.times ul{
-    list-style-type: none;
-}
-
-.copyright {
-    padding: 15px 0;
-    text-align: center;
-    border-top: 1px solid gray;
-}
-
-/* footer section */
-/* Code from Cem Eygi Media YouTube Responsive Footer with CSS Flexbox */
-
-footer {
-    background-color: #f5c3c6;
-    color: grey;
-    /* creates column */
-    display: flex;
-    /* keeps copyright at bottom of column */
-    flex-direction: column;
-    
-}
-
-.fa-brands {
-    color: grey;
-}
-
-footer .footer-container {
-    display: flex;
-    gap: 20px;
-    padding: 50px 20px;
-    min-width: -webkit-fill-available;
-    margin: 0 auto;
-    
-}
-
-.times {
-    /* divide columns equally */
-    flex-grow: 1;
-    flex-basis: 100%;
-    
-}
-
-.social-media {
-    flex-grow: 1;
-    flex-basis: 100%;
-    font-size: xx-large;
-}
-
-.social-media ul a {
-    color: grey;
-    margin-left: 5px;
     font-size: x-large;
-    
-}
-
-.contact {
-    flex-grow: 1;
-    flex-basis: 100%;
-    font-size: x-large;
-}
-
-.container h3 {
-    margin-bottom: 20px;
-    font-size: 20px;
-    
-}
-
-.social-media ul {
-    line-height: 1.6;
-    list-style-type: none;
-}
-
-.contact ul {
-    line-height: 1.6;
-    list-style-type: none;
-}
-
-.times {
-    line-height: 1.6;
-    font-size: x-large;  
 }
 
 .times ul{
