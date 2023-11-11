@@ -386,6 +386,8 @@ footer .container {
 }
 
 .section-title {
+    display: flex;
+    justify-content: center;
     text-align: center;
 }
 
@@ -675,6 +677,9 @@ footer .container {
         display: block;
     }
 
+    .single-menu{
+        height: auto;
+    }
 
     a.logo {
         padding-left: 50px;
@@ -701,7 +706,7 @@ footer .container {
         padding-top: 2.5vh;
         width: 3rem;
     }
-   
+
     .cover {
         gap: none;
     }
@@ -732,6 +737,7 @@ footer .container {
     .menus-area {
         background-image: url(./assets/images/compressed/menu-background-768px-compressed.jpg);
         background-position-y: center;
+        background-size:unset ;
     }
 
     .booking-form-section {
@@ -803,7 +809,6 @@ footer .container {
     .container {
         flex-direction: column;
         min-width: auto;
-        max-width: 40%;
     }
 }
 
@@ -915,11 +920,6 @@ footer .container {
         img.header-logo{
             padding-top: 2.5vh;
             width: 3rem;
-        }
-
-        .section-title {
-            position: relative;
-            right: 15%;
         }
 
         .section-title h4 {
