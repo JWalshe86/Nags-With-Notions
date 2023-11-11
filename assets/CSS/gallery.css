@@ -67,6 +67,9 @@ html {
 body{
     font-family: Open-Sans, sans-serif;
     font-weight: 300;
+    cursor: url('/assets/images/menu-images/iconmonstr-fast-food-10-240.png'), pointer;
+
+    
 }
 a.active, nav a:hover {
     background: #3c6e71;
@@ -141,6 +144,7 @@ nav ul li a {
 /* background color of navigation buttons when hovered over */
 a.active,
 nav a:hover {
+    
     background: #3c6e71;
     transition: 0.5s;
 }

@@ -13,6 +13,8 @@
 body {
     font-family: Open-Sans, sans-serif;
     font-weight: 300;
+    cursor: url('/assets/images/menu-images/iconmonstr-fast-food-10-240.png'), pointer;
+
 }
 
 /*headings & logo & navigation */
@@ -572,17 +574,17 @@ footer .container {
     background-color: #e88700;
     color: #fafafa;
     display: block;
-    cursor: pointer;
+    cursor: url('/assets/images/menu-images/iconmonstr-fast-food-10-240.png'), pointer;
 }
 
 .submit-enquiry-button:hover {
     background-color: #fafafa;
     color: #e88700;
-    cursor: pointer;
+    cursor: url('/assets/images/menu-images/iconmonstr-fast-food-10-240.png'), pointer;
 }
 
 .form-section input[type="submit"] {
-    cursor: pointer;
+    cursor: url('/assets/images/menu-images/iconmonstr-fast-food-10-240.png'), pointer;
 }
 
 .thank-you {
