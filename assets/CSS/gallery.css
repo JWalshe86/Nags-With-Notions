@@ -86,6 +86,22 @@ a.logo {
     text-decoration: none;
 }
 
+@media screen and (max-width: 974px)
+{
+    a.logo {
+        padding-left: 50px;
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 495px){
+    a.logo {
+        font-size: 20px;
+        display: block;
+    }
+}
+
+
 @media screen and (max-width: 375px){
     a.logo {
         font-size: 140%;
