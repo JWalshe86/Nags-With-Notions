@@ -1,179 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Nags with Notion Pizzeria, Eat-in or Takeaway, local Meath produce">
-    <meta name="keywords" content="Pizzeria, Eat-in, Takeaway, Ryans Pub, local Meath produce">
-    <link rel="stylesheet" href="./style.css">
-    <title>NAGS WITH NOTIONS</title>
+    <title>Nags With Notions</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+
 </head>
-
 <body>
-    <header>
-        <!-- Code template taken from Coding Nepal Youtube Responsive Navigation Bar -->
-        <nav class="nav-container">
-            <!-- checkbox and link to styling design -->
-            <label for="check" class="checkbtn" aria-label="Opens checkbox">
-                <i class="fas fa-bars"></i>
-            </label>
-            <input type="checkbox" id="check" name="check" value="check">
-            <a class="logo" href="./index.html" aria-label="Opens homepage when clicked" title="opens-homepage">Nags
-                With Notions <img src="./assets/images/nags-with-notions-logo2.png" alt="" class="header-logo"></a>
-            <ul>
-                <li>
-                    <a href="index.html" class="active">Home</a>
-                </li>
-                <li>
-                    <a href="menu.html">Menu</a>
-                </li>
-                <li>
-                    <a href="gallery.html">Gallery</a>
-                </li>
-                <li>
-                    <a href="feedback.html">contact us</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <!-- Code template taken from Love Running Code Institute tutorial: specifically Club Ethos -->
-    <section id="hero-outer">
-        <div id="hero-image">
-            <span role="img" alt="image of girl cooking pizzas in horsebox"></span>
-        </div>
-        <div id="cover-text">
-            <h1>Delicious pizza for any event</h1>
-            <div class="button-div">
-                <a class="button" id="hero-button" href="feedback.html" aria-label="Link to Contact Us page">Book
-                    Now</a>
-            </div>
-        </div>
 
-    <section>
-        <!-- section containing info about upcoming events -->
-        <h1 class="eventsTitle">Upcoming Events!</h1>
-        <div class="eventsWrapper">
-            <img class="eventsImage1" src="./assets/images/events-images/samhain-event.png">
+<nav class="navbar navbar-dark navbar-expand-lg shadow py-3">
+        
+    <div class="container">
+        <div class="d-flex flex-row w-100 navbar__contain-logo-toggle">
+            <a class="navbar__logo d-flex" href="index.html">
+                <img class="navbar__logo__img" src="assets/images/nags-with-notions-logo.png" 
+                alt="nags with notions logo">
+                <p class="text-nowrap mt-4 text-dark font-weight-bold font-italic d-none d-sm-block">Nags with Notions</p>
+            </a>
+            <button class="navbar__toggler togglerBtn navbar-toggler align-self-center ml-auto" title="button" type="button" data-toggle="collapse" data-target=".navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
         </div>
-    </section>
-    </section>
-    <!-- Section containing info about the owners -->
-    <!-- How to use flexbox columns taken from youtubes SyntaxByte: CSS Flexbox Columns
-    & Codehal How to align Image text side by side in html & css -->
-    <div class="pseudo-body">
-        <div class="wrapper">
-            <img src="./assets/images/compressed/Available-to-book.jpg"
-                alt="image of horse box used for cooking pizza">
-            <div class="text-box"></div>
-            <h2><i class="fa-solid fa-circle-info"></i> About</h2>
-            <p>Nags with Notions specialise in sourdough Pizza using some of Meath’s finest food producers. Our aim is
-                to only use local food suppliers for our pizzas which are made each weekend in our converted horsebox.
-                Our services are available for private hire. <br>
-                <br> Due to the fantastic response we are getting each weekend, we've opened a booking system to avoid
-                long wait times.
-            </p>
-        </div>
-    </div>
-    <!-- staff profiles section -->
-    <div class="outer-cover">
-        <div class="cover">
-            
-            <div class="box">
-                <img src="./assets/images/nags-with-notions-logo2.png" alt="nags with notions logo">
-                <p class="te">Two girls with notions came together and created an amazing mobile pizzeria in a horsebox!
-                </p>
-            </div>
+            <div class="navbar-collapse collapse w-100 order-1 order-md-0 navbarNav">
+                <ul class="navbar-nav mr-auto collapse__list mx-auto">
+                    <li class="nav-item collapse__list__item">
+                        <a class="collapse__content nav-link" href="index.html">Home</a>
+                    </li>
 
-        </div>
+                    <li class="collapse__list__item">
+                        <a class="collapse__content nav-link" href="menu.html">Menu</a>
+                    </li>
+                    <li class="collapse__list__item">
+                        <a class="collapse__content nav-link" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="collapse__list__item">
+                        <a class="collapse__content nav-link" href="feedback.html">Bookings</a>
+                    </li>
+                </ul>
+                <a href="feedback.html" class=" d-none d-md-block collapse__btn-primary">Order Now!</a>
+            </div>
     </div>
-    <!-- template from fellow student Roisin O'Connell on slack -->
-    <section id="reviews">
-        <h2 class="review-heading">What's been said <i class="fa-solid fa-question"></i></h2>
-        <br>
-        <div class="reviews-wrapper">
-            <div class="cols3 quotes">
-                <blockquote>
-                    <p class="quotation"> Fabulous pizzas. Such fresh ingredients <br> and perfect while popping in for
-                        a drink. <br> Definitely be back. </p>
-                </blockquote>
-                <div class="cite-div">- Alice Tiernan</div>
+</nav>
+
+    <!-- /.Navbar -->
+
+    <!-- Hero Slider -->
+
+    <div id="heroSlider" class="carousel slide" data-ride="carousel"> 
+        <ol class="carousel-indicators">
+            <li data-target="#heroSlider" data-slide-to="1" class="active"></li>
+            <li data-target="#heroSlider" data-slide-to="2"></li>
+        </ol>
+        
+        <div class="carousel-inner">
+            <div class="carousel-item text-center vh-100 active slide-1 bg-cover">
+                <div class=" container text-center h-100 d-flex align-items-center justify-content-center">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <h6 class="text-white">Welcome to Nags With Notions</h6>
+                            <h1 class="display-4 fw-bold text-white">Sourdough Pizzas for any Event</h1>
+                            <a href="#" class="btn carousel__btn-primary">Order Now!</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="cols3 quotes">
-                <blockquote>
-                    <p class="quotation"> A wonderful evening. Fantastic tasty pizza <br> and service. Could not fault
-                        it as all. <br> Highly recommended. </p>
-                </blockquote>
-                <div class="cite-div">- John Smith</div>
-            </div>
-            <div class="cols3 quotes">
-                <blockquote>
-                    <p class="quotation"> Went for a meal with extended family after <br> reading the reviews. Nine
-                        people and everyone was <br> really happy, delicious food and great service. </p>
-                </blockquote>
-                <div class="cite-div">- Mary O'Connell</div>
+            <div class="carousel-item text-center vh-100 slide-2 bg-cover">
+                <div class="container h-100 text-center d-flex align-items-center justify-content-center">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <h6 class="text-white">Welcome to Nags With Notions</h6>
+                            <h1 class="display-4 fw-bold text-white">Ingredients from Meaths finest producers</h1> 
+                            <a href="#" class="btn carousel__btn-primary">Order Now!</a> 
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </section>
-    <!-- video section. Inspiration from mwarddev & code institute tutorials -->
-    <section id="video-section">
-        <h2><i class="fa-solid fa-horse-head"></i> Video of pizza being cooked in horsebox <i
-                class="fa-solid fa-horse-head horse-head2"></i></h2>
-        <div id="video">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/kPk9r9zg5nE"
-                title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;
-                
-                f#ea picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>
-    </section>
-    <!-- Code template taken from Love Running Code Institute tutorial -->
-    <!-- Template from Cem Eygi Media YouTube Responsive Footer with CSS Flexbox -->
+        <a class="carousel-control-prev" href="#heroSlider" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#heroSlider" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>  
+
+    <!-- /.Hero Slider -->
+
+    <!-- footer -->
+
     <footer>
-        <section class="container">
-            <div class="times">
-                <h3>
-                    <i class="fa-regular fa-clock" style="color: #ffffff;"></i> Opening Times </i>
-                </h3>
-                <ul>
-                    <li>Friday: 5.30 - 9pm</li>
-                    <li>Saturday: 5.30 - 9pm</li>
-                    <li>Sunday: 4 - 8pm</li>
-                </ul>
+        <div class="footer-top">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-4 mx-auto">
+                        <div class="col-lg-4">
+                                <img class="col-lg-4__logo__img mb-3" src="/assets/images/nags-with-notions-logo.png" alt="pink horse with Nags logo">
+                                <p><i>Sourdough Pizzas from Meaths finest food producers</i></p>                       
+                            </div>
+                        <div class="col-lg-4__social-links ml-2">
+                            <a href="#"><i class="ri-facebook-circle-fill"></i></a>
+                            <a href="#"><i class="ri-instagram-fill"></i></a>
+                            <a href="#"><i class="ri-github-fill"></i></a>
+                            <a href="#"><i class="ri-linkedin-box-fill"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mx-auto">
+                        <h6 class="mt-4">CONTACT</h6>
+                            <p class="mb-1">0863371314</p>
+                            <p class="mb-1">caroline@nagswithnotions.ie</p>
+                            <p class="mb-1">0867506453</p>
+                            <p class="mb-0">tamara@nagswithnotions.ie </p>
+                    </div>
+                    <div class="col-lg-2 mx-auto">
+                        <h6 class="mx-auto mt-4">Opening Hours</h6>
+                            <p class="mb-1">Friday: 5 - 9pm</p>
+                            <p class="mb-1">Saturday: 1 - 9pm</p>
+                            <p>Sunday: 1 - 8pm</p>
+                    </div>
+                </div>
             </div>
-            <div class="contact">
-                <h3>
-                    <i class="fa-solid fa-address-book" style="color: #f4f5f6;"></i> Contact
-                </h3>
-                <ul>
-                    <li>0863371314</li>
-                    <li>caroline@nagswithnotions.ie</li>
-                    <li>0867506453</li>
-                    <li>tamara@nagswithnotions.ie </li>
-                </ul>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-auto">
+                        <p class="mb-0">Copyrights all rights reserved</p>
+                    </div>
+                    <div class="col-auto">
+                        <p class="mb-0">Designed by <a href="#">John</a></p>
+                    </div>
+                </div>
             </div>
-            <div class="social-media">
-                <h3>
-                    <i class="fa-regular fa-thumbs-up"></i> Social Media
-                </h3>
-                <ul>
-                    <li>
-                        <a href="https://m.facebook.com/profile.php?id=100094122740703&fref=nf&pn_ref=story&refid=17&__tn__=%7E%7E-R"
-                            target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)">
-                            <i class="fa-brands fa-facebook"></i> Facebook </a>
-                    </li>
-                    <li>
-                        <a href="https://www.instagram.com/nagswithnotions/?igshid=NTc4MTIwNjQ2YQ%3D%3D" target="_blank"
-                        rel="noopener" aria-label="Visit our instagram page (opens in a new tab)">
-                            <i class="fa-brands fa-instagram"></i> Instagram </a>
-                    </li>
-
-                </ul>
-            </div>
-        </section>
-        <div class="copyright">Copyright &copy; Nags With Notions 2023</div>
+        </div>
     </footer>
-    <script src="https://kit.fontawesome.com/ba48ac2667.js" crossorigin="anonymous"></script>
-</body>
 
+    <!-- /.footer -->
+    
+<script src="assets/js/script.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
 </html>
